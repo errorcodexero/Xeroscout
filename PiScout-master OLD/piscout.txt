@@ -1,0 +1,17 @@
+{
+    "Team": 24110,
+    "Match": 11,
+    "Start": 1,
+    "AutoMove": 1,
+    "AutoCross": 0,
+    "AutoCrates": 1,
+    "TeleDefense": 0,
+    "TeleManCrate": 0,
+    "TeleBreakdown": 0,
+    "TeleBrownout": 0,
+    "TeleBunniesPlaced": 0,
+    "TeleBallsPlaced": 0,
+    "TeleCratesDumped": 0,
+    "Replay": 0,
+    "Flag": 0
+}

@@ -1,0 +1,13 @@
+Output/
+Sheets/
+__pycache__/
+*.db
+*.whl
+*.json
+piscout.txt
+queue.txt
+piscout.ppk
+pitQueue.txt
+2018 PiScout Pit Sheet - Sheet1.xcf
+2018 PiScout Pit Sheet - Sheet1.pdf
+2018 PiScout Match Sheet - Sheet1.pdf

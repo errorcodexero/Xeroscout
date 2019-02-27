@@ -1,0 +1,61 @@
+DEBUG:root:main()
+INFO:root:TBA Event Key is 2019week0
+DEBUG:root:Calling TBA
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://thebluealliance.com:443 "GET /api/v3/event/2019week0/matches?X-TBA-Auth-Key=gOgFrY5ALa07kdXrXYKc1GIOTwkbom8OZYsPhFcpMg3fc5Te27RyG6Dq1sJEoFXT HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/event/2019week0/matches?X-TBA-Auth-Key=gOgFrY5ALa07kdXrXYKc1GIOTwkbom8OZYsPhFcpMg3fc5Te27RyG6Dq1sJEoFXT HTTP/1.1" 200 None
+INFO:root:Response text snippet: [
+  {
+    "actual_time": 1550349044, 
+    "allianc
+INFO:root:Connect to Database
+INFO:root:Delete from staging
+INFO:root:Insert event match json into staging
+INFO:root:call load_matches()
+DEBUG:root:main()
+INFO:root:TBA Event Key is 2019week0
+DEBUG:root:Calling TBA
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://thebluealliance.com:443 "GET /api/v3/event/2019week0/matches?X-TBA-Auth-Key=gOgFrY5ALa07kdXrXYKc1GIOTwkbom8OZYsPhFcpMg3fc5Te27RyG6Dq1sJEoFXT HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/event/2019week0/matches?X-TBA-Auth-Key=gOgFrY5ALa07kdXrXYKc1GIOTwkbom8OZYsPhFcpMg3fc5Te27RyG6Dq1sJEoFXT HTTP/1.1" 200 None
+INFO:root:Response text snippet: [
+  {
+    "actual_time": 1550349044, 
+    "allianc
+INFO:root:Connect to Database
+INFO:root:Delete from staging
+INFO:root:Insert event match json into staging
+INFO:root:call load_matches()
+ERROR:root:1406 (22001): Data too long for column 'v_key' at row 1
+DEBUG:root:main()
+INFO:root:TBA Event Key is 2019week0
+DEBUG:root:Calling TBA
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://thebluealliance.com:443 "GET /api/v3/event/2019week0/matches?X-TBA-Auth-Key=gOgFrY5ALa07kdXrXYKc1GIOTwkbom8OZYsPhFcpMg3fc5Te27RyG6Dq1sJEoFXT HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/event/2019week0/matches?X-TBA-Auth-Key=gOgFrY5ALa07kdXrXYKc1GIOTwkbom8OZYsPhFcpMg3fc5Te27RyG6Dq1sJEoFXT HTTP/1.1" 200 None
+INFO:root:Response text snippet: [
+  {
+    "actual_time": 1550349044, 
+    "allianc
+INFO:root:Connect to Database
+INFO:root:Delete from staging
+INFO:root:Insert event match json into staging
+INFO:root:call load_matches()
+ERROR:root:1265 (01000): Data truncated for column 'p_match_id' at row 1
+DEBUG:root:main()
+INFO:root:TBA Event Key is 2019week0
+DEBUG:root:Calling TBA
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://thebluealliance.com:443 "GET /api/v3/event/2019week0/matches?X-TBA-Auth-Key=gOgFrY5ALa07kdXrXYKc1GIOTwkbom8OZYsPhFcpMg3fc5Te27RyG6Dq1sJEoFXT HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/event/2019week0/matches?X-TBA-Auth-Key=gOgFrY5ALa07kdXrXYKc1GIOTwkbom8OZYsPhFcpMg3fc5Te27RyG6Dq1sJEoFXT HTTP/1.1" 200 None
+INFO:root:Response text snippet: [
+  {
+    "actual_time": 1550349044, 
+    "allianc
+INFO:root:Connect to Database
+INFO:root:Delete from staging
+INFO:root:Insert event match json into staging
