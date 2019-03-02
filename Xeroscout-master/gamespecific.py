@@ -25,7 +25,7 @@ SCOUT_FIELDS = {"Team": 0, "Match": 0, "Replay": 0,
                 "RocketCargoRL1": 0, "RocketCargoRL2": 0, "RocketCargoRL3": 0,
                 "RocketCargoRR1": 0, "RocketCargoRR2": 0, "RocketCargoRR3": 0,
                 "RocketHatchTotal": 0, "RocketCargoTotal": 0,
-                "ClimbSelf": 0, "AssistOther1": 0, "AssistOther2": 0,
+                "ClimbSelf": 0, "AssistOther1": 0, "AssistOther2": 0, "WasAssisted": 0,
                 }
 
 # Defines the fields that are stored in the "averages" and similar tables of the database.
@@ -104,9 +104,10 @@ def processSheet(scout):
             scout.setMatchData("TeleBreakdown", scout.boolfield('AK-16'))
             scout.setMatchData("TeleBrownout", scout.boolfield('AK-17'))
 
-            scout.setMatchData("ClimbSelf", scout.rangefield('AI-11', 1, 3))
-            scout.setMatchData("AssistOther1", scout.rangefield('AJ-12', 2, 3))
-            scout.setMatchData("AssistOther2", scout.rangefield('AJ-13', 2, 3))
+            scout.setMatchData("ClimbSelf", scout.rangefield('AI-10', 1, 3))
+            scout.setMatchData("AssistOther1", scout.rangefield('AJ-11', 2, 3))
+            scout.setMatchData("AssistOther2", scout.rangefield('AJ-12', 2, 3))
+            scout.setMatchData("WasAssisted", scout.boolfield('AI-13'))
 
             scout.setMatchData("CargoShipL1", scout.boolfield('W-10'))
             scout.setMatchData("CargoShipL2", scout.boolfield('W-11'))

@@ -1,1 +1,1 @@
-CURRENT_EVENT = '2019week0'
+CURRENT_EVENT = 'data_test0302'
