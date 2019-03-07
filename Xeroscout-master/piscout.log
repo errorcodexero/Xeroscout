@@ -1987,3 +1987,8 @@ DEBUG:matplotlib.axes._base:update_title_pos
 DEBUG:matplotlib.axes._base:update_title_pos
 DEBUG:matplotlib.axes._base:update_title_pos
 DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:root:
+Starting PiScout 2019-03-07 10:23:13.342636
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+DEBUG:root:About to loop

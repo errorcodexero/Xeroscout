@@ -59,3 +59,42 @@ INFO:root:Response text snippet: [
 INFO:root:Connect to Database
 INFO:root:Delete from staging
 INFO:root:Insert event match json into staging
+INFO:root:Start 2019-03-06 19:25:11.159586
+DEBUG:root:main()
+INFO:root:TBA Event Key is 2019week0
+DEBUG:root:Calling TBA
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): thebluealliance.com:443
+INFO:root:Start 2019-03-06 19:28:10.953290
+DEBUG:root:main()
+INFO:root:TBA Event Key is 2019week0
+DEBUG:root:Calling TBA
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://thebluealliance.com:443 "GET /api/v3/event/2019week0/matches?X-TBA-Auth-Key=gOgFrY5ALa07kdXrXYKc1GIOTwkbom8OZYsPhFcpMg3fc5Te27RyG6Dq1sJEoFXT HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/event/2019week0/matches?X-TBA-Auth-Key=gOgFrY5ALa07kdXrXYKc1GIOTwkbom8OZYsPhFcpMg3fc5Te27RyG6Dq1sJEoFXT HTTP/1.1" 200 None
+INFO:root:Response text snippet: [
+  {
+    "actual_time": 1550349044, 
+    "allianc
+INFO:root:Connect to Database
+INFO:root:Delete from staging
+INFO:root:Insert event match json into staging
+INFO:root:call load_matches()
+INFO:root:End 2019-03-06 19:28:16.190357
+INFO:root:Start 2019-03-06 19:32:15.423652
+DEBUG:root:main()
+INFO:root:TBA Event Key is 2019wamou
+DEBUG:root:Calling TBA
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://thebluealliance.com:443 "GET /api/v3/event/2019wamou/matches?X-TBA-Auth-Key=gOgFrY5ALa07kdXrXYKc1GIOTwkbom8OZYsPhFcpMg3fc5Te27RyG6Dq1sJEoFXT HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.thebluealliance.com:443
+DEBUG:urllib3.connectionpool:https://www.thebluealliance.com:443 "GET /api/v3/event/2019wamou/matches?X-TBA-Auth-Key=gOgFrY5ALa07kdXrXYKc1GIOTwkbom8OZYsPhFcpMg3fc5Te27RyG6Dq1sJEoFXT HTTP/1.1" 200 None
+INFO:root:Response text snippet: [
+  {
+    "actual_time": 1551656660, 
+    "allianc
+INFO:root:Connect to Database
+INFO:root:Delete from staging
+INFO:root:Insert event match json into staging
+INFO:root:call load_matches()
+INFO:root:End 2019-03-06 19:32:28.908807

@@ -11,7 +11,7 @@ def is_ascii(s):
 
 def get_events(cursor, j):
             event_code = ""
-            year = 0
+            year = 2019
 
             for i in range(0, len(j) ):
                 event_code = j[i]["event_code"]
@@ -51,8 +51,8 @@ def get_events(cursor, j):
                 cursor.execute(sql_insert)
 
 def get_teams(cursor):
-    for k in range(14,16):
-        url = 'https://thebluealliance.com/api/v2/teams/%d'%(k)
+    for k in range(14, 16):
+        url = 'https://thebluealliance.com/api/v2/teams/%d' % k
         url_parm = {"X-TBA-App-Id":"frc1425:scouting:v2019"}
         response = requests.get(url, params = url_parm)
         txt = response.text
@@ -146,12 +146,14 @@ def get_teams(cursor):
                 raise(e)
 
 
-f = open("C:\logs\pylog.txt",'a')
+f = open("C:\logs\pylog.txt", 'a')
 def main():
-    f.write("\nBegin Script "+ str(datetime.datetime.now()) + "\n" )
+    f.write("\nBegin Script "+ str(datetime.datetime.now()) + "\n")
     try:
         f.write("Call API for events\n")
-        response = requests.get('https://thebluealliance.com/api/v2/events/2019')
+        url = "https://thebluealliance.com/api/v2/events/2019"
+        url_parm = {"X-TBA-App-Id": "frc1425:scouting:2019"}
+        response = requests.get(url, params=url_parm)
 
         f.write("Connect to database\n")
         db = mysql.connect(host='localhost', user='root', passwd='root', db='scouting')
@@ -167,8 +169,7 @@ def main():
         cursor.close()
         db.close()
     except mysql.Error as e:
-        print
-        "MySQL Error [%d]: %s" % (e.args[0], e.args[1])
+        print("MySQL Error [%d]: %s" % (e.args[0], e.args[1]))
     except IndexError:
         print("Error")
     except:
@@ -177,5 +178,7 @@ def main():
         raise
     f.write("Script Complete\n")
     f.close()
+
+
 if __name__ == "__main__":
     main()

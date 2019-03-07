@@ -3,9 +3,10 @@ import mysql.connector as mysql
 import datetime as dttm
 import logging
 
+
 def main():  
     logging.debug("main()")
-    tba_event_key = '2019week0'
+    tba_event_key = '2019wamou'
     logging.info("TBA Event Key is "+ tba_event_key)
     
     logging.debug("Calling TBA")
@@ -30,12 +31,11 @@ def main():
         values('json','%s')
         """ % response.text
         cursor.execute(sql)
-        
-        """
+
         logging.info("call load_matches()")
         sql = "call load_matches()"
         cursor.execute(sql)
-        """
+
     except Exception as e:
         db.rollback()
         logging.error(e)
@@ -44,6 +44,7 @@ def main():
         db.commit()
         cursor.close()
         db.close() 
+
 
 if __name__ == "__main__":
     logging.basicConfig(filename = 'load_tba_event_match_2019.log',

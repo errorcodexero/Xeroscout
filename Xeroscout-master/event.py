@@ -1,1 +1,1 @@
-CURRENT_EVENT = '2019wamou'
+CURRENT_EVENT = '2019orwil'
