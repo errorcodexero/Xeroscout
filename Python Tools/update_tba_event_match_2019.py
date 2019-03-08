@@ -6,7 +6,7 @@ import logging
 
 def main():  
     logging.debug("main()")
-    tba_event_key = '2019wamou'
+    tba_event_key = '2019orwil'
     logging.info("TBA Event Key is "+ tba_event_key)
     
     logging.debug("Calling TBA")
