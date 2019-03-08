@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b2bca2d-6086-4446-aa08-93f465057255" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python Tools/tba_get_opr_2019.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/mysql-workbench-community-8.0.15-winx64.msi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Tools/load_tba_event_match_2019.log" beforeDir="false" afterPath="$PROJECT_DIR$/Python Tools/load_tba_event_match_2019.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Tools/load_tba_event_team_2019.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Tools/load_tba_event_team_2019.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Tools/update_tba_event_match_2019.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Tools/update_tba_event_match_2019.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xeroscout-master/event.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeroscout-master/event.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xeroscout-master/piscout.log" beforeDir="false" afterPath="$PROJECT_DIR$/Xeroscout-master/piscout.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xeroscout-master/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/Xeroscout-master/server.log" afterDir="false" />
-    </list>
+    <list default="true" id="3b2bca2d-6086-4446-aa08-93f465057255" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -847,3 +847,25 @@ INFO:cherrypy.error:[07/Mar/2019:10:23:19] ENGINE Bus STOPPED
 INFO:cherrypy.error:[07/Mar/2019:10:23:19] ENGINE Bus EXITING
 INFO:cherrypy.error:[07/Mar/2019:10:23:19] ENGINE Waiting for child threads to terminate...
 INFO:cherrypy.error:[07/Mar/2019:10:23:19] ENGINE Bus EXITED
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-03-07 15:58:09.875984
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:CREATE TABLE scout (`key` INTEGER AUTO_INCREMENT PRIMARY KEY, `Team` integer, `Match` integer, `Replay` integer, `StartPosL` integer, `StartPosC` integer, `StartPosR` integer, `StartLvl` integer, `HatchPreload` integer, `CargoPreload` integer, `SandCross` integer, `SandHatches` integer, `SandCargo` integer, `SandAuto` integer, `SandVision` integer, `TeleBreakdown` integer, `TeleBrownout` integer, `TeleDefense` integer, `HatchShipL1` integer, `HatchShipL2` integer, `HatchShipL3` integer, `HatchShipLF` integer, `HatchShipR1` integer, `HatchShipR2` integer, `HatchShipR3` integer, `HatchShipRF` integer, `CargoShipL1` integer, `CargoShipL2` integer, `CargoShipL3` integer, `CargoShipLF` integer, `CargoShipR1` integer, `CargoShipR2` integer, `CargoShipR3` integer, `CargoShipRF` integer, `ShipHatchTotal` integer, `ShipCargoTotal` integer, `RocketHatchLL1` integer, `RocketHatchLL2` integer, `RocketHatchLL3` integer, `RocketHatchLR1` integer, `RocketHatchLR2` integer, `RocketHatchLR3` integer, `RocketHatchRL1` integer, `RocketHatchRL2` integer, `RocketHatchRL3` integer, `RocketHatchRR1` integer, `RocketHatchRR2` integer, `RocketHatchRR3` integer, `RocketCargoLL1` integer, `RocketCargoLL2` integer, `RocketCargoLL3` integer, `RocketCargoLR1` integer, `RocketCargoLR2` integer, `RocketCargoLR3` integer, `RocketCargoRL1` integer, `RocketCargoRL2` integer, `RocketCargoRL3` integer, `RocketCargoRR1` integer, `RocketCargoRR2` integer, `RocketCargoRR3` integer, `RocketHatchTotal` integer, `RocketCargoTotal` integer, `ClimbSelf` integer, `AssistOther1` integer, `AssistOther2` integer, `WasAssisted` integer)
+INFO:cherrypy.error:[07/Mar/2019:15:58:10] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[07/Mar/2019:15:58:10] ENGINE Bus STARTING
+ERROR:cherrypy.error:[07/Mar/2019:15:58:10] ENGINE Set handler for console events.
+INFO:cherrypy.error:[07/Mar/2019:15:58:10] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[07/Mar/2019:15:58:11] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[07/Mar/2019:15:58:11] ENGINE Bus STARTED
+INFO:cherrypy.error:[07/Mar/2019:15:58:15] ENGINE Console event 2: shutting down bus
+ERROR:cherrypy.error:[07/Mar/2019:15:58:15] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[07/Mar/2019:15:58:15] ENGINE Bus STOPPING
+INFO:cherrypy.error:[07/Mar/2019:15:58:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[07/Mar/2019:15:58:15] ENGINE Handler for console events already off.
+INFO:cherrypy.error:[07/Mar/2019:15:58:15] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[07/Mar/2019:15:58:15] ENGINE Bus STOPPED
+INFO:cherrypy.error:[07/Mar/2019:15:58:15] ENGINE Bus EXITING
+INFO:cherrypy.error:[07/Mar/2019:15:58:15] ENGINE Waiting for child threads to terminate...
