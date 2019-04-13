@@ -6663,3 +6663,536 @@ ERROR:cherrypy.error:[18/Mar/2019:20:38:16] ENGINE Handler for console events al
 INFO:cherrypy.error:[18/Mar/2019:20:38:16] ENGINE Bus STOPPED
 INFO:cherrypy.error:[18/Mar/2019:20:38:16] ENGINE Bus EXITING
 INFO:cherrypy.error:[18/Mar/2019:20:38:16] ENGINE Waiting for child threads to terminate...
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 10:04:31.553610
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:CREATE TABLE scout (`key` INTEGER AUTO_INCREMENT PRIMARY KEY, `Team` integer, `Match` integer, `Replay` integer, `StartPosL` integer, `StartPosC` integer, `StartPosR` integer, `StartLvl` integer, `HatchPreload` integer, `CargoPreload` integer, `SandCross` integer, `SandHatches` integer, `SandCargo` integer, `SandAuto` integer, `SandVision` integer, `TeleBreakdown` integer, `TeleBrownout` integer, `TeleDefense` integer, `HatchShipL1` integer, `HatchShipL2` integer, `HatchShipL3` integer, `HatchShipLF` integer, `HatchShipR1` integer, `HatchShipR2` integer, `HatchShipR3` integer, `HatchShipRF` integer, `CargoShipL1` integer, `CargoShipL2` integer, `CargoShipL3` integer, `CargoShipLF` integer, `CargoShipR1` integer, `CargoShipR2` integer, `CargoShipR3` integer, `CargoShipRF` integer, `ShipHatchTotal` integer, `ShipCargoTotal` integer, `RocketHatchLL1` integer, `RocketHatchLL2` integer, `RocketHatchLL3` integer, `RocketHatchLR1` integer, `RocketHatchLR2` integer, `RocketHatchLR3` integer, `RocketHatchRL1` integer, `RocketHatchRL2` integer, `RocketHatchRL3` integer, `RocketHatchRR1` integer, `RocketHatchRR2` integer, `RocketHatchRR3` integer, `RocketCargoLL1` integer, `RocketCargoLL2` integer, `RocketCargoLL3` integer, `RocketCargoLR1` integer, `RocketCargoLR2` integer, `RocketCargoLR3` integer, `RocketCargoRL1` integer, `RocketCargoRL2` integer, `RocketCargoRL3` integer, `RocketCargoRR1` integer, `RocketCargoRR2` integer, `RocketCargoRR3` integer, `RocketHatchTotal` integer, `RocketCargoTotal` integer, `ClimbSelf` integer, `AssistOther1` integer, `AssistOther2` integer, `WasAssisted` integer)
+INFO:cherrypy.error:[13/Apr/2019:10:04:32] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:10:04:32] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:10:04:32] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:10:04:32] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:10:04:32] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:10:04:32] ENGINE Bus STARTED
+INFO:cherrypy.error:[13/Apr/2019:10:04:41] ENGINE Console event 2: shutting down bus
+ERROR:cherrypy.error:[13/Apr/2019:10:04:41] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:10:04:41] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:10:04:41] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[13/Apr/2019:10:04:41] ENGINE Handler for console events already off.
+INFO:cherrypy.error:[13/Apr/2019:10:04:41] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:10:04:41] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:10:04:41] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:10:04:41] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[13/Apr/2019:10:04:41] ENGINE Bus EXITED
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 10:06:43.735887
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[13/Apr/2019:10:06:43] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:10:06:43] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:10:06:43] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:10:06:43] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:10:06:44] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:10:06:44] ENGINE Bus STARTED
+INFO:cherrypy.error:[13/Apr/2019:10:07:34] ENGINE Console event 2: shutting down bus
+ERROR:cherrypy.error:[13/Apr/2019:10:07:34] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:10:07:34] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:10:07:34] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[13/Apr/2019:10:07:34] ENGINE Handler for console events already off.
+INFO:cherrypy.error:[13/Apr/2019:10:07:34] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:10:07:34] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:10:07:34] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:10:07:34] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[13/Apr/2019:10:07:34] ENGINE Bus EXITED
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 10:08:09.600128
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:CREATE TABLE scout (`key` INTEGER AUTO_INCREMENT PRIMARY KEY, `Team` integer, `Match` integer, `Replay` integer, `StartPosL` integer, `StartPosC` integer, `StartPosR` integer, `StartLvl` integer, `HatchPreload` integer, `CargoPreload` integer, `SandCross` integer, `SandHatches` integer, `SandCargo` integer, `SandAuto` integer, `SandVision` integer, `TeleBreakdown` integer, `TeleBrownout` integer, `TeleDefense` integer, `HatchShipL1` integer, `HatchShipL2` integer, `HatchShipL3` integer, `HatchShipLF` integer, `HatchShipR1` integer, `HatchShipR2` integer, `HatchShipR3` integer, `HatchShipRF` integer, `CargoShipL1` integer, `CargoShipL2` integer, `CargoShipL3` integer, `CargoShipLF` integer, `CargoShipR1` integer, `CargoShipR2` integer, `CargoShipR3` integer, `CargoShipRF` integer, `ShipHatchTotal` integer, `ShipCargoTotal` integer, `RocketHatchLL1` integer, `RocketHatchLL2` integer, `RocketHatchLL3` integer, `RocketHatchLR1` integer, `RocketHatchLR2` integer, `RocketHatchLR3` integer, `RocketHatchRL1` integer, `RocketHatchRL2` integer, `RocketHatchRL3` integer, `RocketHatchRR1` integer, `RocketHatchRR2` integer, `RocketHatchRR3` integer, `RocketCargoLL1` integer, `RocketCargoLL2` integer, `RocketCargoLL3` integer, `RocketCargoLR1` integer, `RocketCargoLR2` integer, `RocketCargoLR3` integer, `RocketCargoRL1` integer, `RocketCargoRL2` integer, `RocketCargoRL3` integer, `RocketCargoRR1` integer, `RocketCargoRR2` integer, `RocketCargoRR3` integer, `RocketHatchTotal` integer, `RocketCargoTotal` integer, `ClimbSelf` integer, `AssistOther1` integer, `AssistOther2` integer, `WasAssisted` integer)
+INFO:cherrypy.error:[13/Apr/2019:10:08:10] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:10:08:10] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:10:08:10] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:10:08:10] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:10:08:10] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:10:08:10] ENGINE Bus STARTED
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `StartPosL`, `StartPosC`, `StartPosR`, `StartLvl`, `HatchPreload`, `CargoPreload`, `SandCross`, `SandHatches`, `SandCargo`, `SandAuto`, `SandVision`, `TeleBreakdown`, `TeleBrownout`, `TeleDefense`, `HatchShipL1`, `HatchShipL2`, `HatchShipL3`, `HatchShipLF`, `HatchShipR1`, `HatchShipR2`, `HatchShipR3`, `HatchShipRF`, `CargoShipL1`, `CargoShipL2`, `CargoShipL3`, `CargoShipLF`, `CargoShipR1`, `CargoShipR2`, `CargoShipR3`, `CargoShipRF`, `ShipHatchTotal`, `ShipCargoTotal`, `RocketHatchLL1`, `RocketHatchLL2`, `RocketHatchLL3`, `RocketHatchLR1`, `RocketHatchLR2`, `RocketHatchLR3`, `RocketHatchRL1`, `RocketHatchRL2`, `RocketHatchRL3`, `RocketHatchRR1`, `RocketHatchRR2`, `RocketHatchRR3`, `RocketCargoLL1`, `RocketCargoLL2`, `RocketCargoLL3`, `RocketCargoLR1`, `RocketCargoLR2`, `RocketCargoLR3`, `RocketCargoRL1`, `RocketCargoRL2`, `RocketCargoRL3`, `RocketCargoRR1`, `RocketCargoRR2`, `RocketCargoRR3`, `RocketHatchTotal`, `RocketCargoTotal`, `ClimbSelf`, `AssistOther1`, `AssistOther2`, `WasAssisted`) VALUES (3673,46,0,0,0,0,0,0,2,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0)
+INFO:cherrypy.access.2189752896592:127.0.0.1 - - [13/Apr/2019:10:08:25] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `StartPosL`, `StartPosC`, `StartPosR`, `StartLvl`, `HatchPreload`, `CargoPreload`, `SandCross`, `SandHatches`, `SandCargo`, `SandAuto`, `SandVision`, `TeleBreakdown`, `TeleBrownout`, `TeleDefense`, `HatchShipL1`, `HatchShipL2`, `HatchShipL3`, `HatchShipLF`, `HatchShipR1`, `HatchShipR2`, `HatchShipR3`, `HatchShipRF`, `CargoShipL1`, `CargoShipL2`, `CargoShipL3`, `CargoShipLF`, `CargoShipR1`, `CargoShipR2`, `CargoShipR3`, `CargoShipRF`, `ShipHatchTotal`, `ShipCargoTotal`, `RocketHatchLL1`, `RocketHatchLL2`, `RocketHatchLL3`, `RocketHatchLR1`, `RocketHatchLR2`, `RocketHatchLR3`, `RocketHatchRL1`, `RocketHatchRL2`, `RocketHatchRL3`, `RocketHatchRR1`, `RocketHatchRR2`, `RocketHatchRR3`, `RocketCargoLL1`, `RocketCargoLL2`, `RocketCargoLL3`, `RocketCargoLR1`, `RocketCargoLR2`, `RocketCargoLR3`, `RocketCargoRL1`, `RocketCargoRL2`, `RocketCargoRL3`, `RocketCargoRR1`, `RocketCargoRR2`, `RocketCargoRR3`, `RocketHatchTotal`, `RocketCargoTotal`, `ClimbSelf`, `AssistOther1`, `AssistOther2`, `WasAssisted`) VALUES (6242,47,0,0,1,0,1,0,2,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0)
+INFO:cherrypy.access.2189752896592:127.0.0.1 - - [13/Apr/2019:10:08:26] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `StartPosL`, `StartPosC`, `StartPosR`, `StartLvl`, `HatchPreload`, `CargoPreload`, `SandCross`, `SandHatches`, `SandCargo`, `SandAuto`, `SandVision`, `TeleBreakdown`, `TeleBrownout`, `TeleDefense`, `HatchShipL1`, `HatchShipL2`, `HatchShipL3`, `HatchShipLF`, `HatchShipR1`, `HatchShipR2`, `HatchShipR3`, `HatchShipRF`, `CargoShipL1`, `CargoShipL2`, `CargoShipL3`, `CargoShipLF`, `CargoShipR1`, `CargoShipR2`, `CargoShipR3`, `CargoShipRF`, `ShipHatchTotal`, `ShipCargoTotal`, `RocketHatchLL1`, `RocketHatchLL2`, `RocketHatchLL3`, `RocketHatchLR1`, `RocketHatchLR2`, `RocketHatchLR3`, `RocketHatchRL1`, `RocketHatchRL2`, `RocketHatchRL3`, `RocketHatchRR1`, `RocketHatchRR2`, `RocketHatchRR3`, `RocketCargoLL1`, `RocketCargoLL2`, `RocketCargoLL3`, `RocketCargoLR1`, `RocketCargoLR2`, `RocketCargoLR3`, `RocketCargoRL1`, `RocketCargoRL2`, `RocketCargoRL3`, `RocketCargoRR1`, `RocketCargoRR2`, `RocketCargoRR3`, `RocketHatchTotal`, `RocketCargoTotal`, `ClimbSelf`, `AssistOther1`, `AssistOther2`, `WasAssisted`) VALUES (955,48,0,0,0,1,2,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0)
+INFO:cherrypy.access.2189752896592:127.0.0.1 - - [13/Apr/2019:10:08:27] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Pit data detected
+DEBUG:root:DELETE from pitScout WHERE Team='3131'
+DEBUG:root:Prepare Pit scouting insert
+DEBUG:root:INSERT INTO pitscout (`Team`, `Weight`, `Language`, `Drivebase`, `Wheels`, `Sims`, `Neos`, `StartLevel`, `Vision`, `Autonomous`, `LoadHatch`, `PickUpHatch`, `CargoShipHatch`, `RocketL1Hatch`, `RocketL2Hatch`, `RocketL3Hatch`, `LoadCargo`, `PickUpCargo`, `CargoShipCargo`, `RocketL1Cargo`, `RocketL2Cargo`, `RocketL3Cargo`, `ClimbLevel`, `CoopClimb`) VALUES ('3131', '101', 'Java', 'West Coast', '6', '2', '0', '0', '1', '0', '1', '0', '1', '1', '1', '0', '1', '1', '1', '1', '0', '0', '1', '0')
+INFO:cherrypy.access.2189752896592:127.0.0.1 - - [13/Apr/2019:10:08:36] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Pit data detected
+DEBUG:root:DELETE from pitScout WHERE Team='847'
+DEBUG:root:Prepare Pit scouting insert
+DEBUG:root:INSERT INTO pitscout (`Team`, `Weight`, `Language`, `Drivebase`, `Wheels`, `Sims`, `Neos`, `StartLevel`, `Vision`, `Autonomous`, `LoadHatch`, `PickUpHatch`, `CargoShipHatch`, `RocketL1Hatch`, `RocketL2Hatch`, `RocketL3Hatch`, `LoadCargo`, `PickUpCargo`, `CargoShipCargo`, `RocketL1Cargo`, `RocketL2Cargo`, `RocketL3Cargo`, `ClimbLevel`, `CoopClimb`) VALUES ('847', '119', 'Java', 'Other', '6', '4', '0', '0', '1', '0', '1', '0', '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', '2', '0')
+INFO:cherrypy.access.2189752896592:127.0.0.1 - - [13/Apr/2019:10:08:37] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Pit data detected
+DEBUG:root:DELETE from pitScout WHERE Team='2674'
+DEBUG:root:Prepare Pit scouting insert
+DEBUG:root:INSERT INTO pitscout (`Team`, `Weight`, `Language`, `Drivebase`, `Wheels`, `Sims`, `Neos`, `StartLevel`, `Vision`, `Autonomous`, `LoadHatch`, `PickUpHatch`, `CargoShipHatch`, `RocketL1Hatch`, `RocketL2Hatch`, `RocketL3Hatch`, `LoadCargo`, `PickUpCargo`, `CargoShipCargo`, `RocketL1Cargo`, `RocketL2Cargo`, `RocketL3Cargo`, `ClimbLevel`, `CoopClimb`) VALUES ('2674', '23', '', 'Other', '6', '4', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '1', '1', '1', '1', '0')
+INFO:cherrypy.access.2189752896592:127.0.0.1 - - [13/Apr/2019:10:08:38] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+INFO:cherrypy.error:[13/Apr/2019:10:10:49] ENGINE Console event 2: shutting down bus
+ERROR:cherrypy.error:[13/Apr/2019:10:10:49] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:10:10:49] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:10:10:49] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+INFO:cherrypy.error:[13/Apr/2019:10:10:49] ENGINE Stopped thread 'Autoreloader'.
+ERROR:cherrypy.error:[13/Apr/2019:10:10:49] ENGINE Handler for console events already off.
+INFO:cherrypy.error:[13/Apr/2019:10:10:49] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:10:10:49] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:10:10:49] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[13/Apr/2019:10:10:49] ENGINE Bus EXITED
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 13:24:40.113383
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:CREATE TABLE scout (`key` INTEGER AUTO_INCREMENT PRIMARY KEY, `Team` integer, `Match` integer, `Replay` integer, `StartPosL` integer, `StartPosC` integer, `StartPosR` integer, `StartLvl` integer, `SandHatches` integer, `SandCargo` integer, `TeleBreakdown` integer, `TeleBrownout` integer, `TeleDefenseTime` integer, `ShipHatchTotal` integer, `ShipCargoTotal` integer, `RocketHatchL1` integer, `RocketHatchL2` integer, `RocketHatchL3` integer, `RocketCargoL1` integer, `RocketCargoL2` integer, `RocketCargoL3` integer, `RocketHatchTotal` integer, `RocketCargoTotal` integer, `ClimbSelf` integer, `AssistOther1` integer, `AssistOther2` integer, `WasAssisted` integer, `CargoTotal` integer, `HatchTotal` integer)
+INFO:cherrypy.error:[13/Apr/2019:13:24:40] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:13:24:40] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:13:24:40] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:13:24:40] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:13:24:41] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:13:24:41] ENGINE Bus STARTED
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `StartPosL`, `StartPosC`, `StartPosR`, `StartLvl`, `SandHatches`, `SandCargo`, `TeleBreakdown`, `TeleBrownout`, `TeleDefenseTime`, `ShipHatchTotal`, `ShipCargoTotal`, `RocketHatchL1`, `RocketHatchL2`, `RocketHatchL3`, `RocketCargoL1`, `RocketCargoL2`, `RocketCargoL3`, `RocketHatchTotal`, `RocketCargoTotal`, `ClimbSelf`, `AssistOther1`, `AssistOther2`, `WasAssisted`, `CargoTotal`, `HatchTotal`, `RocketCargoLL`) VALUES (1425,159,0,1,0,0,2,2,2,0,0,10,3,3,2,2,2,4,0,0,6,8,3,0,0,0,0,0,4)
+ERROR:cherrypy.error.1811972251432:[13/Apr/2019:13:54:53] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\cherrypy\_cprequest.py", line 628, in respond
+    self._do_respond(path_info)
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\cherrypy\_cprequest.py", line 687, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\cherrypy\lib\encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "server.py", line 848, in submit
+    cursor.execute(scout_insert)
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\mysql\connector\connection.py", line 553, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\mysql\connector\connection.py", line 442, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'RocketCargoLL' in 'field list'
+INFO:cherrypy.error.1811972251432:[13/Apr/2019:13:54:53] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1:8000
+  USER-AGENT: python-requests/2.21.0
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: */*
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded
+  Content-Length: 815
+INFO:cherrypy.access.1811972251432:127.0.0.1 - - [13/Apr/2019:13:54:53] "POST /submit HTTP/1.1" 500 2225 "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `StartPosL`, `StartPosC`, `StartPosR`, `StartLvl`, `SandHatches`, `SandCargo`, `TeleBreakdown`, `TeleBrownout`, `TeleDefenseTime`, `ShipHatchTotal`, `ShipCargoTotal`, `RocketHatchL1`, `RocketHatchL2`, `RocketHatchL3`, `RocketCargoL1`, `RocketCargoL2`, `RocketCargoL3`, `RocketHatchTotal`, `RocketCargoTotal`, `ClimbSelf`, `AssistOther1`, `AssistOther2`, `WasAssisted`, `CargoTotal`, `HatchTotal`, `RocketCargoLL`) VALUES (9876,90,0,0,1,0,1,0,1,0,0,0,5,4,0,0,0,0,0,0,0,0,1,2,2,0,0,0,0)
+ERROR:cherrypy.error.1811972251432:[13/Apr/2019:13:54:57] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\cherrypy\_cprequest.py", line 628, in respond
+    self._do_respond(path_info)
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\cherrypy\_cprequest.py", line 687, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\cherrypy\lib\encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "server.py", line 848, in submit
+    cursor.execute(scout_insert)
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\mysql\connector\connection.py", line 553, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\mysql\connector\connection.py", line 442, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'RocketCargoLL' in 'field list'
+INFO:cherrypy.error.1811972251432:[13/Apr/2019:13:54:57] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1:8000
+  USER-AGENT: python-requests/2.21.0
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: */*
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded
+  Content-Length: 813
+INFO:cherrypy.access.1811972251432:127.0.0.1 - - [13/Apr/2019:13:54:57] "POST /submit HTTP/1.1" 500 2225 "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `StartPosL`, `StartPosC`, `StartPosR`, `StartLvl`, `SandHatches`, `SandCargo`, `TeleBreakdown`, `TeleBrownout`, `TeleDefenseTime`, `ShipHatchTotal`, `ShipCargoTotal`, `RocketHatchL1`, `RocketHatchL2`, `RocketHatchL3`, `RocketCargoL1`, `RocketCargoL2`, `RocketCargoL3`, `RocketHatchTotal`, `RocketCargoTotal`, `ClimbSelf`, `AssistOther1`, `AssistOther2`, `WasAssisted`, `CargoTotal`, `HatchTotal`, `RocketCargoLL`) VALUES (1357,63,0,0,1,0,0,0,0,0,1,99,0,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0)
+ERROR:cherrypy.error.1811972251432:[13/Apr/2019:13:55:04] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\cherrypy\_cprequest.py", line 628, in respond
+    self._do_respond(path_info)
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\cherrypy\_cprequest.py", line 687, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\cherrypy\lib\encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "server.py", line 848, in submit
+    cursor.execute(scout_insert)
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\mysql\connector\connection.py", line 553, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\cvbriggler\Anaconda3\envs\xeroscout\lib\site-packages\mysql\connector\connection.py", line 442, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'RocketCargoLL' in 'field list'
+INFO:cherrypy.error.1811972251432:[13/Apr/2019:13:55:04] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1:8000
+  USER-AGENT: python-requests/2.21.0
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: */*
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded
+  Content-Length: 814
+INFO:cherrypy.access.1811972251432:127.0.0.1 - - [13/Apr/2019:13:55:04] "POST /submit HTTP/1.1" 500 2225 "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Pit data detected
+DEBUG:root:DELETE from pitScout WHERE Team='3131'
+DEBUG:root:Prepare Pit scouting insert
+DEBUG:root:INSERT INTO pitscout (`Team`, `Weight`, `Language`, `Drivebase`, `Wheels`, `Sims`, `Neos`, `StartLevel`, `Vision`, `Autonomous`, `LoadHatch`, `PickUpHatch`, `CargoShipHatch`, `RocketL1Hatch`, `RocketL2Hatch`, `RocketL3Hatch`, `LoadCargo`, `PickUpCargo`, `CargoShipCargo`, `RocketL1Cargo`, `RocketL2Cargo`, `RocketL3Cargo`, `ClimbLevel`, `CoopClimb`) VALUES ('3131', '101', 'Java', 'West Coast', '6', '2', '0', '0', '1', '0', '1', '0', '1', '1', '1', '0', '1', '1', '1', '1', '0', '0', '1', '0')
+INFO:cherrypy.access.1811972251432:127.0.0.1 - - [13/Apr/2019:13:55:25] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Pit data detected
+DEBUG:root:DELETE from pitScout WHERE Team='847'
+DEBUG:root:Prepare Pit scouting insert
+DEBUG:root:INSERT INTO pitscout (`Team`, `Weight`, `Language`, `Drivebase`, `Wheels`, `Sims`, `Neos`, `StartLevel`, `Vision`, `Autonomous`, `LoadHatch`, `PickUpHatch`, `CargoShipHatch`, `RocketL1Hatch`, `RocketL2Hatch`, `RocketL3Hatch`, `LoadCargo`, `PickUpCargo`, `CargoShipCargo`, `RocketL1Cargo`, `RocketL2Cargo`, `RocketL3Cargo`, `ClimbLevel`, `CoopClimb`) VALUES ('847', '119', 'Java', 'Other', '6', '4', '0', '0', '1', '0', '1', '0', '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', '2', '0')
+INFO:cherrypy.access.1811972251432:127.0.0.1 - - [13/Apr/2019:13:55:26] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Pit data detected
+DEBUG:root:DELETE from pitScout WHERE Team='2674'
+DEBUG:root:Prepare Pit scouting insert
+DEBUG:root:INSERT INTO pitscout (`Team`, `Weight`, `Language`, `Drivebase`, `Wheels`, `Sims`, `Neos`, `StartLevel`, `Vision`, `Autonomous`, `LoadHatch`, `PickUpHatch`, `CargoShipHatch`, `RocketL1Hatch`, `RocketL2Hatch`, `RocketL3Hatch`, `LoadCargo`, `PickUpCargo`, `CargoShipCargo`, `RocketL1Cargo`, `RocketL2Cargo`, `RocketL3Cargo`, `ClimbLevel`, `CoopClimb`) VALUES ('2674', '23', '', 'Other', '6', '4', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '1', '1', '1', '1', '0')
+INFO:cherrypy.access.1811972251432:127.0.0.1 - - [13/Apr/2019:13:55:27] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+INFO:cherrypy.error:[13/Apr/2019:13:59:19] ENGINE Restarting because C:\Users\cvbriggler\PycharmProjects\Xeroscout\Xeroscout-master\gamespecific.py changed.
+INFO:cherrypy.error:[13/Apr/2019:13:59:19] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:13:59:19] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:13:59:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[13/Apr/2019:13:59:19] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:13:59:19] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:13:59:19] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:13:59:19] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[13/Apr/2019:13:59:19] ENGINE Bus EXITED
+INFO:cherrypy.error:[13/Apr/2019:13:59:19] ENGINE Re-spawning C:\Users\cvbriggler\Anaconda3\envs\xeroscout\python.exe server.py -local
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 13:59:20.497382
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[13/Apr/2019:13:59:20] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:13:59:20] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:13:59:20] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:13:59:20] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:13:59:20] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:13:59:20] ENGINE Bus STARTED
+INFO:cherrypy.error:[13/Apr/2019:13:59:47] ENGINE Console event 2: shutting down bus
+ERROR:cherrypy.error:[13/Apr/2019:13:59:47] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:13:59:47] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:13:59:47] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+INFO:cherrypy.error:[13/Apr/2019:13:59:47] ENGINE Stopped thread 'Autoreloader'.
+ERROR:cherrypy.error:[13/Apr/2019:13:59:47] ENGINE Handler for console events already off.
+INFO:cherrypy.error:[13/Apr/2019:13:59:47] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:13:59:47] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:13:59:47] ENGINE Waiting for child threads to terminate...
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 14:02:56.941726
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[13/Apr/2019:14:02:56] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:14:02:56] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:14:02:56] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:02:56] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:02:57] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:14:02:57] ENGINE Bus STARTED
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `StartPosL`, `StartPosC`, `StartPosR`, `StartLvl`, `SandHatches`, `SandCargo`, `TeleBreakdown`, `TeleBrownout`, `TeleDefenseTime`, `ShipHatchTotal`, `ShipCargoTotal`, `RocketHatchL1`, `RocketHatchL2`, `RocketHatchL3`, `RocketCargoL1`, `RocketCargoL2`, `RocketCargoL3`, `RocketHatchTotal`, `RocketCargoTotal`, `ClimbSelf`, `AssistOther1`, `AssistOther2`, `WasAssisted`, `CargoTotal`, `HatchTotal`) VALUES (1425,159,0,1,0,0,2,2,2,0,0,10,3,3,2,2,2,4,0,4,6,8,3,0,0,0,0,0)
+INFO:cherrypy.access.2164625862216:127.0.0.1 - - [13/Apr/2019:14:03:07] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `StartPosL`, `StartPosC`, `StartPosR`, `StartLvl`, `SandHatches`, `SandCargo`, `TeleBreakdown`, `TeleBrownout`, `TeleDefenseTime`, `ShipHatchTotal`, `ShipCargoTotal`, `RocketHatchL1`, `RocketHatchL2`, `RocketHatchL3`, `RocketCargoL1`, `RocketCargoL2`, `RocketCargoL3`, `RocketHatchTotal`, `RocketCargoTotal`, `ClimbSelf`, `AssistOther1`, `AssistOther2`, `WasAssisted`, `CargoTotal`, `HatchTotal`) VALUES (9876,90,0,0,1,0,1,0,1,0,0,0,5,4,0,0,0,0,0,0,0,0,1,2,2,0,0,0)
+INFO:cherrypy.access.2164625862216:127.0.0.1 - - [13/Apr/2019:14:03:08] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `StartPosL`, `StartPosC`, `StartPosR`, `StartLvl`, `SandHatches`, `SandCargo`, `TeleBreakdown`, `TeleBrownout`, `TeleDefenseTime`, `ShipHatchTotal`, `ShipCargoTotal`, `RocketHatchL1`, `RocketHatchL2`, `RocketHatchL3`, `RocketCargoL1`, `RocketCargoL2`, `RocketCargoL3`, `RocketHatchTotal`, `RocketCargoTotal`, `ClimbSelf`, `AssistOther1`, `AssistOther2`, `WasAssisted`, `CargoTotal`, `HatchTotal`) VALUES (1357,63,0,0,1,0,0,0,0,0,1,99,0,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0)
+INFO:cherrypy.access.2164625862216:127.0.0.1 - - [13/Apr/2019:14:03:10] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+INFO:cherrypy.error:[13/Apr/2019:14:07:35] ENGINE Restarting because C:\Users\cvbriggler\PycharmProjects\Xeroscout\Xeroscout-master\gamespecific.py changed.
+INFO:cherrypy.error:[13/Apr/2019:14:07:35] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:07:35] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:14:07:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[13/Apr/2019:14:07:35] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:07:35] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:14:07:35] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:14:07:35] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[13/Apr/2019:14:07:35] ENGINE Bus EXITED
+INFO:cherrypy.error:[13/Apr/2019:14:07:35] ENGINE Re-spawning C:\Users\cvbriggler\Anaconda3\envs\xeroscout\python.exe server.py -local
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 14:07:37.144017
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[13/Apr/2019:14:07:37] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:14:07:37] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:14:07:37] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:07:37] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:07:37] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:14:07:37] ENGINE Bus STARTED
+INFO:cherrypy.error:[13/Apr/2019:14:08:51] ENGINE Restarting because C:\Users\cvbriggler\PycharmProjects\Xeroscout\Xeroscout-master\gamespecific.py changed.
+INFO:cherrypy.error:[13/Apr/2019:14:08:51] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:08:51] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:14:08:52] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[13/Apr/2019:14:08:52] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:08:52] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:14:08:52] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:14:08:52] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[13/Apr/2019:14:08:52] ENGINE Bus EXITED
+INFO:cherrypy.error:[13/Apr/2019:14:08:52] ENGINE Re-spawning C:\Users\cvbriggler\Anaconda3\envs\xeroscout\python.exe server.py -local
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 14:08:53.297793
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[13/Apr/2019:14:08:53] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:14:08:53] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:14:08:53] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:08:53] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:08:53] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:14:08:53] ENGINE Bus STARTED
+INFO:cherrypy.error:[13/Apr/2019:14:10:14] ENGINE Restarting because C:\Users\cvbriggler\PycharmProjects\Xeroscout\Xeroscout-master\gamespecific.py changed.
+INFO:cherrypy.error:[13/Apr/2019:14:10:14] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:10:14] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:14:10:14] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[13/Apr/2019:14:10:14] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:10:14] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:14:10:14] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:14:10:14] ENGINE Bus EXITED
+INFO:cherrypy.error:[13/Apr/2019:14:10:14] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[13/Apr/2019:14:10:14] ENGINE Re-spawning C:\Users\cvbriggler\Anaconda3\envs\xeroscout\python.exe server.py -local
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 14:10:15.626125
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[13/Apr/2019:14:10:15] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:14:10:15] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:14:10:15] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:10:15] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:10:15] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:14:10:15] ENGINE Bus STARTED
+INFO:cherrypy.error:[13/Apr/2019:14:11:16] ENGINE Restarting because C:\Users\cvbriggler\PycharmProjects\Xeroscout\Xeroscout-master\gamespecific.py changed.
+INFO:cherrypy.error:[13/Apr/2019:14:11:16] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:11:16] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:14:11:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[13/Apr/2019:14:11:16] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:11:16] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:14:11:16] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:14:11:16] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[13/Apr/2019:14:11:16] ENGINE Bus EXITED
+INFO:cherrypy.error:[13/Apr/2019:14:11:16] ENGINE Re-spawning C:\Users\cvbriggler\Anaconda3\envs\xeroscout\python.exe server.py -local
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 14:11:17.730234
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[13/Apr/2019:14:11:17] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:14:11:17] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:14:11:17] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:11:17] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:11:17] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:14:11:17] ENGINE Bus STARTED
+INFO:cherrypy.error:[13/Apr/2019:14:25:15] ENGINE Restarting because C:\Users\cvbriggler\PycharmProjects\Xeroscout\Xeroscout-master\gamespecific.py changed.
+INFO:cherrypy.error:[13/Apr/2019:14:25:15] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:25:15] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:14:25:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[13/Apr/2019:14:25:15] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:25:15] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:14:25:15] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:14:25:15] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[13/Apr/2019:14:25:15] ENGINE Bus EXITED
+INFO:cherrypy.error:[13/Apr/2019:14:25:15] ENGINE Re-spawning C:\Users\cvbriggler\Anaconda3\envs\xeroscout\python.exe server.py -local
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 14:25:16.459871
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[13/Apr/2019:14:25:16] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:14:25:16] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:14:25:16] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:25:16] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:25:16] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:14:25:16] ENGINE Bus STARTED
+INFO:cherrypy.error:[13/Apr/2019:14:28:00] ENGINE Restarting because C:\Users\cvbriggler\PycharmProjects\Xeroscout\Xeroscout-master\gamespecific.py changed.
+INFO:cherrypy.error:[13/Apr/2019:14:28:00] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:28:00] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:14:28:00] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[13/Apr/2019:14:28:00] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:28:00] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:14:28:00] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:14:28:00] ENGINE Bus EXITED
+INFO:cherrypy.error:[13/Apr/2019:14:28:00] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[13/Apr/2019:14:28:00] ENGINE Re-spawning C:\Users\cvbriggler\Anaconda3\envs\xeroscout\python.exe server.py -local
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 14:28:01.725090
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[13/Apr/2019:14:28:01] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:14:28:01] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:14:28:01] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:28:01] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:28:01] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:14:28:01] ENGINE Bus STARTED
+INFO:cherrypy.error:[13/Apr/2019:14:30:47] ENGINE Restarting because C:\Users\cvbriggler\PycharmProjects\Xeroscout\Xeroscout-master\gamespecific.py changed.
+INFO:cherrypy.error:[13/Apr/2019:14:30:47] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:30:47] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:14:30:47] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[13/Apr/2019:14:30:47] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:30:47] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:14:30:47] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:14:30:47] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[13/Apr/2019:14:30:47] ENGINE Bus EXITED
+INFO:cherrypy.error:[13/Apr/2019:14:30:47] ENGINE Re-spawning C:\Users\cvbriggler\Anaconda3\envs\xeroscout\python.exe server.py -local
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 14:30:48.778867
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[13/Apr/2019:14:30:48] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:14:30:48] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:14:30:48] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:30:48] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:30:49] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:14:30:49] ENGINE Bus STARTED
+INFO:cherrypy.error:[13/Apr/2019:14:43:47] ENGINE Restarting because C:\Users\cvbriggler\PycharmProjects\Xeroscout\Xeroscout-master\gamespecific.py changed.
+INFO:cherrypy.error:[13/Apr/2019:14:43:47] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:43:47] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:14:43:48] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[13/Apr/2019:14:43:48] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:43:48] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:14:43:48] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:14:43:48] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[13/Apr/2019:14:43:48] ENGINE Bus EXITED
+INFO:cherrypy.error:[13/Apr/2019:14:43:48] ENGINE Re-spawning C:\Users\cvbriggler\Anaconda3\envs\xeroscout\python.exe server.py -local
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 14:43:49.437908
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[13/Apr/2019:14:43:49] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:14:43:49] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:14:43:49] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:43:49] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:43:49] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:14:43:49] ENGINE Bus STARTED
+INFO:cherrypy.error:[13/Apr/2019:14:43:51] ENGINE Console event 2: shutting down bus
+ERROR:cherrypy.error:[13/Apr/2019:14:43:51] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:43:51] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:14:43:52] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[13/Apr/2019:14:43:52] ENGINE Handler for console events already off.
+INFO:cherrypy.error:[13/Apr/2019:14:43:52] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:43:52] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:14:43:52] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:14:43:52] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[13/Apr/2019:14:43:52] ENGINE Bus EXITED
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-04-13 14:44:07.558441
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[13/Apr/2019:14:44:07] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[13/Apr/2019:14:44:07] ENGINE Bus STARTING
+ERROR:cherrypy.error:[13/Apr/2019:14:44:07] ENGINE Set handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:44:07] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:44:07] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[13/Apr/2019:14:44:07] ENGINE Bus STARTED
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `StartPosL`, `StartPosC`, `StartPosR`, `StartLvl`, `SandHatches`, `SandCargo`, `TeleBreakdown`, `TeleBrownout`, `TeleDefenseTime`, `ShipHatchTotal`, `ShipCargoTotal`, `RocketHatchL1`, `RocketHatchL2`, `RocketHatchL3`, `RocketCargoL1`, `RocketCargoL2`, `RocketCargoL3`, `RocketHatchTotal`, `RocketCargoTotal`, `ClimbSelf`, `AssistOther1`, `AssistOther2`, `WasAssisted`, `CargoTotal`, `HatchTotal`) VALUES (1425,159,0,1,0,0,2,2,2,0,0,10,2,2,2,2,2,4,0,4,6,8,3,0,0,0,10,8)
+INFO:cherrypy.access.2733436596064:127.0.0.1 - - [13/Apr/2019:14:44:52] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `StartPosL`, `StartPosC`, `StartPosR`, `StartLvl`, `SandHatches`, `SandCargo`, `TeleBreakdown`, `TeleBrownout`, `TeleDefenseTime`, `ShipHatchTotal`, `ShipCargoTotal`, `RocketHatchL1`, `RocketHatchL2`, `RocketHatchL3`, `RocketCargoL1`, `RocketCargoL2`, `RocketCargoL3`, `RocketHatchTotal`, `RocketCargoTotal`, `ClimbSelf`, `AssistOther1`, `AssistOther2`, `WasAssisted`, `CargoTotal`, `HatchTotal`) VALUES (9876,90,0,0,1,0,1,0,1,0,0,0,4,3,0,0,0,0,0,0,0,0,1,2,2,0,3,4)
+INFO:cherrypy.access.2733436596064:127.0.0.1 - - [13/Apr/2019:14:44:53] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `StartPosL`, `StartPosC`, `StartPosR`, `StartLvl`, `SandHatches`, `SandCargo`, `TeleBreakdown`, `TeleBrownout`, `TeleDefenseTime`, `ShipHatchTotal`, `ShipCargoTotal`, `RocketHatchL1`, `RocketHatchL2`, `RocketHatchL3`, `RocketCargoL1`, `RocketCargoL2`, `RocketCargoL3`, `RocketHatchTotal`, `RocketCargoTotal`, `ClimbSelf`, `AssistOther1`, `AssistOther2`, `WasAssisted`, `CargoTotal`, `HatchTotal`) VALUES (1357,63,0,0,1,0,0,0,0,0,1,99,0,2,0,0,0,0,0,0,0,0,0,0,0,1,2,0)
+INFO:cherrypy.access.2733436596064:127.0.0.1 - - [13/Apr/2019:14:44:54] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+INFO:cherrypy.error:[13/Apr/2019:14:49:49] ENGINE Console event 2: shutting down bus
+ERROR:cherrypy.error:[13/Apr/2019:14:49:49] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[13/Apr/2019:14:49:49] ENGINE Bus STOPPING
+INFO:cherrypy.error:[13/Apr/2019:14:49:49] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[13/Apr/2019:14:49:49] ENGINE Handler for console events already off.
+INFO:cherrypy.error:[13/Apr/2019:14:49:49] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[13/Apr/2019:14:49:49] ENGINE Bus STOPPED
+INFO:cherrypy.error:[13/Apr/2019:14:49:49] ENGINE Bus EXITING
+INFO:cherrypy.error:[13/Apr/2019:14:49:49] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[13/Apr/2019:14:49:49] ENGINE Bus EXITED

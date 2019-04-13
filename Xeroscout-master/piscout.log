@@ -24304,3 +24304,358 @@ DEBUG:matplotlib.axes._base:update_title_pos
 DEBUG:matplotlib.axes._base:update_title_pos
 DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
 DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:
+Starting PiScout 2019-04-13 10:04:31.553610
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+ERROR:root:[WinError 3] The system cannot find the path specified: 'Sheets'
+DEBUG:root:
+Starting PiScout 2019-04-13 10:06:43.376595
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+DEBUG:root:About to loop
+DEBUG:root:
+Starting PiScout 2019-04-13 10:08:09.225169
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+DEBUG:root:About to loop
+DEBUG:root:Found file Scan2019-03-08_193259_002.jpg
+DEBUG:root:Calling self.loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Return from self.loadsheet is 1 
+
+DEBUG:root:Calling game.processSheet
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 3673 AND `Match` = 46
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\cvbriggler\\Anaconda3\\envs\\xeroscout\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\cvbriggler\\Anaconda3\\envs\\xeroscout\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 6242 AND `Match` = 47
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 955 AND `Match` = 48
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Found file Scan2019-03-08_104911.jpg
+DEBUG:root:Calling self.loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Return from self.loadsheet is 1 
+
+DEBUG:root:Calling game.processSheet
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:
+Starting PiScout 2019-04-13 13:24:40.144620
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+DEBUG:root:About to loop
+DEBUG:root:Found file Match Form V3 Test.jpg
+DEBUG:root:Calling self.loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Return from self.loadsheet is 1 
+
+DEBUG:root:Calling game.processSheet
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 1425 AND `Match` = 159
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\cvbriggler\\Anaconda3\\envs\\xeroscout\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\cvbriggler\\Anaconda3\\envs\\xeroscout\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 500 2225
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 9876 AND `Match` = 90
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 500 2225
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 1357 AND `Match` = 63
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 500 2225
+DEBUG:root:Found file Scan2019-03-08_104911.jpg
+DEBUG:root:Calling self.loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Return from self.loadsheet is 1 
+
+DEBUG:root:Calling game.processSheet
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:
+Starting PiScout 2019-04-13 14:02:56.584456
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+DEBUG:root:About to loop
+DEBUG:root:Found file Match Form V3 Test.jpg
+DEBUG:root:Calling self.loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Return from self.loadsheet is 1 
+
+DEBUG:root:Calling game.processSheet
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 1425 AND `Match` = 159
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\cvbriggler\\Anaconda3\\envs\\xeroscout\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\cvbriggler\\Anaconda3\\envs\\xeroscout\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 9876 AND `Match` = 90
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 1357 AND `Match` = 63
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:
+Starting PiScout 2019-04-13 14:44:07.221353
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+DEBUG:root:About to loop
+DEBUG:root:Found file Match Form V3 Test.jpg
+DEBUG:root:Calling self.loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Return from self.loadsheet is 1 
+
+DEBUG:root:Calling game.processSheet
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 1425 AND `Match` = 159
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\cvbriggler\\Anaconda3\\envs\\xeroscout\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\cvbriggler\\Anaconda3\\envs\\xeroscout\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 9876 AND `Match` = 90
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 1357 AND `Match` = 63
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0

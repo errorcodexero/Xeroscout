@@ -1,1 +1,1 @@
-CURRENT_EVENT = '2019orore'
+CURRENT_EVENT = '2019hop'

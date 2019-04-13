@@ -6,15 +6,26 @@ import proprietary as prop
 # Defines the fields stored in the "Scout" table of the database. This database
 # stores the record for each match scan
 SCOUT_FIELDS = {"Team": 0, "Match": 0, "Replay": 0,
-                "StartPosL": 0, "StartPosC": 0, "StartPosR": 0, "StartLvl": 1,
-                "SandHatches": 0, "SandCargo": 0,
-                "TeleBreakdown": 0, "TeleBrownout": 0, "TeleDefenseTime": 0,
+                "StartPosL": 0, "StartPosC": 0, "StartPosR": 0,
+                "StartLvl": 0, "HatchPreload": 0, "CargoPreload": 0,
+                "SandCross": 0, "SandHatches": 0, "SandCargo": 0,
+                "SandAuto": 0, "SandVision": 0,
+                "TeleBreakdown": 0, "TeleBrownout": 0, "TeleDefense": 0,
+                "HatchShipL1": 0, "HatchShipL2": 0, "HatchShipL3": 0, "HatchShipLF": 0,
+                "HatchShipR1": 0, "HatchShipR2": 0, "HatchShipR3": 0, "HatchShipRF": 0,
+                "CargoShipL1": 0, "CargoShipL2": 0, "CargoShipL3": 0, "CargoShipLF": 0,
+                "CargoShipR1": 0, "CargoShipR2": 0, "CargoShipR3": 0, "CargoShipRF": 0,
                 "ShipHatchTotal": 0, "ShipCargoTotal": 0,
-                "RocketHatchL1": 0, "RocketHatchL2": 0, "RocketHatchL3": 0,
-                "RocketCargoL1": 0, "RocketCargoL2": 0, "RocketCargoL3": 0,
+                "RocketHatchLL1": 0, "RocketHatchLL2": 0, "RocketHatchLL3": 0,
+                "RocketHatchLR1": 0, "RocketHatchLR2": 0, "RocketHatchLR3": 0,
+                "RocketHatchRL1": 0, "RocketHatchRL2": 0, "RocketHatchRL3": 0,
+                "RocketHatchRR1": 0, "RocketHatchRR2": 0, "RocketHatchRR3": 0,
+                "RocketCargoLL1": 0, "RocketCargoLL2": 0, "RocketCargoLL3": 0,
+                "RocketCargoLR1": 0, "RocketCargoLR2": 0, "RocketCargoLR3": 0,
+                "RocketCargoRL1": 0, "RocketCargoRL2": 0, "RocketCargoRL3": 0,
+                "RocketCargoRR1": 0, "RocketCargoRR2": 0, "RocketCargoRR3": 0,
                 "RocketHatchTotal": 0, "RocketCargoTotal": 0,
                 "ClimbSelf": 0, "AssistOther1": 0, "AssistOther2": 0, "WasAssisted": 0,
-                "CargoTotal": 0, "HatchTotal": 0,
                 }
 
 # Defines the fields that are stored in the "averages" and similar tables of the database.
@@ -37,7 +48,6 @@ PIT_SCOUT_FIELDS = {"Team": 0, "Weight": 0, "Language": '', "Drivebase": '',
 # Defines the fields displayed on the charts on the team and compare pages
 CHART_FIELDS = {"match": 0, "TeleBunniesPlaced": 0, }
 
-
 class SheetType(IntEnum):
     MATCH = 0
     PIT = 1
@@ -56,7 +66,6 @@ def processSheet(scout):
         scout.setType(type)
         if type == SheetType.MATCH:
             # Match scouting sheet
-            # Team Number
             num1 = scout.rangefield('AB-5', 0, 9)
             num2 = scout.rangefield('AB-6', 0, 9)
             num3 = scout.rangefield('AB-7', 0, 9)
@@ -64,7 +73,6 @@ def processSheet(scout):
 
             scout.setMatchData("Team", str(1000*num1 + 100*num2 + 10*num3 + num4))
 
-            # Match Number
             match1 = scout.rangefield('J-5', 0, 1)
             match2 = scout.rangefield('J-6', 0, 9)
             match3 = scout.rangefield('J-7', 0, 9)
@@ -77,54 +85,123 @@ def processSheet(scout):
             scout.setMatchData("StartPosC", scout.boolfield("G-11"))
             scout.setMatchData("StartPosR", scout.boolfield("H-11"))
             scout.setMatchData("StartLvl", scout.rangefield('F-12', 1, 2))
+            scout.setMatchData("SandCross", scout.boolfield('F-13'))
 
-            scout.setMatchData("SandHatches", scout.countfield('F-15', 'I-15', 1))
-            scout.setMatchData("SandCargo", scout.countfield('F-16', 'I-16', 1))
+            scout.setMatchData("SandHatches", scout.countfield('F-15', 'M-15', 0))
+            scout.setMatchData("SandCargo", scout.countfield('F-16', 'M-16', 0))
+
+            scout.setMatchData("SandAuto", scout.boolfield('M-10'))
+            scout.setMatchData("SandVision", scout.boolfield('N-10'))
+
+            sand_hatch_1 = scout.boolfield('J-13')
+            sand_hatch_2 = scout.boolfield('N-13')
+
+            scout.setMatchData("HatchPreload", sand_hatch_1+sand_hatch_2)
+            scout.setMatchData("CargoPreload", 2-sand_hatch_1+sand_hatch_2)
 
             # Teleop
-            scout.setMatchData("TeleBreakdown", scout.boolfield('AK-11'))
-            scout.setMatchData("TeleBrownout", scout.boolfield('AK-12'))
+            scout.setMatchData("TeleDefense", scout.boolfield('AK-15'))
+            scout.setMatchData("TeleBreakdown", scout.boolfield('AK-16'))
+            scout.setMatchData("TeleBrownout", scout.boolfield('AK-17'))
 
-            #Defense
-            def_time = (100 * scout.countfield('U-10', 'V-10', 0)
-                        + 10 * scout.countfield('U-11', 'AD-11', 0)
-                        + scout.countfield('U-12', 'AD-12', 0))
+            scout.setMatchData("ClimbSelf", scout.rangefield('AI-10', 1, 3))
+            scout.setMatchData("AssistOther1", scout.rangefield('AJ-11', 2, 3))
+            scout.setMatchData("AssistOther2", scout.rangefield('AJ-12', 2, 3))
+            scout.setMatchData("WasAssisted", scout.boolfield('AI-13'))
 
-            scout.setMatchData("TeleDefenseTime", def_time)
-
-            scout.setMatchData("ClimbSelf", scout.rangefield('AI-14', 1, 3))
-            scout.setMatchData("AssistOther1", scout.rangefield('AJ-15', 2, 3))
-            scout.setMatchData("AssistOther2", scout.rangefield('AJ-16', 2, 3))
-            scout.setMatchData("WasAssisted", scout.boolfield('AI-17'))
-
-            ship_hatch_total = scout.countfield('O-16', 'V-16', 1)
-            scout.setMatchData("ShipHatchTotal", ship_hatch_total)
-
-            ship_cargo_total = scout.countfield('O-17', 'V-17', 1)
-            scout.setMatchData("ShipCargoTotal", ship_cargo_total)
-
-            scout.setMatchData("RocketHatchL1", scout.countfield('O-13', 'R-13', 1))
-            scout.setMatchData("RocketHatchL2", scout.countfield('O-11', 'R-11', 1))
-            scout.setMatchData("RocketHatchL3", scout.countfield('O-9', 'R-9', 1))
+            scout.setMatchData("CargoShipL1", scout.boolfield('W-10'))
+            scout.setMatchData("CargoShipL2", scout.boolfield('W-11'))
+            scout.setMatchData("CargoShipL3", scout.boolfield('W-12'))
+            scout.setMatchData("CargoShipR1", scout.boolfield('X-10'))
+            scout.setMatchData("CargoShipR2", scout.boolfield('X-11'))
+            scout.setMatchData("CargoShipR3", scout.boolfield('X-12'))
+            scout.setMatchData("CargoShipLF", scout.boolfield('W-13'))
+            scout.setMatchData("CargoShipRF", scout.boolfield('X-13'))
             
-            rocket_hatch_total = scout.countfield('O-13', 'R-13', 1) \
-                               + scout.countfield('O-11', 'R-11', 1) \
-                               + scout.countfield('O-9', 'R-9', 1)
+            scout.setMatchData("ShipCargoTotal", 
+                               scout.boolfield('W-10') +
+                               scout.boolfield('W-11') +
+                               scout.boolfield('W-12') +
+                               scout.boolfield('X-10') +
+                               scout.boolfield('X-11') +
+                               scout.boolfield('x-12') +
+                               scout.boolfield('W-13') +
+                               scout.boolfield('X-13'))
+            
+            scout.setMatchData("HatchShipL1", scout.boolfield('V-10'))
+            scout.setMatchData("HatchShipL2", scout.boolfield('V-11'))
+            scout.setMatchData("HatchShipL3", scout.boolfield('V-12'))
+            scout.setMatchData("HatchShipR1", scout.boolfield('Y-10'))
+            scout.setMatchData("HatchShipR2", scout.boolfield('Y-12'))
+            scout.setMatchData("HatchShipR3", scout.boolfield('Y-13'))
+            scout.setMatchData("HatchShipLF", scout.boolfield('W-14'))
+            scout.setMatchData("HatchShipRF", scout.boolfield('X-14'))
+            
+            scout.setMatchData("ShipHatchTotal", 
+                               scout.boolfield('V-10') +
+                               scout.boolfield('V-11') +
+                               scout.boolfield('V-12') +
+                               scout.boolfield('Y-10') +
+                               scout.boolfield('Y-11') +
+                               scout.boolfield('Y-12') +
+                               scout.boolfield('W-14') +
+                               scout.boolfield('X-14'))
 
-            scout.setMatchData("RocketHatchTotal", rocket_hatch_total)
+            scout.setMatchData("RocketHatchLL1", scout.boolfield('R-17'))
+            scout.setMatchData("RocketHatchLL2", scout.boolfield('R-16'))
+            scout.setMatchData("RocketHatchLL3", scout.boolfield('R-15'))
+            scout.setMatchData("RocketHatchLR1", scout.boolfield('U-17'))
+            scout.setMatchData("RocketHatchLR2", scout.boolfield('U-16'))
+            scout.setMatchData("RocketHatchLR3", scout.boolfield('U-15'))
 
-            scout.setMatchData("RocketCargoL1", scout.countfield('O-14', 'R-14', 1))
-            scout.setMatchData("RocketCargoL2", scout.countfield('O-12', 'R-12', 1))
-            scout.setMatchData("RocketCargoL3", scout.countfield('O-10', 'R-10', 1))
+            scout.setMatchData("RocketHatchRL1", scout.boolfield('Z-17'))
+            scout.setMatchData("RocketHatchRL2", scout.boolfield('Z-16'))
+            scout.setMatchData("RocketHatchRL3", scout.boolfield('Z-15'))
+            scout.setMatchData("RocketHatchRR1", scout.boolfield('AC-17'))
+            scout.setMatchData("RocketHatchRR2", scout.boolfield('AC-16'))
+            scout.setMatchData("RocketHatchRR3", scout.boolfield('AC-15'))
+            
+            scout.setMatchData("RocketHatchTotal", 
+                               scout.boolfield('R-17') +
+                               scout.boolfield('R-16') +
+                               scout.boolfield('R-15') +
+                               scout.boolfield('U-17') +
+                               scout.boolfield('U-16') +
+                               scout.boolfield('U-15') +
+                               scout.boolfield('Z-17') +
+                               scout.boolfield('Z-16') +
+                               scout.boolfield('Z-15') +
+                               scout.boolfield('AC-17') +
+                               scout.boolfield('AC-16') +
+                               scout.boolfield('AC-15'))
 
-            rocket_cargo_total = scout.countfield('O-14', 'R-14', 1) \
-                               + scout.countfield('O-12', 'R-12', 1) \
-                               + scout.countfield('O-10', 'R-10', 1)
+            scout.setMatchData("RocketCargoLL1", scout.boolfield('S-17'))
+            scout.setMatchData("RocketCargoLL2", scout.boolfield('S-16'))
+            scout.setMatchData("RocketCargoLL3", scout.boolfield('S-15'))
+            scout.setMatchData("RocketCargoLR1", scout.boolfield('T-17'))
+            scout.setMatchData("RocketCargoLR2", scout.boolfield('T-16'))
+            scout.setMatchData("RocketCargoLR3", scout.boolfield('T-15'))
 
-            scout.setMatchData("RocketCargoTotal", rocket_cargo_total)
-
-            scout.setMatchData("HatchTotal", ship_hatch_total+rocket_hatch_total)
-            scout.setMatchData("CargoTotal", ship_cargo_total+rocket_cargo_total)
+            scout.setMatchData("RocketCargoRL1", scout.boolfield('AA-17'))
+            scout.setMatchData("RocketCargoRL2", scout.boolfield('AA-16'))
+            scout.setMatchData("RocketCargoRL3", scout.boolfield('AA-15'))
+            scout.setMatchData("RocketCargoRR1", scout.boolfield('AB-17'))
+            scout.setMatchData("RocketCargoRR2", scout.boolfield('AB-16'))
+            scout.setMatchData("RocketCargoRR3", scout.boolfield('AB-15'))
+            
+            scout.setMatchData("RocketCargoTotal", 
+                               scout.boolfield('S-17') +
+                               scout.boolfield('S-16') +
+                               scout.boolfield('S-15') +
+                               scout.boolfield('T-17') +
+                               scout.boolfield('T-16') +
+                               scout.boolfield('T-15') +
+                               scout.boolfield('AA-17') +
+                               scout.boolfield('AA-16') +
+                               scout.boolfield('AA-15') +
+                               scout.boolfield('AB-17') +
+                               scout.boolfield('AB-16') +
+                               scout.boolfield('AB-15'))
 
             scout.submit()
         elif type == SheetType.PIT:
@@ -201,8 +278,7 @@ def processSheet(scout):
             scout.submit()
 
 
-# Takes an entry from the Scout database table and generates text for display on the team page. This page
-# has 4 columns, currently used for auto, 2 teleop, and other (like fouls and end game)
+# Takes an entry from the Scout database table and generates text for display on the team page. This page has 4 columns, currently used for auto, 2 teleop, and other (like fouls and end game)
 def generateTeamText(e):
     text = {'auto': "", 'teleop1': "", 'teleop2': "", 'other': ""}
     text['auto'] += 'Start: '
@@ -217,8 +293,7 @@ def generateTeamText(e):
     return text
 
 
-# Takes an entry from the Scout database table and generates chart data. The fields in the returned
-# dict must match the CHART_FIELDS definition at the top of this file
+# Takes an entry from the Scout database table and generates chart data. The fields in the returned dict must match the CHART_FIELDS definition at the top of this file
 def generateChartData(e):
     dp = dict(CHART_FIELDS)
     dp["match"]= e['match']
