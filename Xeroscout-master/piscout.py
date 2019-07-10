@@ -34,6 +34,7 @@ db_password = "root"
 db_host = "127.0.0.1"
 db_database = "data_" + CURRENT_EVENT
 
+
 class PiScout:
     # Firstly, initializes the fields of a PiScout object
     # Then it starts the main loop of PiScout
@@ -52,7 +53,7 @@ class PiScout:
             self.type = 0
             self.shift = 0
 
-            #Uses relative path to Sheets subdirectory where scans are stored
+            # Uses relative path to Sheets subdirectory where scans are stored
             f = set(os.listdir("Sheets"))
             logging.debug('About to loop')
 
@@ -63,8 +64,8 @@ class PiScout:
             """
             while True:
                 sleep(0.25)
-                files = set(os.listdir("Sheets")) #grabs all file names as a set
-                added = files - f #check if any files were added
+                files = set(os.listdir("Sheets"))  # grabs all file names as a set
+                added = files - f  # check if any files were added
                 for file in added:
                     if '.jpg' in file.lower() or '.png' in file.lower():
 
@@ -74,7 +75,9 @@ class PiScout:
                         retval = self.loadsheet("Sheets/" + file)
                         logging.debug('Return from self.loadsheet is %s \n', retval)
 
-                        #If loading succeeds, process and add to the list of existing files, if the loading has a critical failure, add the file to the list. If the load has a temporary failure, retval is 0 and the file will be reprocessed on the next pass
+                        # If loading succeeds, process and add to the list of existing files, if
+                        # the loading has a critical failure, add the file to the list. If the load has a temporary
+                        # failure, retval is 0 and the file will be reprocessed on the next pass
                     if retval == 1:
                         logging.debug('Calling game.processSheet')
                         game.processSheet(self)
@@ -100,7 +103,8 @@ class PiScout:
         self.pitData = dict(game.PIT_SCOUT_FIELDS)
         print('Loading a new sheet: ' + imgpath)
         
-        #Sometimes the file has been created but the scanner has not yet finished writing to it. In these cases the resize will fail. Return 0 so the file will be reprocessed
+        # Sometimes the file has been created but the scanner has not yet finished writing to it.
+        # In these cases the resize will fail. Return 0 so the file will be reprocessed
         img = cv2.imread(imgpath)
         try:
             img = cv2.resize(img, (2456,3260))
@@ -111,9 +115,9 @@ class PiScout:
         # The first step is to figure out the four markers on the corners of the page
         # The next two lines will blur the image and extract the edges from the shapes
         blur = cv2.medianBlur(imgray, 2*b + 1)
-        #cv2.imwrite('Output/' + imgpath[7:] + '.b' + str(b) + '.jpg', blur)
+        # cv2.imwrite('Output/' + imgpath[7:] + '.b' + str(b) + '.jpg', blur)
         retVal, edges = cv2.threshold(blur,200,255, cv2.THRESH_BINARY)
-        #cv2.imwrite('Output/' + imgpath[7:] + '.thresh.jpg', edges)
+        # cv2.imwrite('Output/' + imgpath[7:] + '.thresh.jpg', edges)
 
         # Next, we use the edges to find the contours of the shapes
         # Once the contours are found, we use approxPolyDP to resolve the contours into polygon approximations
@@ -148,14 +152,17 @@ class PiScout:
             marksize.append(sqsize[ind])
             print('Corner: ' + str(corner) + "  Size:" + str(sqsize[ind]))
 
-        #Make a copy of the list, sort the original, then calculate the median by averaging the middle 2 elements (of 4)
-        u_marksize = marksize[:] #clone the list
+        # Make a copy of the list, sort the original, then calculate the median by averaging
+        # the middle 2 elements (of 4)
+        u_marksize = marksize[:] # clone the list
         marksize.sort()
         median = (marksize[1] + marksize[2]) / 2
 
-        #This block contains code to attempt to recover a sheet where the marks are not properly detected. First it will try increasing blur, then a really small blur, before finally trying to guess the location of the final mark based on the other marks
-        for i,m in enumerate(u_marksize):
-            if abs(1 - m/median) > 0.1: #if there is a size anomaly in markers, try some things
+        # This block contains code to attempt to recover a sheet where the marks are not properly detected.
+        # First it will try increasing blur, then a really small blur, before finally trying to guess the location
+        # of the final mark based on the other marks
+        for i, m in enumerate(u_marksize):
+            if abs(1 - m/median) > 0.1: # if there is a size anomaly in markers, try some things
                 print("Damaged marker detected, attempting fix: " + str(abs(1-m/median)))
                 if b < 13 and b != 1 and not guess:
                     print("Increasing gaussian blur to " + str(b+2))
@@ -166,7 +173,7 @@ class PiScout:
                 if not guess:
                     print("Attempting to guess the location of the last one")
                     return self.loadsheet(imgpath, b=3, guess=True)
-                if i == 0: #geometry to calculate approximate position of damaged marker
+                if i == 0: # geometry to calculate approximate position of damaged marker
                     marks[0] = (marks[1][0] - (marks[3][0]-marks[2][0]), marks[2][1] + (marks[1][1]-marks[3][1]))
                     print('Guessing top left corner')
                 elif i == 1:
@@ -179,13 +186,12 @@ class PiScout:
                     marks[3] = (marks[2][0] + (marks[1][0]-marks[0][0]), marks[1][1] - (marks[0][1]-marks[2][1]))
                     print('Guessing bottom right corner')
 
-
         # Apply a perspective transform
         # The centers of the 4 marks become the 4 corners of the image
         pts1 = np.float32(marks)
-        pts2 = np.float32([[0,0],[0,784],[560,0],[560,784]])
-        M = cv2.getPerspectiveTransform(pts1,pts2)
-        img = cv2.warpPerspective(img,M,(560,784))
+        pts2 = np.float32([[0, 0], [0, 784], [560, 0], [560, 784]])
+        M = cv2.getPerspectiveTransform(pts1, pts2)
+        img = cv2.warpPerspective(img, M, (560, 784))
         self.display = img.copy()
         self.sheet = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         print("Loading complete")
@@ -207,7 +213,7 @@ class PiScout:
     # Parses a location in Letter-Number form and returns a tuple of the pixel coordinates
     def parse(self, loc):
         col,row = loc.upper().split('-')
-        return (ord(col)-67 if len(col)==1 else ord(col[1])-41, self.shift + int(row)-3)
+        return ord(col)-67 if len(col) == 1 else ord(col[1])-41, self.shift + int(row)-3
 
     # Define a new boolean field at a given location
     # Returns whether or not the grid unit is shaded
@@ -223,7 +229,7 @@ class PiScout:
     # Returns the shaded value, or 0 if none is shaded
     def rangefield(self, startlocation, startval, endval):
         loc = self.parse(startlocation)
-        end = loc[0]-startval+endval+1 #grid coordinate where the rangefield ends
+        end = loc[0]-startval+endval+1  # grid coordinate where the rangefield ends
 
         values = [self.getvalue((val, loc[1])) for val in range(loc[0], end)]
         min = np.asscalar(np.argmin(values))
@@ -341,7 +347,7 @@ class PiScout:
         plt.subplot(111)
         plt.imshow(self.display)
         plt.title('Scanned Sheet')
-        plt.text(600,784,output,fontsize=12)
+        plt.text(600, 784, output,fontsize=12)
         save = Button(plt.axes([0.68, 0.31, 0.15, 0.07]), 'Save')
         save.on_clicked(self.save)
         # upload = Button(plt.axes([0.68, 0.24, 0.15, 0.07]), 'Upload Data')
@@ -365,6 +371,7 @@ class PiScout:
     # Invoked by the "Save Data Offline" button
     # Adds data to a queue to be uploaded online at a later time
     # Also stores in the local database
+    # todo: Move server submit here
     def save(self, event):
         print("Queueing match for upload later")
         if self.type == game.SheetType.MATCH:
@@ -445,5 +452,7 @@ class PiScout:
     # Displays a message box
     def message(self, title, message, type=0):
         return ctypes.windll.user32.MessageBoxW(0, message, title, type)
+
+
 
 PiScout()

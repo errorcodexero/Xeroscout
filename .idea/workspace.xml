@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3b2bca2d-6086-4446-aa08-93f465057255" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Xeroscout-master/gamespecific_2019_v1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xeroscout-master/event.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeroscout-master/event.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xeroscout-master/gamespecific.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeroscout-master/gamespecific.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xeroscout-master/piscout.log" beforeDir="false" afterPath="$PROJECT_DIR$/Xeroscout-master/piscout.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xeroscout-master/pitQueue.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Xeroscout-master/pitQueue.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xeroscout-master/queue.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Xeroscout-master/queue.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xeroscout-master/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/Xeroscout-master/server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/sproc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Database/sproc.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeroscout-master/piscout.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeroscout-master/piscout.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +18,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Xeroscout-master/event.py">
+        <entry file="file://$PROJECT_DIR$/Xeroscout-master/piscout.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="340">
+              <caret line="221" column="36" selection-start-line="221" selection-start-column="36" selection-end-line="221" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Xeroscout-master/gamespecific.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="119" column="70" selection-start-line="119" selection-start-column="70" selection-end-line="119" selection-end-column="70" />
+            <state relative-caret-position="204">
+              <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -41,12 +42,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Xeroscout-master/piscout.py">
+        <entry file="file://$PROJECT_DIR$/Xeroscout-master/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+            <state relative-caret-position="24">
+              <caret line="811" column="33" selection-start-line="811" selection-start-column="33" selection-end-line="811" selection-end-column="33" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,6 +68,8 @@
       <find>rangefield</find>
       <find>set</find>
       <find>setMatch</find>
+      <find>submit</find>
+      <find>sheet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,14 +83,15 @@
         <option value="$PROJECT_DIR$/Python Tools/update_tba_event_match_2019.py" />
         <option value="$PROJECT_DIR$/Xeroscout-master/gamespecific.py" />
         <option value="$PROJECT_DIR$/Xeroscout-master/event.py" />
+        <option value="$PROJECT_DIR$/Xeroscout-master/piscout.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="154" />
-    <option name="y" value="10" />
-    <option name="width" value="3020" />
-    <option name="height" value="1892" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1653" />
+    <option name="height" value="936" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -114,6 +118,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
@@ -227,9 +232,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="103" y="7" width="2013" height="1261" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16295546" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16136725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -315,30 +320,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Xeroscout-master/piscout.py">
+    <entry file="file://$PROJECT_DIR$/Xeroscout-master/event.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PiScout-master OLD/piscout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="170" column="8" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xeroscout-master/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="811" column="33" selection-start-line="811" selection-start-column="33" selection-end-line="811" selection-end-column="33" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Xeroscout-master/gamespecific.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="119" column="70" selection-start-line="119" selection-start-column="70" selection-end-line="119" selection-end-column="70" />
+        <state relative-caret-position="204">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Xeroscout-master/event.py">
+    <entry file="file://$PROJECT_DIR$/Xeroscout-master/piscout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="340">
+          <caret line="221" column="36" selection-start-line="221" selection-start-column="36" selection-end-line="221" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

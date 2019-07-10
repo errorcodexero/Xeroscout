@@ -1,6 +1,6 @@
 
 
-DROP PROCEDURE `scouting`.`insert_log`;
+-- DROP PROCEDURE `scouting`.`insert_log`;
 DELIMITER $$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `insert_log`(IN p_message varchar(1000))
 BEGIN
@@ -9,7 +9,7 @@ END$$
 DELIMITER ;
 
 
-DROP FUNCTION `scouting`.`get_tag`;
+-- DROP FUNCTION `scouting`.`get_tag`;
 DELIMITER $$
 CREATE FUNCTION `get_tag`(i integer, tag varchar(100)) RETURNS varchar(2000) READS SQL DATA
 BEGIN
@@ -28,7 +28,7 @@ END$$
 DELIMITER ;
 
 
-DROP FUNCTION `scouting`.`strip_quotes`;
+-- DROP FUNCTION `scouting`.`strip_quotes`;
 DELIMITER $$
 CREATE FUNCTION `strip_quotes`(p_value varchar(1000)) RETURNS varchar(1000) READS SQL DATA
 BEGIN
@@ -51,7 +51,7 @@ END$$
 DELIMITER ;
 
 
-DROP FUNCTION `scouting`.`get_team`;
+-- DROP FUNCTION `scouting`.`get_team`;
 DELIMITER $$
 CREATE FUNCTION `get_team`(i integer, tag varchar(100)) RETURNS int READS SQL DATA
 BEGIN
@@ -76,8 +76,7 @@ BEGIN
 END$$
 DELIMITER ;
 
-
-DROP PROCEDURE `scouting`.`load_team_match`;
+-- DROP PROCEDURE `scouting`.`load_team_match`;
 DELIMITER $$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `load_team_match`(p_team_id int, p_match_id int, p_alliance varchar(10), p_position int)
 BEGIN    
@@ -123,7 +122,9 @@ BEGIN
 END$$
 DELIMITER ;
 
-DROP PROCEDURE `scouting`.`get_key_value`;
+-- show procedure status like 'get_key_value';
+
+-- DROP PROCEDURE `scouting`.`get_key_value`;
 DELIMITER $$
 CREATE PROCEDURE scouting.get_key_value(INOUT p_breakdown VARCHAR(4000), OUT p_key varchar(1000), OUT p_value varchar(1000)) 
 BEGIN 
@@ -146,8 +147,7 @@ BEGIN
 END$$
 DELIMITER ;
 
-
-DROP PROCEDURE `scouting`.`load_breakdown`;
+-- DROP PROCEDURE `scouting`.`load_breakdown`;
 DELIMITER $$
 CREATE PROCEDURE scouting.load_breakdown(p_match_id int, p_alliance varchar(10), p_score_breakdown varchar(4000))
 BEGIN 
@@ -193,7 +193,7 @@ END$$
 DELIMITER ;
 
 
-DROP PROCEDURE `scouting`.`load_matches`;
+-- DROP PROCEDURE `scouting`.`load_matches`;
 DELIMITER $$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `load_matches`()
 BEGIN    
