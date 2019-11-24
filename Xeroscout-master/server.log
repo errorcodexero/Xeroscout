@@ -7196,3 +7196,389 @@ INFO:cherrypy.error:[13/Apr/2019:14:49:49] ENGINE Bus STOPPED
 INFO:cherrypy.error:[13/Apr/2019:14:49:49] ENGINE Bus EXITING
 INFO:cherrypy.error:[13/Apr/2019:14:49:49] ENGINE Waiting for child threads to terminate...
 INFO:cherrypy.error:[13/Apr/2019:14:49:49] ENGINE Bus EXITED
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-11-23 14:58:04.033935
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[23/Nov/2019:14:58:04] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[23/Nov/2019:14:58:04] ENGINE Bus STARTING
+ERROR:cherrypy.error:[23/Nov/2019:14:58:04] ENGINE Set handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:14:58:04] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[23/Nov/2019:14:58:04] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[23/Nov/2019:14:58:04] ENGINE Bus STARTED
+INFO:cherrypy.error:[23/Nov/2019:14:58:12] ENGINE Console event 2: shutting down bus
+ERROR:cherrypy.error:[23/Nov/2019:14:58:12] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:14:58:12] ENGINE Bus STOPPING
+INFO:cherrypy.error:[23/Nov/2019:14:58:13] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[23/Nov/2019:14:58:13] ENGINE Handler for console events already off.
+INFO:cherrypy.error:[23/Nov/2019:14:58:13] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[23/Nov/2019:14:58:13] ENGINE Bus STOPPED
+INFO:cherrypy.error:[23/Nov/2019:14:58:13] ENGINE Bus EXITING
+INFO:cherrypy.error:[23/Nov/2019:14:58:13] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[23/Nov/2019:14:58:13] ENGINE Bus EXITED
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-11-23 15:37:11.110947
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:CREATE TABLE scout (`key` INTEGER AUTO_INCREMENT PRIMARY KEY, `Team` integer, `Match` integer, `Replay` integer, `AutoBunniesCollected` integer, `AutoTubsTouched` integer, `AutoTubLifted` integer, `AutoDefensive` integer, `TeleBunniesPlaced` integer, `TeleBunniesEjected` integer, `TeleGroundCubeCollection` integer, `TeleBreakdown` integer, `TeleBrownout` integer, `TotalCubesCollected` integer, `TeleTotalKnockedCubes` integer, `FinalTotalCubesCollected` integer, `FlexField` integer)
+INFO:cherrypy.error:[23/Nov/2019:15:37:12] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[23/Nov/2019:15:37:12] ENGINE Bus STARTING
+ERROR:cherrypy.error:[23/Nov/2019:15:37:12] ENGINE Set handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:15:37:12] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[23/Nov/2019:15:37:12] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[23/Nov/2019:15:37:12] ENGINE Bus STARTED
+INFO:cherrypy.error:[23/Nov/2019:15:37:24] ENGINE Console event 2: shutting down bus
+ERROR:cherrypy.error:[23/Nov/2019:15:37:24] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:15:37:24] ENGINE Bus STOPPING
+INFO:cherrypy.error:[23/Nov/2019:15:37:24] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[23/Nov/2019:15:37:24] ENGINE Handler for console events already off.
+INFO:cherrypy.error:[23/Nov/2019:15:37:24] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[23/Nov/2019:15:37:24] ENGINE Bus STOPPED
+INFO:cherrypy.error:[23/Nov/2019:15:37:24] ENGINE Bus EXITING
+INFO:cherrypy.error:[23/Nov/2019:15:37:24] ENGINE Waiting for child threads to terminate...
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-11-23 15:48:41.412759
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[23/Nov/2019:15:48:41] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[23/Nov/2019:15:48:41] ENGINE Bus STARTING
+ERROR:cherrypy.error:[23/Nov/2019:15:48:41] ENGINE Set handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:15:48:41] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[23/Nov/2019:15:48:41] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[23/Nov/2019:15:48:41] ENGINE Bus STARTED
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES (1234,5,0,0,1,1,1,1,2,1,1,1,4,3,2,0)
+INFO:cherrypy.access.1306159615896:127.0.0.1 - - [23/Nov/2019:15:49:24] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES (2345,6,0,0,0,0,0,2,3,0,0,0,5,10,15,0)
+INFO:cherrypy.access.1306159615896:127.0.0.1 - - [23/Nov/2019:15:49:29] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES (5678,7,0,2,1,1,1,3,2,0,0,0,60,50,40,0)
+INFO:cherrypy.access.1306159615896:127.0.0.1 - - [23/Nov/2019:15:49:31] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+INFO:cherrypy.error:[23/Nov/2019:15:57:53] ENGINE Console event 2: shutting down bus
+ERROR:cherrypy.error:[23/Nov/2019:15:57:53] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:15:57:53] ENGINE Bus STOPPING
+INFO:cherrypy.error:[23/Nov/2019:15:57:53] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+INFO:cherrypy.error:[23/Nov/2019:15:57:53] ENGINE Stopped thread 'Autoreloader'.
+ERROR:cherrypy.error:[23/Nov/2019:15:57:53] ENGINE Handler for console events already off.
+INFO:cherrypy.error:[23/Nov/2019:15:57:53] ENGINE Bus STOPPED
+INFO:cherrypy.error:[23/Nov/2019:15:57:53] ENGINE Bus EXITING
+INFO:cherrypy.error:[23/Nov/2019:15:57:53] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[23/Nov/2019:15:57:53] ENGINE Bus EXITED
+DEBUG:root:Inside server.py
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-11-23 16:14:02.032552
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+ERROR:root:bad operand type for unary +: 'str'
+DEBUG:root:Inside server.py
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[23/Nov/2019:16:15:52] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[23/Nov/2019:16:15:52] ENGINE Bus STARTING
+ERROR:cherrypy.error:[23/Nov/2019:16:15:52] ENGINE Set handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:16:15:52] ENGINE Started monitor thread 'Autoreloader'.
+ERROR:cherrypy.error:[23/Nov/2019:16:15:53] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x0000028A92E09D68>>
+Traceback (most recent call last):
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\cherrypy\process\wspbus.py", line 230, in publish
+    output.append(listener(*args, **kwargs))
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\cherrypy\_cpserver.py", line 180, in start
+    super(Server, self).start()
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\cherrypy\process\servers.py", line 177, in start
+    portend.free(*self.bind_addr, timeout=Timeouts.free)
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\portend.py", line 119, in free
+    raise Timeout("Port {port} not free on {host}.".format(**locals()))
+portend.Timeout: Port 80 not free on 0.0.0.0.
+
+ERROR:cherrypy.error:[23/Nov/2019:16:15:53] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\cherrypy\process\wspbus.py", line 268, in start
+    self.publish('start')
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\cherrypy\process\wspbus.py", line 248, in publish
+    raise exc
+cherrypy.process.wspbus.ChannelFailures: Timeout('Port 80 not free on 0.0.0.0.',)
+
+INFO:cherrypy.error:[23/Nov/2019:16:15:53] ENGINE Bus STOPPING
+INFO:cherrypy.error:[23/Nov/2019:16:15:53] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+ERROR:cherrypy.error:[23/Nov/2019:16:15:53] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:16:15:53] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[23/Nov/2019:16:15:53] ENGINE Bus STOPPED
+INFO:cherrypy.error:[23/Nov/2019:16:15:53] ENGINE Bus EXITING
+INFO:cherrypy.error:[23/Nov/2019:16:15:53] ENGINE Bus EXITED
+DEBUG:root:Inside server.py
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Inside server.py
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Inside server.py
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-11-23 16:27:54.067536
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:CREATE TABLE scout (`key` INTEGER AUTO_INCREMENT PRIMARY KEY, `Team` text, `Match` integer, `Replay` integer, `AutoBunniesCollected` integer, `AutoTubsTouched` integer, `AutoTubLifted` integer, `AutoDefensive` integer, `TeleBunniesPlaced` integer, `TeleBunniesEjected` integer, `TeleGroundCubeCollection` integer, `TeleBreakdown` integer, `TeleBrownout` integer, `TotalCubesCollected` integer, `TeleTotalKnockedCubes` integer, `FinalTotalCubesCollected` integer, `FlexField` integer)
+INFO:cherrypy.error:[23/Nov/2019:16:27:54] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[23/Nov/2019:16:27:54] ENGINE Bus STARTING
+ERROR:cherrypy.error:[23/Nov/2019:16:27:54] ENGINE Set handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:16:27:54] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[23/Nov/2019:16:27:55] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[23/Nov/2019:16:27:55] ENGINE Bus STARTED
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES (1234,5,0,0,1,1,1,1,2,1,1,1,4,3,2,0)
+INFO:cherrypy.access.2727982993360:127.0.0.1 - - [23/Nov/2019:16:28:13] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES (2345,6,0,0,0,0,0,2,3,0,0,0,5,10,15,0)
+INFO:cherrypy.access.2727982993360:127.0.0.1 - - [23/Nov/2019:16:28:14] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES (5678,7,0,2,1,1,1,3,2,0,0,0,60,50,40,0)
+INFO:cherrypy.access.2727982993360:127.0.0.1 - - [23/Nov/2019:16:28:15] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES (1234A,5,0,0,1,1,1,1,2,1,1,1,4,3,2,0)
+ERROR:cherrypy.error.2727982993360:[23/Nov/2019:16:28:23] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\cherrypy\_cprequest.py", line 628, in respond
+    self._do_respond(path_info)
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\cherrypy\_cprequest.py", line 687, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\cherrypy\lib\encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "server.py", line 848, in submit
+    cursor.execute(scout_insert)
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\mysql\connector\connection.py", line 553, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\mysql\connector\connection.py", line 442, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column '1234A' in 'field list'
+INFO:cherrypy.error.2727982993360:[23/Nov/2019:16:28:23] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1:8000
+  USER-AGENT: python-requests/2.21.0
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: */*
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded
+  Content-Length: 532
+INFO:cherrypy.access.2727982993360:127.0.0.1 - - [23/Nov/2019:16:28:23] "POST /submit HTTP/1.1" 500 2175 "" "python-requests/2.21.0"
+INFO:cherrypy.error:[23/Nov/2019:16:29:11] ENGINE Console event 2: shutting down bus
+ERROR:cherrypy.error:[23/Nov/2019:16:29:11] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:16:29:11] ENGINE Bus STOPPING
+INFO:cherrypy.error:[23/Nov/2019:16:29:11] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[23/Nov/2019:16:29:11] ENGINE Handler for console events already off.
+INFO:cherrypy.error:[23/Nov/2019:16:29:11] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[23/Nov/2019:16:29:11] ENGINE Bus STOPPED
+INFO:cherrypy.error:[23/Nov/2019:16:29:11] ENGINE Bus EXITING
+INFO:cherrypy.error:[23/Nov/2019:16:29:11] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[23/Nov/2019:16:29:11] ENGINE Bus EXITED
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-11-23 16:32:24.993318
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:CREATE TABLE scout (`key` INTEGER AUTO_INCREMENT PRIMARY KEY, `Team` text, `Match` integer, `Replay` integer, `AutoBunniesCollected` integer, `AutoTubsTouched` integer, `AutoTubLifted` integer, `AutoDefensive` integer, `TeleBunniesPlaced` integer, `TeleBunniesEjected` integer, `TeleGroundCubeCollection` integer, `TeleBreakdown` integer, `TeleBrownout` integer, `TotalCubesCollected` integer, `TeleTotalKnockedCubes` integer, `FinalTotalCubesCollected` integer, `FlexField` integer)
+INFO:cherrypy.error:[23/Nov/2019:16:32:25] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[23/Nov/2019:16:32:25] ENGINE Bus STARTING
+ERROR:cherrypy.error:[23/Nov/2019:16:32:25] ENGINE Set handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:16:32:25] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[23/Nov/2019:16:32:26] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[23/Nov/2019:16:32:26] ENGINE Bus STARTED
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES (1234A,5,0,0,1,1,1,1,2,1,1,1,4,3,2,0)
+ERROR:cherrypy.error.3019820043792:[23/Nov/2019:16:33:11] HTTP 
+Traceback (most recent call last):
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\cherrypy\_cprequest.py", line 628, in respond
+    self._do_respond(path_info)
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\cherrypy\_cprequest.py", line 687, in _do_respond
+    response.body = self.handler()
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\cherrypy\lib\encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\cherrypy\_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "server.py", line 848, in submit
+    cursor.execute(scout_insert)
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\mysql\connector\connection.py", line 553, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\scout\Anaconda3\envs\xeroscan\lib\site-packages\mysql\connector\connection.py", line 442, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column '1234A' in 'field list'
+INFO:cherrypy.error.3019820043792:[23/Nov/2019:16:33:11] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: 127.0.0.1:8000
+  USER-AGENT: python-requests/2.21.0
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: */*
+  CONNECTION: keep-alive
+  Content-Type: application/x-www-form-urlencoded
+  Content-Length: 532
+INFO:cherrypy.access.3019820043792:127.0.0.1 - - [23/Nov/2019:16:33:11] "POST /submit HTTP/1.1" 500 2175 "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES (2345,6,0,0,0,0,0,2,3,0,0,0,5,10,15,0)
+INFO:cherrypy.access.3019820043792:127.0.0.1 - - [23/Nov/2019:16:33:12] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES (5678,7,0,2,1,1,1,3,2,0,0,0,60,50,40,0)
+INFO:cherrypy.access.3019820043792:127.0.0.1 - - [23/Nov/2019:16:33:13] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES (2234,5,0,0,1,1,1,1,2,1,1,1,4,3,2,0)
+INFO:cherrypy.access.3019820043792:127.0.0.1 - - [23/Nov/2019:16:33:17] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES (3345,6,0,0,0,0,0,2,3,0,0,0,5,10,15,0)
+INFO:cherrypy.access.3019820043792:127.0.0.1 - - [23/Nov/2019:16:33:20] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES (6678,7,0,2,1,1,1,3,2,0,0,0,60,50,40,0)
+INFO:cherrypy.access.3019820043792:127.0.0.1 - - [23/Nov/2019:16:33:21] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+INFO:cherrypy.error:[23/Nov/2019:16:41:52] ENGINE Restarting because C:\Users\scout\Xeroscout\Xeroscout-master\server.py changed.
+INFO:cherrypy.error:[23/Nov/2019:16:41:52] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[23/Nov/2019:16:41:52] ENGINE Bus STOPPING
+INFO:cherrypy.error:[23/Nov/2019:16:41:52] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[23/Nov/2019:16:41:52] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:16:41:52] ENGINE Bus STOPPED
+INFO:cherrypy.error:[23/Nov/2019:16:41:52] ENGINE Bus EXITING
+INFO:cherrypy.error:[23/Nov/2019:16:41:52] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[23/Nov/2019:16:41:52] ENGINE Bus EXITED
+INFO:cherrypy.error:[23/Nov/2019:16:41:52] ENGINE Re-spawning C:\Users\scout\Anaconda3\envs\xeroscan\python.exe server.py -local
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-11-23 16:41:53.961355
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+INFO:cherrypy.error:[23/Nov/2019:16:41:54] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[23/Nov/2019:16:41:54] ENGINE Bus STARTING
+ERROR:cherrypy.error:[23/Nov/2019:16:41:54] ENGINE Set handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:16:41:54] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[23/Nov/2019:16:41:54] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[23/Nov/2019:16:41:54] ENGINE Bus STARTED
+INFO:cherrypy.error:[23/Nov/2019:16:42:04] ENGINE Console event 2: shutting down bus
+ERROR:cherrypy.error:[23/Nov/2019:16:42:04] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:16:42:04] ENGINE Bus STOPPING
+INFO:cherrypy.error:[23/Nov/2019:16:42:04] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+ERROR:cherrypy.error:[23/Nov/2019:16:42:04] ENGINE Handler for console events already off.
+INFO:cherrypy.error:[23/Nov/2019:16:42:04] ENGINE Stopped thread 'Autoreloader'.
+INFO:cherrypy.error:[23/Nov/2019:16:42:04] ENGINE Bus STOPPED
+INFO:cherrypy.error:[23/Nov/2019:16:42:04] ENGINE Bus EXITING
+INFO:cherrypy.error:[23/Nov/2019:16:42:04] ENGINE Waiting for child threads to terminate...
+INFO:cherrypy.error:[23/Nov/2019:16:42:04] ENGINE Bus EXITED
+DEBUG:root:Inside server.py
+DEBUG:root:Start 2019-11-23 16:43:21.331204
+DEBUG:root:Calling ScoutServer Process
+DEBUG:root:Init ScoutServer
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:CREATE TABLE scout (`key` INTEGER AUTO_INCREMENT PRIMARY KEY, `Team` text, `Match` integer, `Replay` integer, `AutoBunniesCollected` integer, `AutoTubsTouched` integer, `AutoTubLifted` integer, `AutoDefensive` integer, `TeleBunniesPlaced` integer, `TeleBunniesEjected` integer, `TeleGroundCubeCollection` integer, `TeleBreakdown` integer, `TeleBrownout` integer, `TotalCubesCollected` integer, `TeleTotalKnockedCubes` integer, `FinalTotalCubesCollected` integer, `FlexField` integer)
+INFO:cherrypy.error:[23/Nov/2019:16:43:22] ENGINE Listening for SIGTERM.
+INFO:cherrypy.error:[23/Nov/2019:16:43:22] ENGINE Bus STARTING
+ERROR:cherrypy.error:[23/Nov/2019:16:43:22] ENGINE Set handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:16:43:22] ENGINE Started monitor thread 'Autoreloader'.
+INFO:cherrypy.error:[23/Nov/2019:16:43:22] ENGINE Serving on http://127.0.0.1:8000
+INFO:cherrypy.error:[23/Nov/2019:16:43:22] ENGINE Bus STARTED
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES ('2234','5','0','0','1','1','1','1','2','1','1','1','4','3','2','0')
+INFO:cherrypy.access.2171472903752:127.0.0.1 - - [23/Nov/2019:16:43:44] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES ('3345','6','0','0','0','0','0','2','3','0','0','0','5','10','15','0')
+INFO:cherrypy.access.2171472903752:127.0.0.1 - - [23/Nov/2019:16:43:46] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES ('6678','7','0','2','1','1','1','3','2','0','0','0','60','50','40','0')
+INFO:cherrypy.access.2171472903752:127.0.0.1 - - [23/Nov/2019:16:43:47] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES ('1234A','5','0','0','1','1','1','1','2','1','1','1','4','3','2','0')
+INFO:cherrypy.access.2171472903752:127.0.0.1 - - [23/Nov/2019:16:43:52] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES ('2345','6','0','0','0','0','0','2','3','0','0','0','5','10','15','0')
+INFO:cherrypy.access.2171472903752:127.0.0.1 - - [23/Nov/2019:16:43:53] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+DEBUG:root:Connecting to MySQL
+DEBUG:root:Checking existence of event schema
+DEBUG:root:Match data detected
+DEBUG:root:Prepare scouting insert
+DEBUG:root:INSERT INTO scout (`Team`, `Match`, `Replay`, `AutoBunniesCollected`, `AutoTubsTouched`, `AutoTubLifted`, `AutoDefensive`, `TeleBunniesPlaced`, `TeleBunniesEjected`, `TeleGroundCubeCollection`, `TeleBreakdown`, `TeleBrownout`, `TotalCubesCollected`, `TeleTotalKnockedCubes`, `FinalTotalCubesCollected`, `FlexField`) VALUES ('5678','7','0','2','1','1','1','3','2','0','0','0','60','50','40','0')
+INFO:cherrypy.access.2171472903752:127.0.0.1 - - [23/Nov/2019:16:43:55] "POST /submit HTTP/1.1" 200 - "" "python-requests/2.21.0"
+INFO:cherrypy.error:[23/Nov/2019:16:44:52] ENGINE Console event 2: shutting down bus
+ERROR:cherrypy.error:[23/Nov/2019:16:44:52] ENGINE Removed handler for console events.
+INFO:cherrypy.error:[23/Nov/2019:16:44:52] ENGINE Bus STOPPING
+INFO:cherrypy.error:[23/Nov/2019:16:44:52] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+INFO:cherrypy.error:[23/Nov/2019:16:44:52] ENGINE Stopped thread 'Autoreloader'.
+ERROR:cherrypy.error:[23/Nov/2019:16:44:52] ENGINE Handler for console events already off.
+INFO:cherrypy.error:[23/Nov/2019:16:44:52] ENGINE Bus STOPPED
+INFO:cherrypy.error:[23/Nov/2019:16:44:52] ENGINE Bus EXITING
+INFO:cherrypy.error:[23/Nov/2019:16:44:52] ENGINE Waiting for child threads to terminate...

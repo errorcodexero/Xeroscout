@@ -842,7 +842,7 @@ class ScoutServer(object):
             for key in d:
                 scout_insert += '`' + key + "`, "
             scout_insert = scout_insert[:-2] # strip the trailing comma and space
-            scout_insert += ') VALUES (' + ','.join([str(a) for a in d.values()]) + ')'
+            scout_insert += ') VALUES (' + ','.join(["'" + str(a) + "'" for a in d.values()]) + ')'
             print(scout_insert)
             logging.debug(scout_insert)
             cursor.execute(scout_insert)
@@ -1084,7 +1084,9 @@ class ScoutServer(object):
             # Match scouting table
             tableCreate = "CREATE TABLE scout (`key` INTEGER AUTO_INCREMENT PRIMARY KEY, "
             for key in game.SCOUT_FIELDS:
-                tableCreate += "`" + key + "` integer, "
+                tableCreate += "`" + key + \
+                "` " + ('text' if game.SCOUT_FIELDS.get(key) == '' else 'integer') + \
+                ", "
             tableCreate = tableCreate[:-2] + ")"
             logging.debug(tableCreate)
             cursor.execute(tableCreate)

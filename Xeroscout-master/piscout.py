@@ -91,7 +91,7 @@ class PiScout:
                     break
                 """
         except Exception as e:
-            logging.error(e)
+            #logging.debug(e)
             raise
 
     # Loads a new scout sheet from an image
@@ -289,7 +289,7 @@ class PiScout:
                 self.display = cv2.cvtColor(self.sheet, cv2.COLOR_GRAY2BGR)
                 return
 
-            query = "SELECT * FROM scout WHERE Team = %s AND `Match` = %s" % \
+            query = "SELECT * FROM scout WHERE Team = '%s' AND `Match` = %s" % \
                     (str(self.matchData['Team']), str(self.matchData['Match']),)
             logging.debug(query)
             try:
@@ -454,5 +454,7 @@ class PiScout:
         return ctypes.windll.user32.MessageBoxW(0, message, title, type)
 
 
-
-PiScout()
+try:
+    PiScout()
+except Exception as e:
+    logging.debug(e)

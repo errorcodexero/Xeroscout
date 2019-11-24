@@ -5,16 +5,14 @@ import proprietary as prop
 
 # Defines the fields stored in the "Scout" table of the database. This database
 # stores the record for each match scan
-SCOUT_FIELDS = {"Team": 0, "Match": 0, "Replay": 0,
-                "StartPosL": 0, "StartPosC": 0, "StartPosR": 0, "StartLvl": 1,
-                "SandHatches": 0, "SandCargo": 0,
-                "TeleBreakdown": 0, "TeleBrownout": 0, "TeleDefenseTime": 0,
-                "ShipHatchTotal": 0, "ShipCargoTotal": 0,
-                "RocketHatchL1": 0, "RocketHatchL2": 0, "RocketHatchL3": 0,
-                "RocketCargoL1": 0, "RocketCargoL2": 0, "RocketCargoL3": 0,
-                "RocketHatchTotal": 0, "RocketCargoTotal": 0,
-                "ClimbSelf": 0, "AssistOther1": 0, "AssistOther2": 0, "WasAssisted": 0,
-                "CargoTotal": 0, "HatchTotal": 0,
+SCOUT_FIELDS = {"Team": '', "Match": 0, "Replay": 0,
+                "AutoBunniesCollected": 0, "AutoTubsTouched": 0,
+                "AutoTubLifted": 0, "AutoDefensive": 0,
+                "TeleBunniesPlaced": 0, "TeleBunniesEjected": 0, 
+                "TeleGroundCubeCollection": 0, "TeleBreakdown": 0,
+                "TeleBrownout": 0, "TotalCubesCollected": 0,
+                "TeleTotalKnockedCubes": 0, "FinalTotalCubesCollected": 0,
+                "FlexField": 0,
                 }
 
 # Defines the fields that are stored in the "averages" and similar tables of the database.
@@ -57,74 +55,71 @@ def processSheet(scout):
         if type == SheetType.MATCH:
             # Match scouting sheet
             # Team Number
-            num1 = scout.rangefield('AB-5', 0, 9)
-            num2 = scout.rangefield('AB-6', 0, 9)
-            num3 = scout.rangefield('AB-7', 0, 9)
-            num4 = scout.rangefield('AB-8', 0, 9)
+            num1 = scout.rangefield('D-14', 0, 9)
+            num2 = scout.rangefield('D-15', 0, 9)
+            num3 = scout.rangefield('D-16', 0, 9)
+            num4 = scout.rangefield('D-17', 0, 9)
+            
+            if scout.boolfield('K-13') == 1:
+                teamletter = 'A'
+            elif scout.boolfield('L-13') == 1:
+                teamletter = 'B'
+            elif scout.boolfield('M-13') == 1:
+                teamletter = 'C'
+            else:
+                teamletter = ''
 
-            scout.setMatchData("Team", str(1000*num1 + 100*num2 + 10*num3 + num4))
+            scout.setMatchData("Team", str(1000*num1 + 100*num2 + 10*num3 + num4) + teamletter)
 
             # Match Number
-            match1 = scout.rangefield('J-5', 0, 1)
-            match2 = scout.rangefield('J-6', 0, 9)
-            match3 = scout.rangefield('J-7', 0, 9)
+            match1 = scout.rangefield('D-9', 0, 1)
+            match2 = scout.rangefield('D-10', 0, 9)
+            match3 = scout.rangefield('D-11', 0, 9)
             scout.setMatchData("Match", str(100*match1 + 10*match2 + match3))
 
-            scout.setMatchData("Replay", scout.boolfield('S-5'))
+            scout.setMatchData("Replay", scout.boolfield('M-9'))
 
-            # Sandstorm
-            scout.setMatchData("StartPosL", scout.boolfield("F-11"))
-            scout.setMatchData("StartPosC", scout.boolfield("G-11"))
-            scout.setMatchData("StartPosR", scout.boolfield("H-11"))
-            scout.setMatchData("StartLvl", scout.rangefield('F-12', 1, 2))
+            # Auto
+            scout.setMatchData("AutoBunniesCollected", scout.rangefield("V-6", 0, 2))
+            scout.setMatchData("AutoTubsTouched", scout.rangefield("V-7", 0, 2))
+            scout.setMatchData("AutoTubLifted", scout.boolfield("V-8"))
+            scout.setMatchData("AutoDefensive", scout.boolfield("V-9"))
 
-            scout.setMatchData("SandHatches", scout.countfield('F-15', 'I-15', 1))
-            scout.setMatchData("SandCargo", scout.countfield('F-16', 'I-16', 1))
 
             # Teleop
-            scout.setMatchData("TeleBreakdown", scout.boolfield('AK-11'))
-            scout.setMatchData("TeleBrownout", scout.boolfield('AK-12'))
+            scout.setMatchData("TeleBreakdown", scout.boolfield('AJ-9'))
+            scout.setMatchData("TeleBrownout", scout.boolfield('AJ-10'))
 
             #Defense
-            def_time = (100 * scout.countfield('U-10', 'V-10', 0)
-                        + 10 * scout.countfield('U-11', 'AD-11', 0)
-                        + scout.countfield('U-12', 'AD-12', 0))
-
-            scout.setMatchData("TeleDefenseTime", def_time)
-
-            scout.setMatchData("ClimbSelf", scout.rangefield('AI-14', 1, 3))
-            scout.setMatchData("AssistOther1", scout.rangefield('AJ-15', 2, 3))
-            scout.setMatchData("AssistOther2", scout.rangefield('AJ-16', 2, 3))
-            scout.setMatchData("WasAssisted", scout.boolfield('AI-17'))
-
-            ship_hatch_total = scout.countfield('O-16', 'V-16', 1)
-            scout.setMatchData("ShipHatchTotal", ship_hatch_total)
-
-            ship_cargo_total = scout.countfield('O-17', 'V-17', 1)
-            scout.setMatchData("ShipCargoTotal", ship_cargo_total)
-
-            scout.setMatchData("RocketHatchL1", scout.countfield('O-13', 'R-13', 1))
-            scout.setMatchData("RocketHatchL2", scout.countfield('O-11', 'R-11', 1))
-            scout.setMatchData("RocketHatchL3", scout.countfield('O-9', 'R-9', 1))
             
-            rocket_hatch_total = scout.countfield('O-13', 'R-13', 1) \
-                               + scout.countfield('O-11', 'R-11', 1) \
-                               + scout.countfield('O-9', 'R-9', 1)
 
-            scout.setMatchData("RocketHatchTotal", rocket_hatch_total)
-
-            scout.setMatchData("RocketCargoL1", scout.countfield('O-14', 'R-14', 1))
-            scout.setMatchData("RocketCargoL2", scout.countfield('O-12', 'R-12', 1))
-            scout.setMatchData("RocketCargoL3", scout.countfield('O-10', 'R-10', 1))
-
-            rocket_cargo_total = scout.countfield('O-14', 'R-14', 1) \
-                               + scout.countfield('O-12', 'R-12', 1) \
-                               + scout.countfield('O-10', 'R-10', 1)
-
-            scout.setMatchData("RocketCargoTotal", rocket_cargo_total)
-
-            scout.setMatchData("HatchTotal", ship_hatch_total+rocket_hatch_total)
-            scout.setMatchData("CargoTotal", ship_cargo_total+rocket_cargo_total)
+            scout.setMatchData("TeleBunniesPlaced", scout.countfield('AH-5', 'AJ-5', 1))
+            scout.setMatchData("TeleBunniesEjected", scout.countfield('AH-6', 'AJ-6', 1))
+            scout.setMatchData("TeleGroundCubeCollection", scout.boolfield('AJ-8'))
+            
+            Total_Cubes = scout.rangefield('O-13', 0, 13)
+            if Total_Cubes < 6:
+                scout.setMatchData("TotalCubesCollected", Total_Cubes)
+            elif Total_Cubes < 11:
+                scout.setMatchData("TotalCubesCollected", (Total_Cubes - 4) * 5)
+            elif Total_Cubes < 15:
+                scout.setMatchData("TotalCubesCollected", (Total_Cubes - 7) * 10)
+            
+            Total_Knocked_Cubes = scout.rangefield('O-15', 0, 13)
+            if Total_Knocked_Cubes < 6:
+                scout.setMatchData("TeleTotalKnockedCubes", Total_Knocked_Cubes)
+            elif Total_Knocked_Cubes < 11:
+                scout.setMatchData("TeleTotalKnockedCubes", (Total_Knocked_Cubes - 4) * 5)
+            elif Total_Knocked_Cubes < 15:
+                scout.setMatchData("TeleTotalKnockedCubes", (Total_Knocked_Cubes - 7) * 10)
+                
+            Final_Total_Cubes = scout.rangefield('O-17', 0, 13)
+            if Final_Total_Cubes < 6:
+                scout.setMatchData("FinalTotalCubesCollected", Final_Total_Cubes)
+            elif Final_Total_Cubes < 11:
+                scout.setMatchData("FinalTotalCubesCollected", (Final_Total_Cubes - 4) * 5)
+            elif Final_Total_Cubes < 15:
+                scout.setMatchData("FinalTotalCubesCollected", (Final_Total_Cubes - 7) * 10)
 
             scout.submit()
         elif type == SheetType.PIT:

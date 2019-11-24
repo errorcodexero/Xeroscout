@@ -24659,3 +24659,397 @@ DEBUG:matplotlib.axes._base:update_title_pos
 DEBUG:matplotlib.axes._base:update_title_pos
 DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
 DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:
+Starting PiScout 2019-11-23 14:58:03.955829
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+DEBUG:root:About to loop
+DEBUG:root:
+Starting PiScout 2019-11-23 15:37:10.725978
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+DEBUG:root:About to loop
+DEBUG:root:
+Starting PiScout 2019-11-23 15:48:41.018812
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+DEBUG:root:About to loop
+DEBUG:root:Found file 2019BunnybotTest1.JPG
+DEBUG:root:Calling self.loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Return from self.loadsheet is 1 
+
+DEBUG:root:Calling game.processSheet
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 1234 AND `Match` = 5
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\scout\\Anaconda3\\envs\\xeroscan\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\scout\\Anaconda3\\envs\\xeroscan\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 2345 AND `Match` = 6
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = 5678 AND `Match` = 7
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:
+Starting PiScout 2019-11-23 16:10:13.378818
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+DEBUG:root:About to loop
+DEBUG:root:
+Starting PiScout 2019-11-23 16:14:01.477527
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+DEBUG:root:About to loop
+DEBUG:root:
+Starting PiScout 2019-11-23 16:27:53.645877
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+DEBUG:root:About to loop
+DEBUG:root:Found file 2019BunnybotTest1.JPG
+DEBUG:root:Calling self.loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Return from self.loadsheet is 1 
+
+DEBUG:root:Calling game.processSheet
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '1234' AND `Match` = 5
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\scout\\Anaconda3\\envs\\xeroscan\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\scout\\Anaconda3\\envs\\xeroscan\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '2345' AND `Match` = 6
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '5678' AND `Match` = 7
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Found file 2019BunnybotTest2.JPG
+DEBUG:root:Calling self.loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Return from self.loadsheet is 1 
+
+DEBUG:root:Calling game.processSheet
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '1234A' AND `Match` = 5
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 500 2175
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '2345' AND `Match` = 6
+DEBUG:root:Already processed this match, skipping
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '5678' AND `Match` = 7
+DEBUG:root:Already processed this match, skipping
+DEBUG:root:
+Starting PiScout 2019-11-23 16:32:24.635888
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+DEBUG:root:About to loop
+DEBUG:root:Found file 2019BunnybotTest2.JPG
+DEBUG:root:Calling self.loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Return from self.loadsheet is 1 
+
+DEBUG:root:Calling game.processSheet
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '1234A' AND `Match` = 5
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\scout\\Anaconda3\\envs\\xeroscan\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\scout\\Anaconda3\\envs\\xeroscan\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 500 2175
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '2345' AND `Match` = 6
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '5678' AND `Match` = 7
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Found file 2019BunnybotTest1.JPG
+DEBUG:root:Calling self.loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Return from self.loadsheet is 1 
+
+DEBUG:root:Calling game.processSheet
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '2234' AND `Match` = 5
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '3345' AND `Match` = 6
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '6678' AND `Match` = 7
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:
+Starting PiScout 2019-11-23 16:43:20.919306
+DEBUG:root:PiScout Init
+DEBUG:root:PiScout Starting
+DEBUG:root:About to loop
+DEBUG:root:Found file 2019BunnybotTest1.JPG
+DEBUG:root:Calling self.loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Return from self.loadsheet is 1 
+
+DEBUG:root:Calling game.processSheet
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '2234' AND `Match` = 5
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\scout\\Anaconda3\\envs\\xeroscan\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\scout\\Anaconda3\\envs\\xeroscan\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '3345' AND `Match` = 6
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '6678' AND `Match` = 7
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Found file 2019BunnybotTest2.JPG
+DEBUG:root:Calling self.loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Inside loadsheet
+DEBUG:root:Return from self.loadsheet is 1 
+
+DEBUG:root:Calling game.processSheet
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '1234A' AND `Match` = 5
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '2345' AND `Match` = 6
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
+DEBUG:root:Inside scout.submit
+DEBUG:root:Database connection complete
+DEBUG:root:Sheet Type is Match
+DEBUG:root:SELECT * FROM scout WHERE Team = '5678' AND `Match` = 7
+DEBUG:root:Close cursor and db connection
+DEBUG:root:Found new data, opening
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:matplotlib.axes._base:update_title_pos
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /submit HTTP/1.1" 200 0
