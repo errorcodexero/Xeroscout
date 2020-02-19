@@ -862,7 +862,7 @@ class ScoutServer(object):
                 scout_insert += "`" + key + "`, "
             scout_insert = scout_insert[:-2]  # strip the trailing comma and space
             scout_insert += ") VALUES (" \
-                            + ", ".join(["'" + str(a) + "'" for a in d.values()]) + ")"
+                            + ','.join(["'" + str(a) + "'" for a in d.values()]) + ')'
             print("Pit Scouting Insert Statement: \n" + scout_insert)
             logging.debug(scout_insert)
             cursor.execute(scout_insert)
@@ -1093,7 +1093,7 @@ class ScoutServer(object):
             # Pit scouting table
             tableCreate = "CREATE TABLE pitScout ("
             for key in game.PIT_SCOUT_FIELDS:
-                tableCreate += "`" + key + "` " + ('text' if key in ['Language', 'Drivebase'] else 'integer') + ", "
+                tableCreate += "`" + key + "` " + ('text' if key in ['Team', 'Language', 'Drivebase'] else 'integer') + ", "
             tableCreate = tableCreate[:-2] + ")"
             cursor.execute(tableCreate)
             # Stats tables we don't use

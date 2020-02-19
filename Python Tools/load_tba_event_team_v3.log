@@ -1,0 +1,7438 @@
+
+Begin Script
+Call Get Events
+In get_events 
+SQL insert statement prepped for Canadian Rockies Regional
+Executing event insert
+SQL insert statement prepped for Rocket City Regional
+Executing event insert
+SQL insert statement prepped for Arkansas Regional
+Executing event insert
+SQL insert statement prepped for Southern Cross Regional
+Executing event insert
+SQL insert statement prepped for South Pacific Regional
+Executing event insert
+SQL insert statement prepped for Arizona North Regional
+Executing event insert
+SQL insert statement prepped for Arizona West Regional
+Executing event insert
+SQL insert statement prepped for Canadian Pacific Regional
+Executing event insert
+SQL insert statement prepped for Beijing Cultural Exchange Event #1
+Executing event insert
+SQL insert statement prepped for Beijing Cultural Exchange Event #2
+Executing event insert
+SQL insert statement prepped for Aerospace Valley Regional
+Executing event insert
+SQL insert statement prepped for Sacramento Regional
+Executing event insert
+SQL insert statement prepped for Del Mar Regional
+Executing event insert
+SQL insert statement prepped for Central Valley Regional
+Executing event insert
+SQL insert statement prepped for Los Angeles Regional
+Executing event insert
+SQL insert statement prepped for Los Angeles North Regional
+Executing event insert
+SQL insert statement prepped for Monterey Bay Regional
+Executing event insert
+SQL insert statement prepped for Orange County Regional
+Executing event insert
+SQL insert statement prepped for San Diego Regional presented by Qualcomm
+Executing event insert
+SQL insert statement prepped for San Francisco Regional
+Executing event insert
+SQL insert statement prepped for Silicon Valley Regional
+Executing event insert
+SQL insert statement prepped for Ventura Regional
+Executing event insert
+SQL insert statement prepped for FIRST Chesapeake District Championship sponsored by Newport News Shipbuilding
+Executing event insert
+SQL insert statement prepped for Science Park Taichung Regional
+Executing event insert
+SQL insert statement prepped for FIRST Championship (Detroit)
+Executing event insert
+SQL insert statement prepped for FIRST Championship (Houston)
+Executing event insert
+SQL insert statement prepped for Colorado Regional
+Executing event insert
+SQL insert statement prepped for NE District Hartford Event
+Executing event insert
+SQL insert statement prepped for NE District Northern CT Event
+Executing event insert
+SQL insert statement prepped for NE District Waterbury Event
+Executing event insert
+SQL insert statement prepped for FACC Ri3D Competition
+Executing event insert
+SQL insert statement prepped for Orlando Regional
+Executing event insert
+SQL insert statement prepped for South Florida Regional
+Executing event insert
+SQL insert statement prepped for FIRST In Texas District Championship
+Executing event insert
+SQL insert statement prepped for PCH District Albany Event presented by Procter & Gamble
+Executing event insert
+SQL insert statement prepped for PCH District Carrollton Event
+Executing event insert
+SQL insert statement prepped for Peachtree District State Championship
+Executing event insert
+SQL insert statement prepped for PCH District Columbus Event
+Executing event insert
+SQL insert statement prepped for PCH District Dalton Event
+Executing event insert
+SQL insert statement prepped for PCH District Gainesville Event presented by Automation Direct
+Executing event insert
+SQL insert statement prepped for Hawaii Regional
+Executing event insert
+SQL insert statement prepped for Iowa Regional
+Executing event insert
+SQL insert statement prepped for Idaho Regional
+Executing event insert
+SQL insert statement prepped for Midwest Regional
+Executing event insert
+SQL insert statement prepped for Central Illinois Regional
+Executing event insert
+SQL insert statement prepped for IN District Bloomington Event
+Executing event insert
+SQL insert statement prepped for Indiana State Championship
+Executing event insert
+SQL insert statement prepped for IN District Columbus Event
+Executing event insert
+SQL insert statement prepped for IN District St. Joseph Event
+Executing event insert
+SQL insert statement prepped for IN District Perry Meridian Event
+Executing event insert
+SQL insert statement prepped for FIRST Israel District Championship
+Executing event insert
+SQL insert statement prepped for ISR District Event #1
+Executing event insert
+SQL insert statement prepped for ISR District Event #2
+Executing event insert
+SQL insert statement prepped for ISR District Event #3
+Executing event insert
+SQL insert statement prepped for ISR District Event #4
+Executing event insert
+SQL insert statement prepped for Heartland Regional
+Executing event insert
+SQL insert statement prepped for Bayou Regional
+Executing event insert
+SQL insert statement prepped for NE District Greater Boston Event
+Executing event insert
+SQL insert statement prepped for NE District SE Mass Event
+Executing event insert
+SQL insert statement prepped for NE District North Shore Event
+Executing event insert
+SQL insert statement prepped for NE District Western NE Event
+Executing event insert
+SQL insert statement prepped for NE District WPI Event
+Executing event insert
+SQL insert statement prepped for CHS District Bethesda MD Event
+Executing event insert
+SQL insert statement prepped for CHS District Edgewater MD Event sponsored by Leidos
+Executing event insert
+SQL insert statement prepped for CHS District Owings Mills MD Event
+Executing event insert
+SQL insert statement prepped for NE District Pine Tree Event
+Executing event insert
+SQL insert statement prepped for FIM District Alpena Event #2
+Executing event insert
+SQL insert statement prepped for FIM District Alpena Event #1
+Executing event insert
+SQL insert statement prepped for FIM District Belleville Event
+Executing event insert
+SQL insert statement prepped for FIM District Center Line Event
+Executing event insert
+SQL insert statement prepped for Michigan State Championship
+Executing event insert
+SQL insert statement prepped for FIM District Detroit Event
+Executing event insert
+SQL insert statement prepped for FIM District Escanaba Event
+Executing event insert
+SQL insert statement prepped for FIM District Ferris State Event
+Executing event insert
+SQL insert statement prepped for FIM District Gull Lake Event
+Executing event insert
+SQL insert statement prepped for FIM District Jackson Event
+Executing event insert
+SQL insert statement prepped for FIM District Kettering University Event #2
+Executing event insert
+SQL insert statement prepped for FIM District East Kentwood Event
+Executing event insert
+SQL insert statement prepped for FIM District Kettering University Event #1
+Executing event insert
+SQL insert statement prepped for FIM District Kingsford Event
+Executing event insert
+SQL insert statement prepped for FIM District Lakeview Event
+Executing event insert
+SQL insert statement prepped for FIM District Lansing Event
+Executing event insert
+SQL insert statement prepped for FIM District Lincoln Event
+Executing event insert
+SQL insert statement prepped for FIM District Livonia Event
+Executing event insert
+SQL insert statement prepped for FIM District Marysville Event
+Executing event insert
+SQL insert statement prepped for FIM District Macomb Community College Event
+Executing event insert
+SQL insert statement prepped for FIM District Midland Event
+Executing event insert
+SQL insert statement prepped for FIM District Milford Event
+Executing event insert
+SQL insert statement prepped for FIM District Muskegon Event
+Executing event insert
+SQL insert statement prepped for FIM District Shepherd Event
+Executing event insert
+SQL insert statement prepped for FIM District St. Joseph Event
+Executing event insert
+SQL insert statement prepped for FIM District Southfield Event
+Executing event insert
+SQL insert statement prepped for FIM District Troy Event
+Executing event insert
+SQL insert statement prepped for FIM District Traverse City Event
+Executing event insert
+SQL insert statement prepped for FIM District West Michigan Event
+Executing event insert
+SQL insert statement prepped for FIM District Woodhaven Event
+Executing event insert
+SQL insert statement prepped for Lake Superior Regional
+Executing event insert
+SQL insert statement prepped for Northern Lights Regional
+Executing event insert
+SQL insert statement prepped for Minnesota 10,000 Lakes Regional Presented by the Medtronic Foundation
+Executing event insert
+SQL insert statement prepped for Minnesota North Star Regional
+Executing event insert
+SQL insert statement prepped for West Central Week 0
+Executing event insert
+SQL insert statement prepped for Greater Kansas City Regional
+Executing event insert
+SQL insert statement prepped for Central Missouri Regional
+Executing event insert
+SQL insert statement prepped for St. Louis Regional
+Executing event insert
+SQL insert statement prepped for FIRST Mid-Atlantic District Championship
+Executing event insert
+SQL insert statement prepped for Regional Monterrey
+Executing event insert
+SQL insert statement prepped for Regional Laguna
+Executing event insert
+SQL insert statement prepped for FNC District UNC Asheville Event
+Executing event insert
+SQL insert statement prepped for FIRST North Carolina State Championship
+Executing event insert
+SQL insert statement prepped for FNC District ECU Event
+Executing event insert
+SQL insert statement prepped for FNC District Guilford County Event
+Executing event insert
+SQL insert statement prepped for FNC District UNC Pembroke Event
+Executing event insert
+SQL insert statement prepped for FNC District Wake County Event
+Executing event insert
+SQL insert statement prepped for Great Northern Regional
+Executing event insert
+SQL insert statement prepped for New England District Championship
+Executing event insert
+SQL insert statement prepped for NE District Granite State Event
+Executing event insert
+SQL insert statement prepped for NE District Southern NH Event
+Executing event insert
+SQL insert statement prepped for FMA District Bridgewater-Raritan Event
+Executing event insert
+SQL insert statement prepped for FMA District Mount Olive Event
+Executing event insert
+SQL insert statement prepped for FMA District Robbinsville Event
+Executing event insert
+SQL insert statement prepped for FMA District Montgomery Event
+Executing event insert
+SQL insert statement prepped for FMA District Seneca Event
+Executing event insert
+SQL insert statement prepped for Las Vegas Regional
+Executing event insert
+SQL insert statement prepped for SBPLI Long Island Regional #1
+Executing event insert
+SQL insert statement prepped for SBPLI Long Island Regional #2
+Executing event insert
+SQL insert statement prepped for New York City Regional
+Executing event insert
+SQL insert statement prepped for Finger Lakes Regional
+Executing event insert
+SQL insert statement prepped for Rochester Rally
+Executing event insert
+SQL insert statement prepped for Hudson Valley Regional
+Executing event insert
+SQL insert statement prepped for New York Tech Valley Regional
+Executing event insert
+SQL insert statement prepped for Central New York Regional
+Executing event insert
+SQL insert statement prepped for Buckeye Regional
+Executing event insert
+SQL insert statement prepped for Miami Valley Regional
+Executing event insert
+SQL insert statement prepped for Oklahoma Regional
+Executing event insert
+SQL insert statement prepped for Green Country Regional
+Executing event insert
+SQL insert statement prepped for ONT District Georgian College Event
+Executing event insert
+SQL insert statement prepped for FIRST Ontario Provincial Championship
+Executing event insert
+SQL insert statement prepped for ONT District McMaster University Event
+Executing event insert
+SQL insert statement prepped for ONT District Western University, Western Engineering Event
+Executing event insert
+SQL insert statement prepped for ONT District North Bay Event
+Executing event insert
+SQL insert statement prepped for ONT District York University Event
+Executing event insert
+SQL insert statement prepped for ONT District Durham College Event
+Executing event insert
+SQL insert statement prepped for ONT District Carleton University Event
+Executing event insert
+SQL insert statement prepped for ONT District Ryerson University Event
+Executing event insert
+SQL insert statement prepped for ONT District Humber College Event
+Executing event insert
+SQL insert statement prepped for ONT District University of Waterloo Event
+Executing event insert
+SQL insert statement prepped for ONT District Windsor Essex Great Lakes Event
+Executing event insert
+SQL insert statement prepped for PNW District Clackamas Academy Event
+Executing event insert
+SQL insert statement prepped for PNW District Oregon State Fairgrounds Event
+Executing event insert
+SQL insert statement prepped for PNW District Wilsonville Event
+Executing event insert
+SQL insert statement prepped for FMA District Bensalem Event
+Executing event insert
+SQL insert statement prepped for Greater Pittsburgh Regional
+Executing event insert
+SQL insert statement prepped for FMA District Hatboro-Horsham Event
+Executing event insert
+SQL insert statement prepped for FMA District Springside Chestnut Hill Academy Event
+Executing event insert
+SQL insert statement prepped for Pacific Northwest FIRST District Championship
+Executing event insert
+SQL insert statement prepped for Festival de Robotique a Montreal Regional
+Executing event insert
+SQL insert statement prepped for Festival de Robotique a Sherbrooke Regional
+Executing event insert
+SQL insert statement prepped for Palmetto Regional
+Executing event insert
+SQL insert statement prepped for Seven Rivers Robotics Coalition Week Zero
+Executing event insert
+SQL insert statement prepped for Smoky Mountains Regional
+Executing event insert
+SQL insert statement prepped for Memphis Regional
+Executing event insert
+SQL insert statement prepped for Istanbul Regional
+Executing event insert
+SQL insert statement prepped for Bosphorus Regional
+Executing event insert
+SQL insert statement prepped for FIT District Amarillo Event
+Executing event insert
+SQL insert statement prepped for FIT District Austin Event
+Executing event insert
+SQL insert statement prepped for FIT District Channelview Event
+Executing event insert
+SQL insert statement prepped for FIT District Del Rio Event
+Executing event insert
+SQL insert statement prepped for FIT District Dallas Event
+Executing event insert
+SQL insert statement prepped for FIT District Dripping Springs Event
+Executing event insert
+SQL insert statement prepped for FIT District El Paso Event
+Executing event insert
+SQL insert statement prepped for FIT District Fort Worth Event
+Executing event insert
+SQL insert statement prepped for FIT District Greenville Event
+Executing event insert
+SQL insert statement prepped for FIT District Houston Event
+Executing event insert
+SQL insert statement prepped for FIT District New Braunfels Event
+Executing event insert
+SQL insert statement prepped for FIT District Pasadena Event
+Executing event insert
+SQL insert statement prepped for FIT District Plano Event
+Executing event insert
+SQL insert statement prepped for Utah Regional
+Executing event insert
+SQL insert statement prepped for CHS District Blacksburg VA Event
+Executing event insert
+SQL insert statement prepped for CHS District Richmond VA Event
+Executing event insert
+SQL insert statement prepped for CHS District Haymarket VA Event
+Executing event insert
+SQL insert statement prepped for CHS District Portsmouth VA Event
+Executing event insert
+SQL insert statement prepped for PNW District Auburn Event
+Executing event insert
+SQL insert statement prepped for PNW District Auburn Mountainview Event
+Executing event insert
+SQL insert statement prepped for PNW District Bellingham Event
+Executing event insert
+SQL insert statement prepped for PNW District Glacier Peak Event
+Executing event insert
+SQL insert statement prepped for PNW District West Valley Event
+Executing event insert
+SQL insert statement prepped for PNW District SunDome Event
+Executing event insert
+SQL insert statement prepped for Week 0
+Executing event insert
+SQL insert statement prepped for Seven Rivers Regional
+Executing event insert
+SQL insert statement prepped for Wisconsin Regional
+Executing event insert
+SQL insert statement prepped for Sussex Mini-Regional
+Executing event insert
+Call Get Teams
+In get_teams
+TBA Called for k =15
+Loaded json 15
+Iteration 15 0
+Getting Team 7500
+KeyError
+Iteration 15 1
+Getting Team 7501
+KeyError
+Iteration 15 2
+Getting Team 7502
+KeyError
+Iteration 15 3
+Getting Team 7503
+KeyError
+Iteration 15 4
+Getting Team 7504
+KeyError
+Iteration 15 5
+Getting Team 7505
+KeyError
+Iteration 15 6
+Getting Team 7506
+KeyError
+Iteration 15 7
+Getting Team 7507
+KeyError
+Iteration 15 8
+Getting Team 7508
+KeyError
+Iteration 15 9
+Getting Team 7509
+KeyError
+Iteration 15 10
+Getting Team 7510
+KeyError
+Iteration 15 11
+Getting Team 7511
+KeyError
+Iteration 15 12
+Getting Team 7512
+KeyError
+Iteration 15 13
+Getting Team 7513
+KeyError
+Iteration 15 14
+Getting Team 7514
+KeyError
+Iteration 15 15
+Getting Team 7515
+KeyError
+Iteration 15 16
+Getting Team 7516
+KeyError
+Iteration 15 17
+Getting Team 7517
+KeyError
+Iteration 15 18
+Getting Team 7518
+KeyError
+Iteration 15 19
+Getting Team 7519
+KeyError
+Iteration 15 20
+Getting Team 7520
+KeyError
+Iteration 15 21
+Getting Team 7521
+KeyError
+Iteration 15 22
+Getting Team 7522
+KeyError
+Iteration 15 23
+Getting Team 7523
+KeyError
+Iteration 15 24
+Getting Team 7524
+KeyError
+Iteration 15 25
+Getting Team 7525
+KeyError
+Iteration 15 26
+Getting Team 7526
+KeyError
+Iteration 15 27
+Getting Team 7527
+KeyError
+Iteration 15 28
+Getting Team 7528
+KeyError
+Iteration 15 29
+Getting Team 7529
+KeyError
+Iteration 15 30
+Getting Team 7530
+KeyError
+Iteration 15 31
+Getting Team 7531
+KeyError
+Iteration 15 32
+Getting Team 7532
+KeyError
+Iteration 15 33
+Getting Team 7533
+KeyError
+Iteration 15 34
+Getting Team 7534
+KeyError
+Iteration 15 35
+Getting Team 7535
+KeyError
+Iteration 15 36
+Getting Team 7536
+KeyError
+Iteration 15 37
+Getting Team 7537
+KeyError
+Iteration 15 38
+Getting Team 7538
+KeyError
+Iteration 15 39
+Getting Team 7539
+KeyError
+Iteration 15 40
+Getting Team 7540
+KeyError
+Iteration 15 41
+Getting Team 7541
+KeyError
+Iteration 15 42
+Getting Team 7542
+KeyError
+Iteration 15 43
+Getting Team 7543
+KeyError
+Iteration 15 44
+Getting Team 7544
+KeyError
+Iteration 15 45
+Getting Team 7545
+KeyError
+Iteration 15 46
+Getting Team 7546
+KeyError
+Iteration 15 47
+Getting Team 7547
+KeyError
+Iteration 15 48
+Getting Team 7548
+KeyError
+Iteration 15 49
+Getting Team 7549
+KeyError
+Iteration 15 50
+Getting Team 7550
+KeyError
+Iteration 15 51
+Getting Team 7551
+KeyError
+Iteration 15 52
+Getting Team 7552
+KeyError
+Iteration 15 53
+Getting Team 7553
+KeyError
+Iteration 15 54
+Getting Team 7554
+KeyError
+Iteration 15 55
+Getting Team 7555
+KeyError
+Iteration 15 56
+Getting Team 7556
+KeyError
+Iteration 15 57
+Getting Team 7557
+KeyError
+Iteration 15 58
+Getting Team 7558
+KeyError
+Iteration 15 59
+Getting Team 7559
+KeyError
+Iteration 15 60
+Getting Team 7560
+KeyError
+Iteration 15 61
+Getting Team 7561
+KeyError
+Iteration 15 62
+Getting Team 7562
+KeyError
+Iteration 15 63
+Getting Team 7563
+KeyError
+Iteration 15 64
+Getting Team 7564
+KeyError
+Iteration 15 65
+Getting Team 7565
+KeyError
+Iteration 15 66
+Getting Team 7566
+KeyError
+Iteration 15 67
+Getting Team 7567
+KeyError
+Iteration 15 68
+Getting Team 7568
+KeyError
+Iteration 15 69
+Getting Team 7569
+KeyError
+Iteration 15 70
+Getting Team 7570
+KeyError
+Iteration 15 71
+Getting Team 7571
+KeyError
+Iteration 15 72
+Getting Team 7572
+KeyError
+Iteration 15 73
+Getting Team 7573
+KeyError
+Iteration 15 74
+Getting Team 7574
+KeyError
+Iteration 15 75
+Getting Team 7575
+KeyError
+Iteration 15 76
+Getting Team 7576
+KeyError
+Iteration 15 77
+Getting Team 7577
+KeyError
+Iteration 15 78
+Getting Team 7578
+KeyError
+Iteration 15 79
+Getting Team 7579
+KeyError
+Iteration 15 80
+Getting Team 7580
+KeyError
+Iteration 15 81
+Getting Team 7581
+KeyError
+Iteration 15 82
+Getting Team 7582
+KeyError
+Iteration 15 83
+Getting Team 7583
+KeyError
+Iteration 15 84
+Getting Team 7584
+KeyError
+Iteration 15 85
+Getting Team 7585
+KeyError
+Iteration 15 86
+Getting Team 7586
+KeyError
+Iteration 15 87
+Getting Team 7587
+KeyError
+Iteration 15 88
+Getting Team 7588
+KeyError
+Iteration 15 89
+Getting Team 7589
+KeyError
+Iteration 15 90
+Getting Team 7590
+KeyError
+Iteration 15 91
+Getting Team 7591
+KeyError
+Iteration 15 92
+Getting Team 7592
+KeyError
+Iteration 15 93
+Getting Team 7593
+KeyError
+Iteration 15 94
+Getting Team 7594
+KeyError
+Iteration 15 95
+Getting Team 7595
+KeyError
+Iteration 15 96
+Getting Team 7596
+KeyError
+Iteration 15 97
+Getting Team 7597
+KeyError
+Iteration 15 98
+Getting Team 7598
+KeyError
+Iteration 15 99
+Getting Team 7599
+KeyError
+Iteration 15 100
+Getting Team 7600
+KeyError
+Iteration 15 101
+Getting Team 7601
+KeyError
+Iteration 15 102
+Getting Team 7602
+KeyError
+Iteration 15 103
+Getting Team 7603
+KeyError
+Iteration 15 104
+Getting Team 7604
+KeyError
+Iteration 15 105
+Getting Team 7605
+KeyError
+Iteration 15 106
+Getting Team 7606
+KeyError
+Iteration 15 107
+Getting Team 7607
+KeyError
+Iteration 15 108
+Getting Team 7608
+KeyError
+Iteration 15 109
+Getting Team 7609
+KeyError
+Iteration 15 110
+Getting Team 7610
+KeyError
+Iteration 15 111
+Getting Team 7611
+KeyError
+Iteration 15 112
+Getting Team 7612
+KeyError
+Iteration 15 113
+Getting Team 7613
+KeyError
+Iteration 15 114
+Getting Team 7614
+KeyError
+Iteration 15 115
+Getting Team 7615
+KeyError
+Iteration 15 116
+Getting Team 7616
+KeyError
+Iteration 15 117
+Getting Team 7617
+KeyError
+Iteration 15 118
+Getting Team 7618
+KeyError
+Iteration 15 119
+Getting Team 7619
+KeyError
+Iteration 15 120
+Getting Team 7620
+KeyError
+Iteration 15 121
+Getting Team 7621
+KeyError
+Iteration 15 122
+Getting Team 7622
+KeyError
+Iteration 15 123
+Getting Team 7623
+KeyError
+Iteration 15 124
+Getting Team 7624
+KeyError
+Iteration 15 125
+Getting Team 7625
+KeyError
+Iteration 15 126
+Getting Team 7626
+KeyError
+Iteration 15 127
+Getting Team 7627
+KeyError
+Iteration 15 128
+Getting Team 7628
+KeyError
+Iteration 15 129
+Getting Team 7629
+KeyError
+Iteration 15 130
+Getting Team 7630
+KeyError
+Iteration 15 131
+Getting Team 7631
+KeyError
+Iteration 15 132
+Getting Team 7632
+KeyError
+Iteration 15 133
+Getting Team 7633
+KeyError
+Iteration 15 134
+Getting Team 7634
+KeyError
+Iteration 15 135
+Getting Team 7635
+KeyError
+Iteration 15 136
+Getting Team 7636
+KeyError
+Iteration 15 137
+Getting Team 7637
+KeyError
+Iteration 15 138
+Getting Team 7638
+KeyError
+Iteration 15 139
+Getting Team 7639
+KeyError
+Iteration 15 140
+Getting Team 7640
+KeyError
+Iteration 15 141
+Getting Team 7641
+KeyError
+Iteration 15 142
+Getting Team 7642
+KeyError
+Iteration 15 143
+Getting Team 7643
+KeyError
+Iteration 15 144
+Getting Team 7644
+KeyError
+Iteration 15 145
+Getting Team 7645
+KeyError
+Iteration 15 146
+Getting Team 7646
+KeyError
+Iteration 15 147
+Getting Team 7647
+KeyError
+Iteration 15 148
+Getting Team 7648
+KeyError
+Iteration 15 149
+Getting Team 7649
+KeyError
+Iteration 15 150
+Getting Team 7650
+KeyError
+Iteration 15 151
+Getting Team 7651
+KeyError
+Iteration 15 152
+Getting Team 7652
+KeyError
+Iteration 15 153
+Getting Team 7653
+KeyError
+Iteration 15 154
+Getting Team 7654
+KeyError
+Iteration 15 155
+Getting Team 7655
+KeyError
+Iteration 15 156
+Getting Team 7656
+KeyError
+Iteration 15 157
+Getting Team 7657
+KeyError
+Iteration 15 158
+Getting Team 7658
+KeyError
+Iteration 15 159
+Getting Team 7659
+KeyError
+Iteration 15 160
+Getting Team 7660
+KeyError
+Iteration 15 161
+Getting Team 7661
+KeyError
+Iteration 15 162
+Getting Team 7662
+KeyError
+Iteration 15 163
+Getting Team 7663
+KeyError
+Iteration 15 164
+Getting Team 7664
+KeyError
+Iteration 15 165
+Getting Team 7665
+KeyError
+Iteration 15 166
+Getting Team 7667
+KeyError
+Iteration 15 167
+Getting Team 7668
+KeyError
+Iteration 15 168
+Getting Team 7669
+KeyError
+Iteration 15 169
+Getting Team 7670
+KeyError
+Iteration 15 170
+Getting Team 7671
+KeyError
+Iteration 15 171
+Getting Team 7672
+KeyError
+Iteration 15 172
+Getting Team 7673
+KeyError
+Iteration 15 173
+Getting Team 7674
+KeyError
+Iteration 15 174
+Getting Team 7675
+KeyError
+Iteration 15 175
+Getting Team 7676
+KeyError
+Iteration 15 176
+Getting Team 7677
+KeyError
+Iteration 15 177
+Getting Team 7678
+KeyError
+Iteration 15 178
+Getting Team 7679
+KeyError
+Iteration 15 179
+Getting Team 7680
+KeyError
+Iteration 15 180
+Getting Team 7681
+KeyError
+Iteration 15 181
+Getting Team 7682
+KeyError
+Iteration 15 182
+Getting Team 7683
+KeyError
+Iteration 15 183
+Getting Team 7684
+KeyError
+Iteration 15 184
+Getting Team 7685
+KeyError
+Iteration 15 185
+Getting Team 7686
+KeyError
+Iteration 15 186
+Getting Team 7687
+KeyError
+Iteration 15 187
+Getting Team 7688
+KeyError
+Iteration 15 188
+Getting Team 7689
+KeyError
+Iteration 15 189
+Getting Team 7690
+KeyError
+Iteration 15 190
+Getting Team 7691
+KeyError
+Iteration 15 191
+Getting Team 7692
+KeyError
+Iteration 15 192
+Getting Team 7693
+KeyError
+Iteration 15 193
+Getting Team 7694
+KeyError
+Iteration 15 194
+Getting Team 7695
+KeyError
+Iteration 15 195
+Getting Team 7696
+KeyError
+Iteration 15 196
+Getting Team 7699
+KeyError
+Iteration 15 197
+Getting Team 7700
+KeyError
+Iteration 15 198
+Getting Team 7701
+KeyError
+Iteration 15 199
+Getting Team 7702
+KeyError
+Iteration 15 200
+Getting Team 7703
+KeyError
+Iteration 15 201
+Getting Team 7704
+KeyError
+Iteration 15 202
+Getting Team 7705
+KeyError
+Iteration 15 203
+Getting Team 7706
+KeyError
+Iteration 15 204
+Getting Team 7707
+KeyError
+Iteration 15 205
+Getting Team 7708
+KeyError
+Iteration 15 206
+Getting Team 7709
+KeyError
+Iteration 15 207
+Getting Team 7710
+KeyError
+Iteration 15 208
+Getting Team 7711
+KeyError
+Iteration 15 209
+Getting Team 7712
+KeyError
+Iteration 15 210
+Getting Team 7713
+KeyError
+Iteration 15 211
+Getting Team 7714
+KeyError
+Iteration 15 212
+Getting Team 7715
+KeyError
+Iteration 15 213
+Getting Team 7716
+KeyError
+Iteration 15 214
+Getting Team 7717
+KeyError
+Iteration 15 215
+Getting Team 7718
+KeyError
+Iteration 15 216
+Getting Team 7719
+KeyError
+Iteration 15 217
+Getting Team 7720
+KeyError
+Iteration 15 218
+Getting Team 7721
+KeyError
+Iteration 15 219
+Getting Team 7722
+KeyError
+Iteration 15 220
+Getting Team 7723
+KeyError
+Iteration 15 221
+Getting Team 7724
+KeyError
+Iteration 15 222
+Getting Team 7725
+KeyError
+Iteration 15 223
+Getting Team 7726
+KeyError
+Iteration 15 224
+Getting Team 7727
+KeyError
+Iteration 15 225
+Getting Team 7728
+KeyError
+Iteration 15 226
+Getting Team 7729
+KeyError
+Iteration 15 227
+Getting Team 7730
+KeyError
+Iteration 15 228
+Getting Team 7731
+KeyError
+Iteration 15 229
+Getting Team 7732
+KeyError
+Iteration 15 230
+Getting Team 7733
+KeyError
+Iteration 15 231
+Getting Team 7734
+KeyError
+Iteration 15 232
+Getting Team 7735
+KeyError
+Iteration 15 233
+Getting Team 7736
+KeyError
+Iteration 15 234
+Getting Team 7737
+KeyError
+Iteration 15 235
+Getting Team 7738
+KeyError
+Iteration 15 236
+Getting Team 7739
+KeyError
+Iteration 15 237
+Getting Team 7740
+KeyError
+Iteration 15 238
+Getting Team 7741
+KeyError
+Iteration 15 239
+Getting Team 7742
+KeyError
+Iteration 15 240
+Getting Team 7743
+KeyError
+Iteration 15 241
+Getting Team 7744
+KeyError
+Iteration 15 242
+Getting Team 7745
+KeyError
+Iteration 15 243
+Getting Team 7746
+KeyError
+Iteration 15 244
+Getting Team 7747
+KeyError
+Iteration 15 245
+Getting Team 7748
+KeyError
+Iteration 15 246
+Getting Team 7749
+KeyError
+Iteration 15 247
+Getting Team 7750
+KeyError
+Iteration 15 248
+Getting Team 7751
+KeyError
+Iteration 15 249
+Getting Team 7752
+KeyError
+Iteration 15 250
+Getting Team 7753
+KeyError
+Iteration 15 251
+Getting Team 7754
+KeyError
+Iteration 15 252
+Getting Team 7755
+KeyError
+Iteration 15 253
+Getting Team 7756
+KeyError
+Iteration 15 254
+Getting Team 7757
+KeyError
+Iteration 15 255
+Getting Team 7758
+KeyError
+Iteration 15 256
+Getting Team 7759
+KeyError
+Iteration 15 257
+Getting Team 7760
+KeyError
+Iteration 15 258
+Getting Team 7761
+KeyError
+Iteration 15 259
+Getting Team 7762
+KeyError
+Iteration 15 260
+Getting Team 7763
+KeyError
+Iteration 15 261
+Getting Team 7764
+KeyError
+Iteration 15 262
+Getting Team 7765
+KeyError
+Iteration 15 263
+Getting Team 7766
+KeyError
+Iteration 15 264
+Getting Team 7767
+KeyError
+Iteration 15 265
+Getting Team 7768
+KeyError
+Iteration 15 266
+Getting Team 7769
+KeyError
+Iteration 15 267
+Getting Team 7770
+KeyError
+Iteration 15 268
+Getting Team 7771
+KeyError
+Iteration 15 269
+Getting Team 7772
+KeyError
+Iteration 15 270
+Getting Team 7773
+KeyError
+Iteration 15 271
+Getting Team 7774
+KeyError
+Iteration 15 272
+Getting Team 7775
+KeyError
+Iteration 15 273
+Getting Team 7776
+KeyError
+Iteration 15 274
+Getting Team 7777
+KeyError
+Iteration 15 275
+Getting Team 7778
+KeyError
+Iteration 15 276
+Getting Team 7779
+KeyError
+Iteration 15 277
+Getting Team 7780
+KeyError
+Iteration 15 278
+Getting Team 7781
+KeyError
+Iteration 15 279
+Getting Team 7782
+KeyError
+Iteration 15 280
+Getting Team 7783
+KeyError
+Iteration 15 281
+Getting Team 7784
+KeyError
+Iteration 15 282
+Getting Team 7785
+KeyError
+Iteration 15 283
+Getting Team 7786
+KeyError
+Iteration 15 284
+Getting Team 7787
+KeyError
+Iteration 15 285
+Getting Team 7788
+KeyError
+Iteration 15 286
+Getting Team 7789
+KeyError
+Iteration 15 287
+Getting Team 7790
+KeyError
+Iteration 15 288
+Getting Team 7791
+KeyError
+Iteration 15 289
+Getting Team 7792
+KeyError
+Iteration 15 290
+Getting Team 7793
+KeyError
+Iteration 15 291
+Getting Team 7794
+KeyError
+Iteration 15 292
+Getting Team 7795
+KeyError
+Iteration 15 293
+Getting Team 7796
+KeyError
+Iteration 15 294
+Getting Team 7797
+KeyError
+Iteration 15 295
+Getting Team 7798
+KeyError
+Iteration 15 296
+Getting Team 7799
+KeyError
+Iteration 15 297
+Getting Team 7800
+KeyError
+Iteration 15 298
+Getting Team 7801
+KeyError
+Iteration 15 299
+Getting Team 7802
+KeyError
+Iteration 15 300
+Getting Team 7803
+KeyError
+Iteration 15 301
+Getting Team 7804
+KeyError
+Iteration 15 302
+Getting Team 7805
+KeyError
+Iteration 15 303
+Getting Team 7806
+KeyError
+Iteration 15 304
+Getting Team 7807
+KeyError
+Iteration 15 305
+Getting Team 7808
+KeyError
+Iteration 15 306
+Getting Team 7809
+KeyError
+Iteration 15 307
+Getting Team 7810
+KeyError
+Iteration 15 308
+Getting Team 7811
+KeyError
+Iteration 15 309
+Getting Team 7812
+KeyError
+Iteration 15 310
+Getting Team 7813
+KeyError
+Iteration 15 311
+Getting Team 7814
+KeyError
+Iteration 15 312
+Getting Team 7815
+KeyError
+Iteration 15 313
+Getting Team 7816
+KeyError
+Iteration 15 314
+Getting Team 7817
+KeyError
+Iteration 15 315
+Getting Team 7818
+KeyError
+Iteration 15 316
+Getting Team 7819
+KeyError
+Iteration 15 317
+Getting Team 7820
+KeyError
+Iteration 15 318
+Getting Team 7821
+KeyError
+Iteration 15 319
+Getting Team 7822
+KeyError
+Iteration 15 320
+Getting Team 7823
+KeyError
+Iteration 15 321
+Getting Team 7824
+KeyError
+Iteration 15 322
+Getting Team 7825
+KeyError
+Iteration 15 323
+Getting Team 7826
+KeyError
+Iteration 15 324
+Getting Team 7827
+KeyError
+Iteration 15 325
+Getting Team 7828
+KeyError
+Iteration 15 326
+Getting Team 7829
+KeyError
+Iteration 15 327
+Getting Team 7830
+KeyError
+Iteration 15 328
+Getting Team 7831
+KeyError
+Iteration 15 329
+Getting Team 7832
+KeyError
+Iteration 15 330
+Getting Team 7833
+KeyError
+Iteration 15 331
+Getting Team 7834
+KeyError
+Iteration 15 332
+Getting Team 7835
+KeyError
+Iteration 15 333
+Getting Team 7836
+KeyError
+Iteration 15 334
+Getting Team 7837
+KeyError
+Iteration 15 335
+Getting Team 7838
+KeyError
+Iteration 15 336
+Getting Team 7839
+KeyError
+Iteration 15 337
+Getting Team 7840
+KeyError
+Iteration 15 338
+Getting Team 7841
+KeyError
+Iteration 15 339
+Getting Team 7842
+KeyError
+Iteration 15 340
+Getting Team 7843
+KeyError
+Iteration 15 341
+Getting Team 7844
+KeyError
+Iteration 15 342
+Getting Team 7845
+KeyError
+Iteration 15 343
+Getting Team 7846
+KeyError
+Iteration 15 344
+Getting Team 7847
+KeyError
+Iteration 15 345
+Getting Team 7848
+KeyError
+Iteration 15 346
+Getting Team 7849
+KeyError
+Iteration 15 347
+Getting Team 7850
+KeyError
+Iteration 15 348
+Getting Team 7851
+KeyError
+Iteration 15 349
+Getting Team 7852
+KeyError
+Iteration 15 350
+Getting Team 7853
+KeyError
+Iteration 15 351
+Getting Team 7854
+KeyError
+Iteration 15 352
+Getting Team 7855
+KeyError
+Iteration 15 353
+Getting Team 7856
+KeyError
+Iteration 15 354
+Getting Team 7857
+KeyError
+Iteration 15 355
+Getting Team 7858
+KeyError
+Iteration 15 356
+Getting Team 7859
+KeyError
+Iteration 15 357
+Getting Team 7860
+KeyError
+Iteration 15 358
+Getting Team 7861
+KeyError
+Iteration 15 359
+Getting Team 7862
+KeyError
+Iteration 15 360
+Getting Team 7863
+KeyError
+Iteration 15 361
+Getting Team 7864
+KeyError
+Iteration 15 362
+Getting Team 7865
+KeyError
+Iteration 15 363
+Getting Team 7866
+KeyError
+Iteration 15 364
+Getting Team 7867
+KeyError
+Iteration 15 365
+Getting Team 7868
+KeyError
+Iteration 15 366
+Getting Team 7869
+KeyError
+Iteration 15 367
+Getting Team 7870
+KeyError
+Iteration 15 368
+Getting Team 7871
+KeyError
+Iteration 15 369
+Getting Team 7872
+KeyError
+Iteration 15 370
+Getting Team 7873
+KeyError
+Iteration 15 371
+Getting Team 7874
+KeyError
+Iteration 15 372
+Getting Team 7875
+KeyError
+Iteration 15 373
+Getting Team 7876
+KeyError
+Iteration 15 374
+Getting Team 7877
+KeyError
+Iteration 15 375
+Getting Team 7878
+KeyError
+Iteration 15 376
+Getting Team 7879
+KeyError
+Iteration 15 377
+Getting Team 7880
+KeyError
+Iteration 15 378
+Getting Team 7881
+KeyError
+Iteration 15 379
+Getting Team 7882
+KeyError
+Iteration 15 380
+Getting Team 7883
+KeyError
+Iteration 15 381
+Getting Team 7884
+KeyError
+Iteration 15 382
+Getting Team 7885
+KeyError
+Iteration 15 383
+Getting Team 7886
+KeyError
+Iteration 15 384
+Getting Team 7887
+KeyError
+Iteration 15 385
+Getting Team 7889
+KeyError
+Iteration 15 386
+Getting Team 7890
+KeyError
+Iteration 15 387
+Getting Team 7891
+KeyError
+Iteration 15 388
+Getting Team 7892
+KeyError
+Iteration 15 389
+Getting Team 7893
+KeyError
+Iteration 15 390
+Getting Team 7894
+KeyError
+Iteration 15 391
+Getting Team 7895
+KeyError
+Iteration 15 392
+Getting Team 7896
+KeyError
+Iteration 15 393
+Getting Team 7897
+KeyError
+Iteration 15 394
+Getting Team 7898
+KeyError
+Iteration 15 395
+Getting Team 7899
+KeyError
+Iteration 15 396
+Getting Team 7900
+KeyError
+Iteration 15 397
+Getting Team 7901
+KeyError
+Iteration 15 398
+Getting Team 7902
+KeyError
+Iteration 15 399
+Getting Team 7903
+KeyError
+Iteration 15 400
+Getting Team 7904
+KeyError
+Iteration 15 401
+Getting Team 7905
+KeyError
+Iteration 15 402
+Getting Team 7906
+KeyError
+Iteration 15 403
+Getting Team 7907
+KeyError
+Iteration 15 404
+Getting Team 7908
+KeyError
+Iteration 15 405
+Getting Team 7909
+KeyError
+Iteration 15 406
+Getting Team 7910
+KeyError
+Iteration 15 407
+Getting Team 7911
+KeyError
+Iteration 15 408
+Getting Team 7912
+KeyError
+Iteration 15 409
+Getting Team 7913
+KeyError
+Iteration 15 410
+Getting Team 7914
+KeyError
+Iteration 15 411
+Getting Team 7915
+KeyError
+Iteration 15 412
+Team does not exists on 15 412
+Iteration 15 413
+Team does not exists on 15 413
+Iteration 15 414
+Team does not exists on 15 414
+Iteration 15 415
+Team does not exists on 15 415
+Iteration 15 416
+Team does not exists on 15 416
+Iteration 15 417
+Team does not exists on 15 417
+Iteration 15 418
+Team does not exists on 15 418
+Iteration 15 419
+Team does not exists on 15 419
+Iteration 15 420
+Team does not exists on 15 420
+Iteration 15 421
+Team does not exists on 15 421
+Iteration 15 422
+Team does not exists on 15 422
+Iteration 15 423
+Team does not exists on 15 423
+Iteration 15 424
+Team does not exists on 15 424
+Iteration 15 425
+Team does not exists on 15 425
+Iteration 15 426
+Team does not exists on 15 426
+Iteration 15 427
+Team does not exists on 15 427
+Iteration 15 428
+Team does not exists on 15 428
+Iteration 15 429
+Team does not exists on 15 429
+Iteration 15 430
+Team does not exists on 15 430
+Iteration 15 431
+Team does not exists on 15 431
+Iteration 15 432
+Team does not exists on 15 432
+Iteration 15 433
+Team does not exists on 15 433
+Iteration 15 434
+Team does not exists on 15 434
+Iteration 15 435
+Team does not exists on 15 435
+Iteration 15 436
+Team does not exists on 15 436
+Iteration 15 437
+Team does not exists on 15 437
+Iteration 15 438
+Team does not exists on 15 438
+Iteration 15 439
+Team does not exists on 15 439
+Iteration 15 440
+Team does not exists on 15 440
+Iteration 15 441
+Team does not exists on 15 441
+Iteration 15 442
+Team does not exists on 15 442
+Iteration 15 443
+Team does not exists on 15 443
+Iteration 15 444
+Team does not exists on 15 444
+Iteration 15 445
+Team does not exists on 15 445
+Iteration 15 446
+Team does not exists on 15 446
+Iteration 15 447
+Team does not exists on 15 447
+Iteration 15 448
+Team does not exists on 15 448
+Iteration 15 449
+Team does not exists on 15 449
+Iteration 15 450
+Team does not exists on 15 450
+Iteration 15 451
+Team does not exists on 15 451
+Iteration 15 452
+Team does not exists on 15 452
+Iteration 15 453
+Team does not exists on 15 453
+Iteration 15 454
+Team does not exists on 15 454
+Iteration 15 455
+Team does not exists on 15 455
+Iteration 15 456
+Team does not exists on 15 456
+Iteration 15 457
+Team does not exists on 15 457
+Iteration 15 458
+Team does not exists on 15 458
+Iteration 15 459
+Team does not exists on 15 459
+Iteration 15 460
+Team does not exists on 15 460
+Iteration 15 461
+Team does not exists on 15 461
+Iteration 15 462
+Team does not exists on 15 462
+Iteration 15 463
+Team does not exists on 15 463
+Iteration 15 464
+Team does not exists on 15 464
+Iteration 15 465
+Team does not exists on 15 465
+Iteration 15 466
+Team does not exists on 15 466
+Iteration 15 467
+Team does not exists on 15 467
+Iteration 15 468
+Team does not exists on 15 468
+Iteration 15 469
+Team does not exists on 15 469
+Iteration 15 470
+Team does not exists on 15 470
+Iteration 15 471
+Team does not exists on 15 471
+Iteration 15 472
+Team does not exists on 15 472
+Iteration 15 473
+Team does not exists on 15 473
+Iteration 15 474
+Team does not exists on 15 474
+Iteration 15 475
+Team does not exists on 15 475
+Iteration 15 476
+Team does not exists on 15 476
+Iteration 15 477
+Team does not exists on 15 477
+Iteration 15 478
+Team does not exists on 15 478
+Iteration 15 479
+Team does not exists on 15 479
+Iteration 15 480
+Team does not exists on 15 480
+Iteration 15 481
+Team does not exists on 15 481
+Iteration 15 482
+Team does not exists on 15 482
+Iteration 15 483
+Team does not exists on 15 483
+Iteration 15 484
+Team does not exists on 15 484
+Iteration 15 485
+Team does not exists on 15 485
+Iteration 15 486
+Team does not exists on 15 486
+Iteration 15 487
+Team does not exists on 15 487
+Iteration 15 488
+Team does not exists on 15 488
+Iteration 15 489
+Team does not exists on 15 489
+Iteration 15 490
+Team does not exists on 15 490
+Iteration 15 491
+Team does not exists on 15 491
+Iteration 15 492
+Team does not exists on 15 492
+Iteration 15 493
+Team does not exists on 15 493
+Iteration 15 494
+Team does not exists on 15 494
+Iteration 15 495
+Team does not exists on 15 495
+Iteration 15 496
+Team does not exists on 15 496
+Iteration 15 497
+Team does not exists on 15 497
+Iteration 15 498
+Team does not exists on 15 498
+TBA Called for k =16
+Loaded json 16
+Iteration 16 0
+Getting Team 8002
+KeyError
+Iteration 16 1
+Getting Team 8003
+KeyError
+Iteration 16 2
+Getting Team 8004
+KeyError
+Iteration 16 3
+Getting Team 8005
+KeyError
+Iteration 16 4
+Getting Team 8006
+KeyError
+Iteration 16 5
+Getting Team 8007
+KeyError
+Iteration 16 6
+Getting Team 8011
+KeyError
+Iteration 16 7
+Getting Team 8012
+KeyError
+Iteration 16 8
+Getting Team 8013
+KeyError
+Iteration 16 9
+Getting Team 8014
+KeyError
+Iteration 16 10
+Getting Team 8015
+KeyError
+Iteration 16 11
+Getting Team 8016
+KeyError
+Iteration 16 12
+Getting Team 8017
+KeyError
+Iteration 16 13
+Getting Team 8018
+KeyError
+Iteration 16 14
+Getting Team 8019
+KeyError
+Iteration 16 15
+Getting Team 8020
+KeyError
+Iteration 16 16
+Getting Team 8021
+KeyError
+Iteration 16 17
+Getting Team 8022
+KeyError
+Iteration 16 18
+Getting Team 8023
+KeyError
+Iteration 16 19
+Getting Team 8024
+KeyError
+Iteration 16 20
+Getting Team 8025
+KeyError
+Iteration 16 21
+Getting Team 8026
+KeyError
+Iteration 16 22
+Getting Team 8027
+KeyError
+Iteration 16 23
+Getting Team 8028
+KeyError
+Iteration 16 24
+Getting Team 8029
+KeyError
+Iteration 16 25
+Getting Team 8030
+KeyError
+Iteration 16 26
+Getting Team 8031
+KeyError
+Iteration 16 27
+Getting Team 8032
+KeyError
+Iteration 16 28
+Getting Team 8033
+KeyError
+Iteration 16 29
+Getting Team 8034
+KeyError
+Iteration 16 30
+Getting Team 8035
+KeyError
+Iteration 16 31
+Getting Team 8036
+KeyError
+Iteration 16 32
+Getting Team 8037
+KeyError
+Iteration 16 33
+Getting Team 8038
+KeyError
+Iteration 16 34
+Getting Team 8039
+KeyError
+Iteration 16 35
+Getting Team 8040
+KeyError
+Iteration 16 36
+Getting Team 8041
+KeyError
+Iteration 16 37
+Getting Team 8042
+KeyError
+Iteration 16 38
+Getting Team 8043
+KeyError
+Iteration 16 39
+Getting Team 8044
+KeyError
+Iteration 16 40
+Getting Team 8045
+KeyError
+Iteration 16 41
+Getting Team 8046
+KeyError
+Iteration 16 42
+Getting Team 8047
+KeyError
+Iteration 16 43
+Getting Team 8048
+KeyError
+Iteration 16 44
+Getting Team 8049
+KeyError
+Iteration 16 45
+Getting Team 8050
+KeyError
+Iteration 16 46
+Getting Team 8051
+KeyError
+Iteration 16 47
+Getting Team 8052
+KeyError
+Iteration 16 48
+Getting Team 8053
+KeyError
+Iteration 16 49
+Getting Team 8054
+KeyError
+Iteration 16 50
+Getting Team 8055
+KeyError
+Iteration 16 51
+Getting Team 8056
+KeyError
+Iteration 16 52
+Getting Team 8057
+KeyError
+Iteration 16 53
+Getting Team 8058
+KeyError
+Iteration 16 54
+Getting Team 8059
+KeyError
+Iteration 16 55
+Getting Team 8060
+KeyError
+Iteration 16 56
+Getting Team 8061
+KeyError
+Iteration 16 57
+Getting Team 8062
+KeyError
+Iteration 16 58
+Getting Team 8063
+KeyError
+Iteration 16 59
+Getting Team 8064
+KeyError
+Iteration 16 60
+Getting Team 8065
+KeyError
+Iteration 16 61
+Getting Team 8066
+KeyError
+Iteration 16 62
+Getting Team 8067
+KeyError
+Iteration 16 63
+Getting Team 8068
+KeyError
+Iteration 16 64
+Getting Team 8069
+KeyError
+Iteration 16 65
+Getting Team 8070
+KeyError
+Iteration 16 66
+Getting Team 8071
+KeyError
+Iteration 16 67
+Getting Team 8072
+KeyError
+Iteration 16 68
+Getting Team 8073
+KeyError
+Iteration 16 69
+Getting Team 8074
+KeyError
+Iteration 16 70
+Getting Team 8075
+KeyError
+Iteration 16 71
+Getting Team 8076
+KeyError
+Iteration 16 72
+Getting Team 8077
+KeyError
+Iteration 16 73
+Getting Team 8078
+KeyError
+Iteration 16 74
+Getting Team 8079
+KeyError
+Iteration 16 75
+Getting Team 8080
+KeyError
+Iteration 16 76
+Getting Team 8081
+KeyError
+Iteration 16 77
+Getting Team 8082
+KeyError
+Iteration 16 78
+Getting Team 8083
+KeyError
+Iteration 16 79
+Getting Team 8084
+KeyError
+Iteration 16 80
+Getting Team 8085
+KeyError
+Iteration 16 81
+Getting Team 8086
+KeyError
+Iteration 16 82
+Getting Team 8087
+KeyError
+Iteration 16 83
+Getting Team 8088
+KeyError
+Iteration 16 84
+Getting Team 8089
+KeyError
+Iteration 16 85
+Getting Team 8090
+KeyError
+Iteration 16 86
+Getting Team 8091
+KeyError
+Iteration 16 87
+Getting Team 8092
+KeyError
+Iteration 16 88
+Getting Team 8093
+KeyError
+Iteration 16 89
+Getting Team 8094
+KeyError
+Iteration 16 90
+Getting Team 8095
+KeyError
+Iteration 16 91
+Getting Team 8096
+KeyError
+Iteration 16 92
+Getting Team 8097
+KeyError
+Iteration 16 93
+Getting Team 8098
+KeyError
+Iteration 16 94
+Getting Team 8099
+KeyError
+Iteration 16 95
+Getting Team 8100
+KeyError
+Iteration 16 96
+Getting Team 8101
+KeyError
+Iteration 16 97
+Getting Team 8102
+KeyError
+Iteration 16 98
+Getting Team 8103
+KeyError
+Iteration 16 99
+Getting Team 8104
+KeyError
+Iteration 16 100
+Getting Team 8105
+KeyError
+Iteration 16 101
+Getting Team 8106
+KeyError
+Iteration 16 102
+Getting Team 8107
+KeyError
+Iteration 16 103
+Getting Team 8108
+KeyError
+Iteration 16 104
+Getting Team 8109
+KeyError
+Iteration 16 105
+Getting Team 8110
+KeyError
+Iteration 16 106
+Getting Team 8111
+KeyError
+Iteration 16 107
+Getting Team 8112
+KeyError
+Iteration 16 108
+Getting Team 8113
+KeyError
+Iteration 16 109
+Getting Team 8114
+KeyError
+Iteration 16 110
+Getting Team 8115
+KeyError
+Iteration 16 111
+Getting Team 8116
+KeyError
+Iteration 16 112
+Getting Team 8117
+KeyError
+Iteration 16 113
+Getting Team 8118
+KeyError
+Iteration 16 114
+Getting Team 8119
+KeyError
+Iteration 16 115
+Getting Team 8120
+KeyError
+Iteration 16 116
+Getting Team 8121
+KeyError
+Iteration 16 117
+Getting Team 8122
+KeyError
+Iteration 16 118
+Getting Team 8123
+KeyError
+Iteration 16 119
+Getting Team 8124
+KeyError
+Iteration 16 120
+Getting Team 8125
+KeyError
+Iteration 16 121
+Getting Team 8126
+KeyError
+Iteration 16 122
+Getting Team 8127
+KeyError
+Iteration 16 123
+Getting Team 8128
+KeyError
+Iteration 16 124
+Getting Team 8129
+KeyError
+Iteration 16 125
+Getting Team 8130
+KeyError
+Iteration 16 126
+Getting Team 8131
+KeyError
+Iteration 16 127
+Getting Team 8132
+KeyError
+Iteration 16 128
+Getting Team 8133
+KeyError
+Iteration 16 129
+Getting Team 8134
+KeyError
+Iteration 16 130
+Getting Team 8135
+KeyError
+Iteration 16 131
+Getting Team 8136
+KeyError
+Iteration 16 132
+Getting Team 8137
+KeyError
+Iteration 16 133
+Getting Team 8138
+KeyError
+Iteration 16 134
+Getting Team 8139
+KeyError
+Iteration 16 135
+Getting Team 8140
+KeyError
+Iteration 16 136
+Getting Team 8141
+KeyError
+Iteration 16 137
+Getting Team 8142
+KeyError
+Iteration 16 138
+Getting Team 8143
+KeyError
+Iteration 16 139
+Getting Team 8144
+KeyError
+Iteration 16 140
+Getting Team 8145
+KeyError
+Iteration 16 141
+Getting Team 8146
+KeyError
+Iteration 16 142
+Getting Team 8147
+KeyError
+Iteration 16 143
+Getting Team 8148
+KeyError
+Iteration 16 144
+Getting Team 8149
+KeyError
+Iteration 16 145
+Getting Team 8150
+KeyError
+Iteration 16 146
+Getting Team 8151
+KeyError
+Iteration 16 147
+Getting Team 8152
+KeyError
+Iteration 16 148
+Getting Team 8153
+KeyError
+Iteration 16 149
+Getting Team 8154
+KeyError
+Iteration 16 150
+Getting Team 8155
+KeyError
+Iteration 16 151
+Getting Team 8156
+KeyError
+Iteration 16 152
+Getting Team 8157
+KeyError
+Iteration 16 153
+Getting Team 8158
+KeyError
+Iteration 16 154
+Getting Team 8159
+KeyError
+Iteration 16 155
+Getting Team 8160
+KeyError
+Iteration 16 156
+Getting Team 8161
+KeyError
+Iteration 16 157
+Getting Team 8162
+KeyError
+Iteration 16 158
+Getting Team 8163
+KeyError
+Iteration 16 159
+Getting Team 8164
+KeyError
+Iteration 16 160
+Getting Team 8165
+KeyError
+Iteration 16 161
+Getting Team 8166
+KeyError
+Iteration 16 162
+Getting Team 8167
+KeyError
+Iteration 16 163
+Getting Team 8168
+KeyError
+Iteration 16 164
+Getting Team 8169
+KeyError
+Iteration 16 165
+Getting Team 8170
+KeyError
+Iteration 16 166
+Getting Team 8171
+KeyError
+Iteration 16 167
+Getting Team 8172
+KeyError
+Iteration 16 168
+Getting Team 8173
+KeyError
+Iteration 16 169
+Getting Team 8174
+KeyError
+Iteration 16 170
+Getting Team 8175
+KeyError
+Iteration 16 171
+Getting Team 8176
+KeyError
+Iteration 16 172
+Getting Team 8177
+KeyError
+Iteration 16 173
+Getting Team 8178
+KeyError
+Iteration 16 174
+Getting Team 8179
+KeyError
+Iteration 16 175
+Getting Team 8180
+KeyError
+Iteration 16 176
+Getting Team 8181
+KeyError
+Iteration 16 177
+Getting Team 8182
+KeyError
+Iteration 16 178
+Getting Team 8183
+KeyError
+Iteration 16 179
+Getting Team 8184
+KeyError
+Iteration 16 180
+Getting Team 8185
+KeyError
+Iteration 16 181
+Getting Team 8186
+KeyError
+Iteration 16 182
+Getting Team 8187
+KeyError
+Iteration 16 183
+Getting Team 8188
+KeyError
+Iteration 16 184
+Getting Team 8189
+KeyError
+Iteration 16 185
+Getting Team 8190
+KeyError
+Iteration 16 186
+Getting Team 8191
+KeyError
+Iteration 16 187
+Getting Team 8192
+KeyError
+Iteration 16 188
+Getting Team 8193
+KeyError
+Iteration 16 189
+Getting Team 8194
+KeyError
+Iteration 16 190
+Getting Team 8195
+KeyError
+Iteration 16 191
+Getting Team 8197
+KeyError
+Iteration 16 192
+Getting Team 8198
+KeyError
+Iteration 16 193
+Getting Team 8200
+KeyError
+Iteration 16 194
+Getting Team 8202
+KeyError
+Iteration 16 195
+Getting Team 8203
+KeyError
+Iteration 16 196
+Getting Team 8204
+KeyError
+Iteration 16 197
+Getting Team 8205
+KeyError
+Iteration 16 198
+Getting Team 8206
+KeyError
+Iteration 16 199
+Getting Team 8207
+KeyError
+Iteration 16 200
+Getting Team 8208
+KeyError
+Iteration 16 201
+Getting Team 8209
+KeyError
+Iteration 16 202
+Getting Team 8210
+KeyError
+Iteration 16 203
+Getting Team 8211
+KeyError
+Iteration 16 204
+Getting Team 8212
+KeyError
+Iteration 16 205
+Getting Team 8213
+KeyError
+Iteration 16 206
+Getting Team 8214
+KeyError
+Iteration 16 207
+Getting Team 8215
+KeyError
+Iteration 16 208
+Getting Team 8216
+KeyError
+Iteration 16 209
+Getting Team 8217
+KeyError
+Iteration 16 210
+Getting Team 8218
+KeyError
+Iteration 16 211
+Getting Team 8219
+KeyError
+Iteration 16 212
+Getting Team 8220
+KeyError
+Iteration 16 213
+Getting Team 8221
+KeyError
+Iteration 16 214
+Getting Team 8222
+KeyError
+Iteration 16 215
+Getting Team 8223
+KeyError
+Iteration 16 216
+Getting Team 8224
+KeyError
+Iteration 16 217
+Getting Team 8225
+KeyError
+Iteration 16 218
+Getting Team 8226
+KeyError
+Iteration 16 219
+Getting Team 8229
+KeyError
+Iteration 16 220
+Getting Team 8230
+KeyError
+Iteration 16 221
+Getting Team 8231
+KeyError
+Iteration 16 222
+Getting Team 8232
+KeyError
+Iteration 16 223
+Getting Team 8233
+KeyError
+Iteration 16 224
+Getting Team 8234
+KeyError
+Iteration 16 225
+Getting Team 8235
+KeyError
+Iteration 16 226
+Getting Team 8236
+KeyError
+Iteration 16 227
+Getting Team 8237
+KeyError
+Iteration 16 228
+Getting Team 8238
+KeyError
+Iteration 16 229
+Getting Team 8239
+KeyError
+Iteration 16 230
+Getting Team 8240
+KeyError
+Iteration 16 231
+Getting Team 8241
+KeyError
+Iteration 16 232
+Getting Team 8242
+KeyError
+Iteration 16 233
+Getting Team 8243
+KeyError
+Iteration 16 234
+Getting Team 8244
+KeyError
+Iteration 16 235
+Getting Team 8245
+KeyError
+Iteration 16 236
+Getting Team 8246
+KeyError
+Iteration 16 237
+Getting Team 8247
+KeyError
+Iteration 16 238
+Getting Team 8248
+KeyError
+Iteration 16 239
+Getting Team 8249
+KeyError
+Iteration 16 240
+Getting Team 8250
+KeyError
+Iteration 16 241
+Getting Team 8251
+KeyError
+Iteration 16 242
+Getting Team 8252
+KeyError
+Iteration 16 243
+Getting Team 8253
+KeyError
+Iteration 16 244
+Getting Team 8254
+KeyError
+Iteration 16 245
+Getting Team 8255
+KeyError
+Iteration 16 246
+Getting Team 8256
+KeyError
+Iteration 16 247
+Getting Team 8257
+KeyError
+Iteration 16 248
+Getting Team 8258
+KeyError
+Iteration 16 249
+Getting Team 8259
+KeyError
+Iteration 16 250
+Getting Team 8260
+KeyError
+Iteration 16 251
+Getting Team 8261
+KeyError
+Iteration 16 252
+Getting Team 8262
+KeyError
+Iteration 16 253
+Getting Team 8263
+KeyError
+Iteration 16 254
+Getting Team 8264
+KeyError
+Iteration 16 255
+Getting Team 8265
+KeyError
+Iteration 16 256
+Getting Team 8266
+KeyError
+Iteration 16 257
+Getting Team 8267
+KeyError
+Iteration 16 258
+Getting Team 8268
+KeyError
+Iteration 16 259
+Getting Team 8269
+KeyError
+Iteration 16 260
+Getting Team 8270
+KeyError
+Iteration 16 261
+Getting Team 8271
+KeyError
+Iteration 16 262
+Getting Team 8272
+KeyError
+Iteration 16 263
+Getting Team 8273
+KeyError
+Iteration 16 264
+Getting Team 8274
+KeyError
+Iteration 16 265
+Getting Team 8275
+KeyError
+Iteration 16 266
+Getting Team 8276
+KeyError
+Iteration 16 267
+Getting Team 8277
+KeyError
+Iteration 16 268
+Getting Team 8278
+KeyError
+Iteration 16 269
+Getting Team 8279
+KeyError
+Iteration 16 270
+Getting Team 8280
+KeyError
+Iteration 16 271
+Getting Team 8281
+KeyError
+Iteration 16 272
+Getting Team 8282
+KeyError
+Iteration 16 273
+Getting Team 8283
+KeyError
+Iteration 16 274
+Getting Team 8284
+KeyError
+Iteration 16 275
+Getting Team 8285
+KeyError
+Iteration 16 276
+Getting Team 8286
+KeyError
+Iteration 16 277
+Getting Team 8287
+KeyError
+Iteration 16 278
+Getting Team 8288
+KeyError
+Iteration 16 279
+Getting Team 8289
+KeyError
+Iteration 16 280
+Getting Team 8290
+KeyError
+Iteration 16 281
+Getting Team 8291
+KeyError
+Iteration 16 282
+Getting Team 8292
+KeyError
+Iteration 16 283
+Getting Team 8293
+KeyError
+Iteration 16 284
+Getting Team 8294
+KeyError
+Iteration 16 285
+Getting Team 8295
+KeyError
+Iteration 16 286
+Getting Team 8296
+KeyError
+Iteration 16 287
+Getting Team 8297
+KeyError
+Iteration 16 288
+Getting Team 8298
+KeyError
+Iteration 16 289
+Getting Team 8299
+KeyError
+Iteration 16 290
+Getting Team 8300
+KeyError
+Iteration 16 291
+Getting Team 8301
+KeyError
+Iteration 16 292
+Getting Team 8302
+KeyError
+Iteration 16 293
+Getting Team 8303
+KeyError
+Iteration 16 294
+Getting Team 8304
+KeyError
+Iteration 16 295
+Getting Team 8305
+KeyError
+Iteration 16 296
+Getting Team 8306
+KeyError
+Iteration 16 297
+Getting Team 8307
+KeyError
+Iteration 16 298
+Getting Team 8308
+KeyError
+Iteration 16 299
+Getting Team 8309
+KeyError
+Iteration 16 300
+Getting Team 8310
+KeyError
+Iteration 16 301
+Getting Team 8311
+KeyError
+Iteration 16 302
+Getting Team 8312
+KeyError
+Iteration 16 303
+Getting Team 8313
+KeyError
+Iteration 16 304
+Getting Team 8314
+KeyError
+Iteration 16 305
+Getting Team 8315
+KeyError
+Iteration 16 306
+Getting Team 8316
+KeyError
+Iteration 16 307
+Getting Team 8317
+KeyError
+Iteration 16 308
+Getting Team 8318
+KeyError
+Iteration 16 309
+Getting Team 8319
+KeyError
+Iteration 16 310
+Getting Team 8320
+KeyError
+Iteration 16 311
+Getting Team 8321
+KeyError
+Iteration 16 312
+Getting Team 8322
+KeyError
+Iteration 16 313
+Getting Team 8323
+KeyError
+Iteration 16 314
+Getting Team 8324
+KeyError
+Iteration 16 315
+Getting Team 8325
+KeyError
+Iteration 16 316
+Getting Team 8326
+KeyError
+Iteration 16 317
+Getting Team 8327
+KeyError
+Iteration 16 318
+Getting Team 8328
+KeyError
+Iteration 16 319
+Getting Team 8329
+KeyError
+Iteration 16 320
+Getting Team 8330
+KeyError
+Iteration 16 321
+Getting Team 8331
+KeyError
+Iteration 16 322
+Getting Team 8332
+KeyError
+Iteration 16 323
+Getting Team 8333
+KeyError
+Iteration 16 324
+Getting Team 8334
+KeyError
+Iteration 16 325
+Getting Team 8335
+KeyError
+Iteration 16 326
+Getting Team 8336
+KeyError
+Iteration 16 327
+Getting Team 8337
+KeyError
+Iteration 16 328
+Getting Team 8338
+KeyError
+Iteration 16 329
+Getting Team 8339
+KeyError
+Iteration 16 330
+Getting Team 8340
+KeyError
+Iteration 16 331
+Getting Team 8341
+KeyError
+Iteration 16 332
+Getting Team 8342
+KeyError
+Iteration 16 333
+Getting Team 8343
+KeyError
+Iteration 16 334
+Getting Team 8344
+KeyError
+Iteration 16 335
+Getting Team 8345
+KeyError
+Iteration 16 336
+Getting Team 8346
+KeyError
+Iteration 16 337
+Getting Team 8347
+KeyError
+Iteration 16 338
+Getting Team 8348
+KeyError
+Iteration 16 339
+Getting Team 8349
+KeyError
+Iteration 16 340
+Getting Team 8350
+KeyError
+Iteration 16 341
+Getting Team 8351
+KeyError
+Iteration 16 342
+Getting Team 8352
+KeyError
+Iteration 16 343
+Getting Team 8353
+KeyError
+Iteration 16 344
+Getting Team 8354
+KeyError
+Iteration 16 345
+Getting Team 8355
+KeyError
+Iteration 16 346
+Getting Team 8356
+KeyError
+Iteration 16 347
+Getting Team 8357
+KeyError
+Iteration 16 348
+Getting Team 8358
+KeyError
+Iteration 16 349
+Getting Team 8359
+KeyError
+Iteration 16 350
+Getting Team 8360
+KeyError
+Iteration 16 351
+Getting Team 8361
+KeyError
+Iteration 16 352
+Getting Team 8362
+KeyError
+Iteration 16 353
+Getting Team 8363
+KeyError
+Iteration 16 354
+Getting Team 8364
+KeyError
+Iteration 16 355
+Getting Team 8365
+KeyError
+Iteration 16 356
+Getting Team 8366
+KeyError
+Iteration 16 357
+Getting Team 8367
+KeyError
+Iteration 16 358
+Getting Team 8368
+KeyError
+Iteration 16 359
+Getting Team 8369
+KeyError
+Iteration 16 360
+Getting Team 8370
+KeyError
+Iteration 16 361
+Getting Team 8371
+KeyError
+Iteration 16 362
+Getting Team 8372
+KeyError
+Iteration 16 363
+Getting Team 8373
+KeyError
+Iteration 16 364
+Getting Team 8374
+KeyError
+Iteration 16 365
+Getting Team 8375
+KeyError
+Iteration 16 366
+Getting Team 8376
+KeyError
+Iteration 16 367
+Getting Team 8377
+KeyError
+Iteration 16 368
+Getting Team 8378
+KeyError
+Iteration 16 369
+Getting Team 8379
+KeyError
+Iteration 16 370
+Getting Team 8380
+KeyError
+Iteration 16 371
+Getting Team 8381
+KeyError
+Iteration 16 372
+Getting Team 8382
+KeyError
+Iteration 16 373
+Getting Team 8383
+KeyError
+Iteration 16 374
+Getting Team 8384
+KeyError
+Iteration 16 375
+Getting Team 8385
+KeyError
+Iteration 16 376
+Getting Team 8386
+KeyError
+Iteration 16 377
+Getting Team 8387
+KeyError
+Iteration 16 378
+Getting Team 8388
+KeyError
+Iteration 16 379
+Getting Team 8389
+KeyError
+Iteration 16 380
+Getting Team 8390
+KeyError
+Iteration 16 381
+Getting Team 8391
+KeyError
+Iteration 16 382
+Getting Team 8392
+KeyError
+Iteration 16 383
+Getting Team 8393
+KeyError
+Iteration 16 384
+Getting Team 8394
+KeyError
+Iteration 16 385
+Getting Team 8395
+KeyError
+Iteration 16 386
+Getting Team 8396
+KeyError
+Iteration 16 387
+Getting Team 8397
+KeyError
+Iteration 16 388
+Getting Team 8398
+KeyError
+Iteration 16 389
+Getting Team 8399
+KeyError
+Iteration 16 390
+Getting Team 8400
+KeyError
+Iteration 16 391
+Getting Team 8401
+KeyError
+Iteration 16 392
+Getting Team 8402
+KeyError
+Iteration 16 393
+Getting Team 8403
+KeyError
+Iteration 16 394
+Getting Team 8404
+KeyError
+Iteration 16 395
+Getting Team 8405
+KeyError
+Iteration 16 396
+Getting Team 8406
+KeyError
+Iteration 16 397
+Getting Team 8407
+KeyError
+Iteration 16 398
+Getting Team 8408
+KeyError
+Iteration 16 399
+Getting Team 8409
+KeyError
+Iteration 16 400
+Getting Team 8410
+KeyError
+Iteration 16 401
+Getting Team 8411
+KeyError
+Iteration 16 402
+Getting Team 8412
+KeyError
+Iteration 16 403
+Getting Team 8413
+KeyError
+Iteration 16 404
+Getting Team 8414
+KeyError
+Iteration 16 405
+Getting Team 8415
+KeyError
+Iteration 16 406
+Getting Team 8416
+KeyError
+Iteration 16 407
+Getting Team 8417
+KeyError
+Iteration 16 408
+Getting Team 8418
+KeyError
+Iteration 16 409
+Getting Team 8419
+KeyError
+Iteration 16 410
+Getting Team 8420
+KeyError
+Iteration 16 411
+Getting Team 8421
+KeyError
+Iteration 16 412
+Getting Team 8422
+KeyError
+Iteration 16 413
+Getting Team 8423
+KeyError
+Iteration 16 414
+Getting Team 8424
+KeyError
+Iteration 16 415
+Getting Team 8425
+KeyError
+Iteration 16 416
+Getting Team 8426
+KeyError
+Iteration 16 417
+Getting Team 8427
+KeyError
+Iteration 16 418
+Team does not exists on 16 418
+Iteration 16 419
+Team does not exists on 16 419
+Iteration 16 420
+Team does not exists on 16 420
+Iteration 16 421
+Team does not exists on 16 421
+Iteration 16 422
+Team does not exists on 16 422
+Iteration 16 423
+Team does not exists on 16 423
+Iteration 16 424
+Team does not exists on 16 424
+Iteration 16 425
+Team does not exists on 16 425
+Iteration 16 426
+Team does not exists on 16 426
+Iteration 16 427
+Team does not exists on 16 427
+Iteration 16 428
+Team does not exists on 16 428
+Iteration 16 429
+Team does not exists on 16 429
+Iteration 16 430
+Team does not exists on 16 430
+Iteration 16 431
+Team does not exists on 16 431
+Iteration 16 432
+Team does not exists on 16 432
+Iteration 16 433
+Team does not exists on 16 433
+Iteration 16 434
+Team does not exists on 16 434
+Iteration 16 435
+Team does not exists on 16 435
+Iteration 16 436
+Team does not exists on 16 436
+Iteration 16 437
+Team does not exists on 16 437
+Iteration 16 438
+Team does not exists on 16 438
+Iteration 16 439
+Team does not exists on 16 439
+Iteration 16 440
+Team does not exists on 16 440
+Iteration 16 441
+Team does not exists on 16 441
+Iteration 16 442
+Team does not exists on 16 442
+Iteration 16 443
+Team does not exists on 16 443
+Iteration 16 444
+Team does not exists on 16 444
+Iteration 16 445
+Team does not exists on 16 445
+Iteration 16 446
+Team does not exists on 16 446
+Iteration 16 447
+Team does not exists on 16 447
+Iteration 16 448
+Team does not exists on 16 448
+Iteration 16 449
+Team does not exists on 16 449
+Iteration 16 450
+Team does not exists on 16 450
+Iteration 16 451
+Team does not exists on 16 451
+Iteration 16 452
+Team does not exists on 16 452
+Iteration 16 453
+Team does not exists on 16 453
+Iteration 16 454
+Team does not exists on 16 454
+Iteration 16 455
+Team does not exists on 16 455
+Iteration 16 456
+Team does not exists on 16 456
+Iteration 16 457
+Team does not exists on 16 457
+Iteration 16 458
+Team does not exists on 16 458
+Iteration 16 459
+Team does not exists on 16 459
+Iteration 16 460
+Team does not exists on 16 460
+Iteration 16 461
+Team does not exists on 16 461
+Iteration 16 462
+Team does not exists on 16 462
+Iteration 16 463
+Team does not exists on 16 463
+Iteration 16 464
+Team does not exists on 16 464
+Iteration 16 465
+Team does not exists on 16 465
+Iteration 16 466
+Team does not exists on 16 466
+Iteration 16 467
+Team does not exists on 16 467
+Iteration 16 468
+Team does not exists on 16 468
+Iteration 16 469
+Team does not exists on 16 469
+Iteration 16 470
+Team does not exists on 16 470
+Iteration 16 471
+Team does not exists on 16 471
+Iteration 16 472
+Team does not exists on 16 472
+Iteration 16 473
+Team does not exists on 16 473
+Iteration 16 474
+Team does not exists on 16 474
+Iteration 16 475
+Team does not exists on 16 475
+Iteration 16 476
+Team does not exists on 16 476
+Iteration 16 477
+Team does not exists on 16 477
+Iteration 16 478
+Team does not exists on 16 478
+Iteration 16 479
+Team does not exists on 16 479
+Iteration 16 480
+Team does not exists on 16 480
+Iteration 16 481
+Team does not exists on 16 481
+Iteration 16 482
+Team does not exists on 16 482
+Iteration 16 483
+Team does not exists on 16 483
+Iteration 16 484
+Team does not exists on 16 484
+Iteration 16 485
+Team does not exists on 16 485
+Iteration 16 486
+Team does not exists on 16 486
+Iteration 16 487
+Team does not exists on 16 487
+Iteration 16 488
+Team does not exists on 16 488
+Iteration 16 489
+Team does not exists on 16 489
+Iteration 16 490
+Team does not exists on 16 490
+Iteration 16 491
+Team does not exists on 16 491
+Iteration 16 492
+Team does not exists on 16 492
+Iteration 16 493
+Team does not exists on 16 493
+Iteration 16 494
+Team does not exists on 16 494
+Iteration 16 495
+Team does not exists on 16 495
+Iteration 16 496
+Team does not exists on 16 496
+Iteration 16 497
+Team does not exists on 16 497
+Iteration 16 498
+Team does not exists on 16 498
+Script Complete
+
+Begin Script
+Call Get Events
+In get_events 
+SQL insert statement prepped for Canadian Rockies Regional
+Executing event insert
+SQL insert statement prepped for Rocket City Regional
+Executing event insert
+SQL insert statement prepped for Arkansas Regional
+Executing event insert
+SQL insert statement prepped for Southern Cross Regional
+Executing event insert
+SQL insert statement prepped for South Pacific Regional
+Executing event insert
+SQL insert statement prepped for Arizona North Regional
+Executing event insert
+SQL insert statement prepped for Arizona West Regional
+Executing event insert
+SQL insert statement prepped for Canadian Pacific Regional
+Executing event insert
+SQL insert statement prepped for Beijing Cultural Exchange Event #1
+Executing event insert
+SQL insert statement prepped for Beijing Cultural Exchange Event #2
+Executing event insert
+SQL insert statement prepped for Aerospace Valley Regional
+Executing event insert
+SQL insert statement prepped for Sacramento Regional
+Executing event insert
+SQL insert statement prepped for Del Mar Regional
+Executing event insert
+SQL insert statement prepped for Central Valley Regional
+Executing event insert
+SQL insert statement prepped for Los Angeles Regional
+Executing event insert
+SQL insert statement prepped for Los Angeles North Regional
+Executing event insert
+SQL insert statement prepped for Monterey Bay Regional
+Executing event insert
+SQL insert statement prepped for Orange County Regional
+Executing event insert
+SQL insert statement prepped for San Diego Regional presented by Qualcomm
+Executing event insert
+SQL insert statement prepped for San Francisco Regional
+Executing event insert
+SQL insert statement prepped for Silicon Valley Regional
+Executing event insert
+SQL insert statement prepped for Ventura Regional
+Executing event insert
+SQL insert statement prepped for FIRST Chesapeake District Championship sponsored by Newport News Shipbuilding
+Executing event insert
+SQL insert statement prepped for Science Park Taichung Regional
+Executing event insert
+SQL insert statement prepped for FIRST Championship (Detroit)
+Executing event insert
+SQL insert statement prepped for FIRST Championship (Houston)
+Executing event insert
+SQL insert statement prepped for Colorado Regional
+Executing event insert
+SQL insert statement prepped for NE District Hartford Event
+Executing event insert
+SQL insert statement prepped for NE District Northern CT Event
+Executing event insert
+SQL insert statement prepped for NE District Waterbury Event
+Executing event insert
+SQL insert statement prepped for FACC Ri3D Competition
+Executing event insert
+SQL insert statement prepped for Orlando Regional
+Executing event insert
+SQL insert statement prepped for South Florida Regional
+Executing event insert
+SQL insert statement prepped for FIRST In Texas District Championship
+Executing event insert
+SQL insert statement prepped for PCH District Albany Event presented by Procter & Gamble
+Executing event insert
+SQL insert statement prepped for PCH District Carrollton Event
+Executing event insert
+SQL insert statement prepped for Peachtree District State Championship
+Executing event insert
+SQL insert statement prepped for PCH District Columbus Event
+Executing event insert
+SQL insert statement prepped for PCH District Dalton Event
+Executing event insert
+SQL insert statement prepped for PCH District Gainesville Event presented by Automation Direct
+Executing event insert
+SQL insert statement prepped for Hawaii Regional
+Executing event insert
+SQL insert statement prepped for Iowa Regional
+Executing event insert
+SQL insert statement prepped for Idaho Regional
+Executing event insert
+SQL insert statement prepped for Midwest Regional
+Executing event insert
+SQL insert statement prepped for Central Illinois Regional
+Executing event insert
+SQL insert statement prepped for IN District Bloomington Event
+Executing event insert
+SQL insert statement prepped for Indiana State Championship
+Executing event insert
+SQL insert statement prepped for IN District Columbus Event
+Executing event insert
+SQL insert statement prepped for IN District St. Joseph Event
+Executing event insert
+SQL insert statement prepped for IN District Perry Meridian Event
+Executing event insert
+SQL insert statement prepped for FIRST Israel District Championship
+Executing event insert
+SQL insert statement prepped for ISR District Event #1
+Executing event insert
+SQL insert statement prepped for ISR District Event #2
+Executing event insert
+SQL insert statement prepped for ISR District Event #3
+Executing event insert
+SQL insert statement prepped for ISR District Event #4
+Executing event insert
+SQL insert statement prepped for Heartland Regional
+Executing event insert
+SQL insert statement prepped for Bayou Regional
+Executing event insert
+SQL insert statement prepped for NE District Greater Boston Event
+Executing event insert
+SQL insert statement prepped for NE District SE Mass Event
+Executing event insert
+SQL insert statement prepped for NE District North Shore Event
+Executing event insert
+SQL insert statement prepped for NE District Western NE Event
+Executing event insert
+SQL insert statement prepped for NE District WPI Event
+Executing event insert
+SQL insert statement prepped for CHS District Bethesda MD Event
+Executing event insert
+SQL insert statement prepped for CHS District Edgewater MD Event sponsored by Leidos
+Executing event insert
+SQL insert statement prepped for CHS District Owings Mills MD Event
+Executing event insert
+SQL insert statement prepped for NE District Pine Tree Event
+Executing event insert
+SQL insert statement prepped for FIM District Alpena Event #2
+Executing event insert
+SQL insert statement prepped for FIM District Alpena Event #1
+Executing event insert
+SQL insert statement prepped for FIM District Belleville Event
+Executing event insert
+SQL insert statement prepped for FIM District Center Line Event
+Executing event insert
+SQL insert statement prepped for Michigan State Championship
+Executing event insert
+SQL insert statement prepped for FIM District Detroit Event
+Executing event insert
+SQL insert statement prepped for FIM District Escanaba Event
+Executing event insert
+SQL insert statement prepped for FIM District Ferris State Event
+Executing event insert
+SQL insert statement prepped for FIM District Gull Lake Event
+Executing event insert
+SQL insert statement prepped for FIM District Jackson Event
+Executing event insert
+SQL insert statement prepped for FIM District Kettering University Event #2
+Executing event insert
+SQL insert statement prepped for FIM District East Kentwood Event
+Executing event insert
+SQL insert statement prepped for FIM District Kettering University Event #1
+Executing event insert
+SQL insert statement prepped for FIM District Kingsford Event
+Executing event insert
+SQL insert statement prepped for FIM District Lakeview Event
+Executing event insert
+SQL insert statement prepped for FIM District Lansing Event
+Executing event insert
+SQL insert statement prepped for FIM District Lincoln Event
+Executing event insert
+SQL insert statement prepped for FIM District Livonia Event
+Executing event insert
+SQL insert statement prepped for FIM District Marysville Event
+Executing event insert
+SQL insert statement prepped for FIM District Macomb Community College Event
+Executing event insert
+SQL insert statement prepped for FIM District Midland Event
+Executing event insert
+SQL insert statement prepped for FIM District Milford Event
+Executing event insert
+SQL insert statement prepped for FIM District Muskegon Event
+Executing event insert
+SQL insert statement prepped for FIM District Shepherd Event
+Executing event insert
+SQL insert statement prepped for FIM District St. Joseph Event
+Executing event insert
+SQL insert statement prepped for FIM District Southfield Event
+Executing event insert
+SQL insert statement prepped for FIM District Troy Event
+Executing event insert
+SQL insert statement prepped for FIM District Traverse City Event
+Executing event insert
+SQL insert statement prepped for FIM District West Michigan Event
+Executing event insert
+SQL insert statement prepped for FIM District Woodhaven Event
+Executing event insert
+SQL insert statement prepped for Lake Superior Regional
+Executing event insert
+SQL insert statement prepped for Northern Lights Regional
+Executing event insert
+SQL insert statement prepped for Minnesota 10,000 Lakes Regional Presented by the Medtronic Foundation
+Executing event insert
+SQL insert statement prepped for Minnesota North Star Regional
+Executing event insert
+SQL insert statement prepped for West Central Week 0
+Executing event insert
+SQL insert statement prepped for Greater Kansas City Regional
+Executing event insert
+SQL insert statement prepped for Central Missouri Regional
+Executing event insert
+SQL insert statement prepped for St. Louis Regional
+Executing event insert
+SQL insert statement prepped for FIRST Mid-Atlantic District Championship
+Executing event insert
+SQL insert statement prepped for Regional Monterrey
+Executing event insert
+SQL insert statement prepped for Regional Laguna
+Executing event insert
+SQL insert statement prepped for FNC District UNC Asheville Event
+Executing event insert
+SQL insert statement prepped for FIRST North Carolina State Championship
+Executing event insert
+SQL insert statement prepped for FNC District ECU Event
+Executing event insert
+SQL insert statement prepped for FNC District Guilford County Event
+Executing event insert
+SQL insert statement prepped for FNC District UNC Pembroke Event
+Executing event insert
+SQL insert statement prepped for FNC District Wake County Event
+Executing event insert
+SQL insert statement prepped for Great Northern Regional
+Executing event insert
+SQL insert statement prepped for New England District Championship
+Executing event insert
+SQL insert statement prepped for NE District Granite State Event
+Executing event insert
+SQL insert statement prepped for NE District Southern NH Event
+Executing event insert
+SQL insert statement prepped for FMA District Bridgewater-Raritan Event
+Executing event insert
+SQL insert statement prepped for FMA District Mount Olive Event
+Executing event insert
+SQL insert statement prepped for FMA District Robbinsville Event
+Executing event insert
+SQL insert statement prepped for FMA District Montgomery Event
+Executing event insert
+SQL insert statement prepped for FMA District Seneca Event
+Executing event insert
+SQL insert statement prepped for Las Vegas Regional
+Executing event insert
+SQL insert statement prepped for SBPLI Long Island Regional #1
+Executing event insert
+SQL insert statement prepped for SBPLI Long Island Regional #2
+Executing event insert
+SQL insert statement prepped for New York City Regional
+Executing event insert
+SQL insert statement prepped for Finger Lakes Regional
+Executing event insert
+SQL insert statement prepped for Rochester Rally
+Executing event insert
+SQL insert statement prepped for Hudson Valley Regional
+Executing event insert
+SQL insert statement prepped for New York Tech Valley Regional
+Executing event insert
+SQL insert statement prepped for Central New York Regional
+Executing event insert
+SQL insert statement prepped for Buckeye Regional
+Executing event insert
+SQL insert statement prepped for Miami Valley Regional
+Executing event insert
+SQL insert statement prepped for Oklahoma Regional
+Executing event insert
+SQL insert statement prepped for Green Country Regional
+Executing event insert
+SQL insert statement prepped for ONT District Georgian College Event
+Executing event insert
+SQL insert statement prepped for FIRST Ontario Provincial Championship
+Executing event insert
+SQL insert statement prepped for ONT District McMaster University Event
+Executing event insert
+SQL insert statement prepped for ONT District Western University, Western Engineering Event
+Executing event insert
+SQL insert statement prepped for ONT District North Bay Event
+Executing event insert
+SQL insert statement prepped for ONT District York University Event
+Executing event insert
+SQL insert statement prepped for ONT District Durham College Event
+Executing event insert
+SQL insert statement prepped for ONT District Carleton University Event
+Executing event insert
+SQL insert statement prepped for ONT District Ryerson University Event
+Executing event insert
+SQL insert statement prepped for ONT District Humber College Event
+Executing event insert
+SQL insert statement prepped for ONT District University of Waterloo Event
+Executing event insert
+SQL insert statement prepped for ONT District Windsor Essex Great Lakes Event
+Executing event insert
+SQL insert statement prepped for PNW District Clackamas Academy Event
+Executing event insert
+SQL insert statement prepped for PNW District Oregon State Fairgrounds Event
+Executing event insert
+SQL insert statement prepped for PNW District Wilsonville Event
+Executing event insert
+SQL insert statement prepped for FMA District Bensalem Event
+Executing event insert
+SQL insert statement prepped for Greater Pittsburgh Regional
+Executing event insert
+SQL insert statement prepped for FMA District Hatboro-Horsham Event
+Executing event insert
+SQL insert statement prepped for FMA District Springside Chestnut Hill Academy Event
+Executing event insert
+SQL insert statement prepped for Pacific Northwest FIRST District Championship
+Executing event insert
+SQL insert statement prepped for Festival de Robotique a Montreal Regional
+Executing event insert
+SQL insert statement prepped for Festival de Robotique a Sherbrooke Regional
+Executing event insert
+SQL insert statement prepped for Palmetto Regional
+Executing event insert
+SQL insert statement prepped for Seven Rivers Robotics Coalition Week Zero
+Executing event insert
+SQL insert statement prepped for Smoky Mountains Regional
+Executing event insert
+SQL insert statement prepped for Memphis Regional
+Executing event insert
+SQL insert statement prepped for Istanbul Regional
+Executing event insert
+SQL insert statement prepped for Bosphorus Regional
+Executing event insert
+SQL insert statement prepped for FIT District Amarillo Event
+Executing event insert
+SQL insert statement prepped for FIT District Austin Event
+Executing event insert
+SQL insert statement prepped for FIT District Channelview Event
+Executing event insert
+SQL insert statement prepped for FIT District Del Rio Event
+Executing event insert
+SQL insert statement prepped for FIT District Dallas Event
+Executing event insert
+SQL insert statement prepped for FIT District Dripping Springs Event
+Executing event insert
+SQL insert statement prepped for FIT District El Paso Event
+Executing event insert
+SQL insert statement prepped for FIT District Fort Worth Event
+Executing event insert
+SQL insert statement prepped for FIT District Greenville Event
+Executing event insert
+SQL insert statement prepped for FIT District Houston Event
+Executing event insert
+SQL insert statement prepped for FIT District New Braunfels Event
+Executing event insert
+SQL insert statement prepped for FIT District Pasadena Event
+Executing event insert
+SQL insert statement prepped for FIT District Plano Event
+Executing event insert
+SQL insert statement prepped for Utah Regional
+Executing event insert
+SQL insert statement prepped for CHS District Blacksburg VA Event
+Executing event insert
+SQL insert statement prepped for CHS District Richmond VA Event
+Executing event insert
+SQL insert statement prepped for CHS District Haymarket VA Event
+Executing event insert
+SQL insert statement prepped for CHS District Portsmouth VA Event
+Executing event insert
+SQL insert statement prepped for PNW District Auburn Event
+Executing event insert
+SQL insert statement prepped for PNW District Auburn Mountainview Event
+Executing event insert
+SQL insert statement prepped for PNW District Bellingham Event
+Executing event insert
+SQL insert statement prepped for PNW District Glacier Peak Event
+Executing event insert
+SQL insert statement prepped for PNW District West Valley Event
+Executing event insert
+SQL insert statement prepped for PNW District SunDome Event
+Executing event insert
+SQL insert statement prepped for Week 0
+Executing event insert
+SQL insert statement prepped for Seven Rivers Regional
+Executing event insert
+SQL insert statement prepped for Wisconsin Regional
+Executing event insert
+SQL insert statement prepped for Sussex Mini-Regional
+Executing event insert
+Call Get Teams
+In get_teams
+TBA Called for k =15
+Loaded json 15
+Iteration 15 0
+Getting Team 7500
+KeyError
+Iteration 15 1
+Getting Team 7501
+KeyError
+Iteration 15 2
+Getting Team 7502
+KeyError
+Iteration 15 3
+Getting Team 7503
+KeyError
+Iteration 15 4
+Getting Team 7504
+KeyError
+Iteration 15 5
+Getting Team 7505
+KeyError
+Iteration 15 6
+Getting Team 7506
+KeyError
+Iteration 15 7
+Getting Team 7507
+KeyError
+Iteration 15 8
+Getting Team 7508
+KeyError
+Iteration 15 9
+Getting Team 7509
+KeyError
+Iteration 15 10
+Getting Team 7510
+KeyError
+Iteration 15 11
+Getting Team 7511
+KeyError
+Iteration 15 12
+Getting Team 7512
+KeyError
+Iteration 15 13
+Getting Team 7513
+KeyError
+Iteration 15 14
+Getting Team 7514
+KeyError
+Iteration 15 15
+Getting Team 7515
+KeyError
+Iteration 15 16
+Getting Team 7516
+KeyError
+Iteration 15 17
+Getting Team 7517
+KeyError
+Iteration 15 18
+Getting Team 7518
+KeyError
+Iteration 15 19
+Getting Team 7519
+KeyError
+Iteration 15 20
+Getting Team 7520
+KeyError
+Iteration 15 21
+Getting Team 7521
+KeyError
+Iteration 15 22
+Getting Team 7522
+KeyError
+Iteration 15 23
+Getting Team 7523
+KeyError
+Iteration 15 24
+Getting Team 7524
+KeyError
+Iteration 15 25
+Getting Team 7525
+KeyError
+Iteration 15 26
+Getting Team 7526
+KeyError
+Iteration 15 27
+Getting Team 7527
+KeyError
+Iteration 15 28
+Getting Team 7528
+KeyError
+Iteration 15 29
+Getting Team 7529
+KeyError
+Iteration 15 30
+Getting Team 7530
+KeyError
+Iteration 15 31
+Getting Team 7531
+KeyError
+Iteration 15 32
+Getting Team 7532
+KeyError
+Iteration 15 33
+Getting Team 7533
+KeyError
+Iteration 15 34
+Getting Team 7534
+KeyError
+Iteration 15 35
+Getting Team 7535
+KeyError
+Iteration 15 36
+Getting Team 7536
+KeyError
+Iteration 15 37
+Getting Team 7537
+KeyError
+Iteration 15 38
+Getting Team 7538
+KeyError
+Iteration 15 39
+Getting Team 7539
+KeyError
+Iteration 15 40
+Getting Team 7540
+KeyError
+Iteration 15 41
+Getting Team 7541
+KeyError
+Iteration 15 42
+Getting Team 7542
+KeyError
+Iteration 15 43
+Getting Team 7543
+KeyError
+Iteration 15 44
+Getting Team 7544
+KeyError
+Iteration 15 45
+Getting Team 7545
+KeyError
+Iteration 15 46
+Getting Team 7546
+KeyError
+Iteration 15 47
+Getting Team 7547
+KeyError
+Iteration 15 48
+Getting Team 7548
+KeyError
+Iteration 15 49
+Getting Team 7549
+KeyError
+Iteration 15 50
+Getting Team 7550
+KeyError
+Iteration 15 51
+Getting Team 7551
+KeyError
+Iteration 15 52
+Getting Team 7552
+KeyError
+Iteration 15 53
+Getting Team 7553
+KeyError
+Iteration 15 54
+Getting Team 7554
+KeyError
+Iteration 15 55
+Getting Team 7555
+KeyError
+Iteration 15 56
+Getting Team 7556
+KeyError
+Iteration 15 57
+Getting Team 7557
+KeyError
+Iteration 15 58
+Getting Team 7558
+KeyError
+Iteration 15 59
+Getting Team 7559
+KeyError
+Iteration 15 60
+Getting Team 7560
+KeyError
+Iteration 15 61
+Getting Team 7561
+KeyError
+Iteration 15 62
+Getting Team 7562
+KeyError
+Iteration 15 63
+Getting Team 7563
+KeyError
+Iteration 15 64
+Getting Team 7564
+KeyError
+Iteration 15 65
+Getting Team 7565
+KeyError
+Iteration 15 66
+Getting Team 7566
+KeyError
+Iteration 15 67
+Getting Team 7567
+KeyError
+Iteration 15 68
+Getting Team 7568
+KeyError
+Iteration 15 69
+Getting Team 7569
+KeyError
+Iteration 15 70
+Getting Team 7570
+KeyError
+Iteration 15 71
+Getting Team 7571
+KeyError
+Iteration 15 72
+Getting Team 7572
+KeyError
+Iteration 15 73
+Getting Team 7573
+KeyError
+Iteration 15 74
+Getting Team 7574
+KeyError
+Iteration 15 75
+Getting Team 7575
+KeyError
+Iteration 15 76
+Getting Team 7576
+KeyError
+Iteration 15 77
+Getting Team 7577
+KeyError
+Iteration 15 78
+Getting Team 7578
+KeyError
+Iteration 15 79
+Getting Team 7579
+KeyError
+Iteration 15 80
+Getting Team 7580
+KeyError
+Iteration 15 81
+Getting Team 7581
+KeyError
+Iteration 15 82
+Getting Team 7582
+KeyError
+Iteration 15 83
+Getting Team 7583
+KeyError
+Iteration 15 84
+Getting Team 7584
+KeyError
+Iteration 15 85
+Getting Team 7585
+KeyError
+Iteration 15 86
+Getting Team 7586
+KeyError
+Iteration 15 87
+Getting Team 7587
+KeyError
+Iteration 15 88
+Getting Team 7588
+KeyError
+Iteration 15 89
+Getting Team 7589
+KeyError
+Iteration 15 90
+Getting Team 7590
+KeyError
+Iteration 15 91
+Getting Team 7591
+KeyError
+Iteration 15 92
+Getting Team 7592
+KeyError
+Iteration 15 93
+Getting Team 7593
+KeyError
+Iteration 15 94
+Getting Team 7594
+KeyError
+Iteration 15 95
+Getting Team 7595
+KeyError
+Iteration 15 96
+Getting Team 7596
+KeyError
+Iteration 15 97
+Getting Team 7597
+KeyError
+Iteration 15 98
+Getting Team 7598
+KeyError
+Iteration 15 99
+Getting Team 7599
+KeyError
+Iteration 15 100
+Getting Team 7600
+KeyError
+Iteration 15 101
+Getting Team 7601
+KeyError
+Iteration 15 102
+Getting Team 7602
+KeyError
+Iteration 15 103
+Getting Team 7603
+KeyError
+Iteration 15 104
+Getting Team 7604
+KeyError
+Iteration 15 105
+Getting Team 7605
+KeyError
+Iteration 15 106
+Getting Team 7606
+KeyError
+Iteration 15 107
+Getting Team 7607
+KeyError
+Iteration 15 108
+Getting Team 7608
+KeyError
+Iteration 15 109
+Getting Team 7609
+KeyError
+Iteration 15 110
+Getting Team 7610
+KeyError
+Iteration 15 111
+Getting Team 7611
+KeyError
+Iteration 15 112
+Getting Team 7612
+KeyError
+Iteration 15 113
+Getting Team 7613
+KeyError
+Iteration 15 114
+Getting Team 7614
+KeyError
+Iteration 15 115
+Getting Team 7615
+KeyError
+Iteration 15 116
+Getting Team 7616
+KeyError
+Iteration 15 117
+Getting Team 7617
+KeyError
+Iteration 15 118
+Getting Team 7618
+KeyError
+Iteration 15 119
+Getting Team 7619
+KeyError
+Iteration 15 120
+Getting Team 7620
+KeyError
+Iteration 15 121
+Getting Team 7621
+KeyError
+Iteration 15 122
+Getting Team 7622
+KeyError
+Iteration 15 123
+Getting Team 7623
+KeyError
+Iteration 15 124
+Getting Team 7624
+KeyError
+Iteration 15 125
+Getting Team 7625
+KeyError
+Iteration 15 126
+Getting Team 7626
+KeyError
+Iteration 15 127
+Getting Team 7627
+KeyError
+Iteration 15 128
+Getting Team 7628
+KeyError
+Iteration 15 129
+Getting Team 7629
+KeyError
+Iteration 15 130
+Getting Team 7630
+KeyError
+Iteration 15 131
+Getting Team 7631
+KeyError
+Iteration 15 132
+Getting Team 7632
+KeyError
+Iteration 15 133
+Getting Team 7633
+KeyError
+Iteration 15 134
+Getting Team 7634
+KeyError
+Iteration 15 135
+Getting Team 7635
+KeyError
+Iteration 15 136
+Getting Team 7636
+KeyError
+Iteration 15 137
+Getting Team 7637
+KeyError
+Iteration 15 138
+Getting Team 7638
+KeyError
+Iteration 15 139
+Getting Team 7639
+KeyError
+Iteration 15 140
+Getting Team 7640
+KeyError
+Iteration 15 141
+Getting Team 7641
+KeyError
+Iteration 15 142
+Getting Team 7642
+KeyError
+Iteration 15 143
+Getting Team 7643
+KeyError
+Iteration 15 144
+Getting Team 7644
+KeyError
+Iteration 15 145
+Getting Team 7645
+KeyError
+Iteration 15 146
+Getting Team 7646
+KeyError
+Iteration 15 147
+Getting Team 7647
+KeyError
+Iteration 15 148
+Getting Team 7648
+KeyError
+Iteration 15 149
+Getting Team 7649
+KeyError
+Iteration 15 150
+Getting Team 7650
+KeyError
+Iteration 15 151
+Getting Team 7651
+KeyError
+Iteration 15 152
+Getting Team 7652
+KeyError
+Iteration 15 153
+Getting Team 7653
+KeyError
+Iteration 15 154
+Getting Team 7654
+KeyError
+Iteration 15 155
+Getting Team 7655
+KeyError
+Iteration 15 156
+Getting Team 7656
+KeyError
+Iteration 15 157
+Getting Team 7657
+KeyError
+Iteration 15 158
+Getting Team 7658
+KeyError
+Iteration 15 159
+Getting Team 7659
+KeyError
+Iteration 15 160
+Getting Team 7660
+KeyError
+Iteration 15 161
+Getting Team 7661
+KeyError
+Iteration 15 162
+Getting Team 7662
+KeyError
+Iteration 15 163
+Getting Team 7663
+KeyError
+Iteration 15 164
+Getting Team 7664
+KeyError
+Iteration 15 165
+Getting Team 7665
+KeyError
+Iteration 15 166
+Getting Team 7667
+KeyError
+Iteration 15 167
+Getting Team 7668
+KeyError
+Iteration 15 168
+Getting Team 7669
+KeyError
+Iteration 15 169
+Getting Team 7670
+KeyError
+Iteration 15 170
+Getting Team 7671
+KeyError
+Iteration 15 171
+Getting Team 7672
+KeyError
+Iteration 15 172
+Getting Team 7673
+KeyError
+Iteration 15 173
+Getting Team 7674
+KeyError
+Iteration 15 174
+Getting Team 7675
+KeyError
+Iteration 15 175
+Getting Team 7676
+KeyError
+Iteration 15 176
+Getting Team 7677
+KeyError
+Iteration 15 177
+Getting Team 7678
+KeyError
+Iteration 15 178
+Getting Team 7679
+KeyError
+Iteration 15 179
+Getting Team 7680
+KeyError
+Iteration 15 180
+Getting Team 7681
+KeyError
+Iteration 15 181
+Getting Team 7682
+KeyError
+Iteration 15 182
+Getting Team 7683
+KeyError
+Iteration 15 183
+Getting Team 7684
+KeyError
+Iteration 15 184
+Getting Team 7685
+KeyError
+Iteration 15 185
+Getting Team 7686
+KeyError
+Iteration 15 186
+Getting Team 7687
+KeyError
+Iteration 15 187
+Getting Team 7688
+KeyError
+Iteration 15 188
+Getting Team 7689
+KeyError
+Iteration 15 189
+Getting Team 7690
+KeyError
+Iteration 15 190
+Getting Team 7691
+KeyError
+Iteration 15 191
+Getting Team 7692
+KeyError
+Iteration 15 192
+Getting Team 7693
+KeyError
+Iteration 15 193
+Getting Team 7694
+KeyError
+Iteration 15 194
+Getting Team 7695
+KeyError
+Iteration 15 195
+Getting Team 7696
+KeyError
+Iteration 15 196
+Getting Team 7699
+KeyError
+Iteration 15 197
+Getting Team 7700
+KeyError
+Iteration 15 198
+Getting Team 7701
+KeyError
+Iteration 15 199
+Getting Team 7702
+KeyError
+Iteration 15 200
+Getting Team 7703
+KeyError
+Iteration 15 201
+Getting Team 7704
+KeyError
+Iteration 15 202
+Getting Team 7705
+KeyError
+Iteration 15 203
+Getting Team 7706
+KeyError
+Iteration 15 204
+Getting Team 7707
+KeyError
+Iteration 15 205
+Getting Team 7708
+KeyError
+Iteration 15 206
+Getting Team 7709
+KeyError
+Iteration 15 207
+Getting Team 7710
+KeyError
+Iteration 15 208
+Getting Team 7711
+KeyError
+Iteration 15 209
+Getting Team 7712
+KeyError
+Iteration 15 210
+Getting Team 7713
+KeyError
+Iteration 15 211
+Getting Team 7714
+KeyError
+Iteration 15 212
+Getting Team 7715
+KeyError
+Iteration 15 213
+Getting Team 7716
+KeyError
+Iteration 15 214
+Getting Team 7717
+KeyError
+Iteration 15 215
+Getting Team 7718
+KeyError
+Iteration 15 216
+Getting Team 7719
+KeyError
+Iteration 15 217
+Getting Team 7720
+KeyError
+Iteration 15 218
+Getting Team 7721
+KeyError
+Iteration 15 219
+Getting Team 7722
+KeyError
+Iteration 15 220
+Getting Team 7723
+KeyError
+Iteration 15 221
+Getting Team 7724
+KeyError
+Iteration 15 222
+Getting Team 7725
+KeyError
+Iteration 15 223
+Getting Team 7726
+KeyError
+Iteration 15 224
+Getting Team 7727
+KeyError
+Iteration 15 225
+Getting Team 7728
+KeyError
+Iteration 15 226
+Getting Team 7729
+KeyError
+Iteration 15 227
+Getting Team 7730
+KeyError
+Iteration 15 228
+Getting Team 7731
+KeyError
+Iteration 15 229
+Getting Team 7732
+KeyError
+Iteration 15 230
+Getting Team 7733
+KeyError
+Iteration 15 231
+Getting Team 7734
+KeyError
+Iteration 15 232
+Getting Team 7735
+KeyError
+Iteration 15 233
+Getting Team 7736
+KeyError
+Iteration 15 234
+Getting Team 7737
+KeyError
+Iteration 15 235
+Getting Team 7738
+KeyError
+Iteration 15 236
+Getting Team 7739
+KeyError
+Iteration 15 237
+Getting Team 7740
+KeyError
+Iteration 15 238
+Getting Team 7741
+KeyError
+Iteration 15 239
+Getting Team 7742
+KeyError
+Iteration 15 240
+Getting Team 7743
+KeyError
+Iteration 15 241
+Getting Team 7744
+KeyError
+Iteration 15 242
+Getting Team 7745
+KeyError
+Iteration 15 243
+Getting Team 7746
+KeyError
+Iteration 15 244
+Getting Team 7747
+KeyError
+Iteration 15 245
+Getting Team 7748
+KeyError
+Iteration 15 246
+Getting Team 7749
+KeyError
+Iteration 15 247
+Getting Team 7750
+KeyError
+Iteration 15 248
+Getting Team 7751
+KeyError
+Iteration 15 249
+Getting Team 7752
+KeyError
+Iteration 15 250
+Getting Team 7753
+KeyError
+Iteration 15 251
+Getting Team 7754
+KeyError
+Iteration 15 252
+Getting Team 7755
+KeyError
+Iteration 15 253
+Getting Team 7756
+KeyError
+Iteration 15 254
+Getting Team 7757
+KeyError
+Iteration 15 255
+Getting Team 7758
+KeyError
+Iteration 15 256
+Getting Team 7759
+KeyError
+Iteration 15 257
+Getting Team 7760
+KeyError
+Iteration 15 258
+Getting Team 7761
+KeyError
+Iteration 15 259
+Getting Team 7762
+KeyError
+Iteration 15 260
+Getting Team 7763
+KeyError
+Iteration 15 261
+Getting Team 7764
+KeyError
+Iteration 15 262
+Getting Team 7765
+KeyError
+Iteration 15 263
+Getting Team 7766
+KeyError
+Iteration 15 264
+Getting Team 7767
+KeyError
+Iteration 15 265
+Getting Team 7768
+KeyError
+Iteration 15 266
+Getting Team 7769
+KeyError
+Iteration 15 267
+Getting Team 7770
+KeyError
+Iteration 15 268
+Getting Team 7771
+KeyError
+Iteration 15 269
+Getting Team 7772
+KeyError
+Iteration 15 270
+Getting Team 7773
+KeyError
+Iteration 15 271
+Getting Team 7774
+KeyError
+Iteration 15 272
+Getting Team 7775
+KeyError
+Iteration 15 273
+Getting Team 7776
+KeyError
+Iteration 15 274
+Getting Team 7777
+KeyError
+Iteration 15 275
+Getting Team 7778
+KeyError
+Iteration 15 276
+Getting Team 7779
+KeyError
+Iteration 15 277
+Getting Team 7780
+KeyError
+Iteration 15 278
+Getting Team 7781
+KeyError
+Iteration 15 279
+Getting Team 7782
+KeyError
+Iteration 15 280
+Getting Team 7783
+KeyError
+Iteration 15 281
+Getting Team 7784
+KeyError
+Iteration 15 282
+Getting Team 7785
+KeyError
+Iteration 15 283
+Getting Team 7786
+KeyError
+Iteration 15 284
+Getting Team 7787
+KeyError
+Iteration 15 285
+Getting Team 7788
+KeyError
+Iteration 15 286
+Getting Team 7789
+KeyError
+Iteration 15 287
+Getting Team 7790
+KeyError
+Iteration 15 288
+Getting Team 7791
+KeyError
+Iteration 15 289
+Getting Team 7792
+KeyError
+Iteration 15 290
+Getting Team 7793
+KeyError
+Iteration 15 291
+Getting Team 7794
+KeyError
+Iteration 15 292
+Getting Team 7795
+KeyError
+Iteration 15 293
+Getting Team 7796
+KeyError
+Iteration 15 294
+Getting Team 7797
+KeyError
+Iteration 15 295
+Getting Team 7798
+KeyError
+Iteration 15 296
+Getting Team 7799
+KeyError
+Iteration 15 297
+Getting Team 7800
+KeyError
+Iteration 15 298
+Getting Team 7801
+KeyError
+Iteration 15 299
+Getting Team 7802
+KeyError
+Iteration 15 300
+Getting Team 7803
+KeyError
+Iteration 15 301
+Getting Team 7804
+KeyError
+Iteration 15 302
+Getting Team 7805
+KeyError
+Iteration 15 303
+Getting Team 7806
+KeyError
+Iteration 15 304
+Getting Team 7807
+KeyError
+Iteration 15 305
+Getting Team 7808
+KeyError
+Iteration 15 306
+Getting Team 7809
+KeyError
+Iteration 15 307
+Getting Team 7810
+KeyError
+Iteration 15 308
+Getting Team 7811
+KeyError
+Iteration 15 309
+Getting Team 7812
+KeyError
+Iteration 15 310
+Getting Team 7813
+KeyError
+Iteration 15 311
+Getting Team 7814
+KeyError
+Iteration 15 312
+Getting Team 7815
+KeyError
+Iteration 15 313
+Getting Team 7816
+KeyError
+Iteration 15 314
+Getting Team 7817
+KeyError
+Iteration 15 315
+Getting Team 7818
+KeyError
+Iteration 15 316
+Getting Team 7819
+KeyError
+Iteration 15 317
+Getting Team 7820
+KeyError
+Iteration 15 318
+Getting Team 7821
+KeyError
+Iteration 15 319
+Getting Team 7822
+KeyError
+Iteration 15 320
+Getting Team 7823
+KeyError
+Iteration 15 321
+Getting Team 7824
+KeyError
+Iteration 15 322
+Getting Team 7825
+KeyError
+Iteration 15 323
+Getting Team 7826
+KeyError
+Iteration 15 324
+Getting Team 7827
+KeyError
+Iteration 15 325
+Getting Team 7828
+KeyError
+Iteration 15 326
+Getting Team 7829
+KeyError
+Iteration 15 327
+Getting Team 7830
+KeyError
+Iteration 15 328
+Getting Team 7831
+KeyError
+Iteration 15 329
+Getting Team 7832
+KeyError
+Iteration 15 330
+Getting Team 7833
+KeyError
+Iteration 15 331
+Getting Team 7834
+KeyError
+Iteration 15 332
+Getting Team 7835
+KeyError
+Iteration 15 333
+Getting Team 7836
+KeyError
+Iteration 15 334
+Getting Team 7837
+KeyError
+Iteration 15 335
+Getting Team 7838
+KeyError
+Iteration 15 336
+Getting Team 7839
+KeyError
+Iteration 15 337
+Getting Team 7840
+KeyError
+Iteration 15 338
+Getting Team 7841
+KeyError
+Iteration 15 339
+Getting Team 7842
+KeyError
+Iteration 15 340
+Getting Team 7843
+KeyError
+Iteration 15 341
+Getting Team 7844
+KeyError
+Iteration 15 342
+Getting Team 7845
+KeyError
+Iteration 15 343
+Getting Team 7846
+KeyError
+Iteration 15 344
+Getting Team 7847
+KeyError
+Iteration 15 345
+Getting Team 7848
+KeyError
+Iteration 15 346
+Getting Team 7849
+KeyError
+Iteration 15 347
+Getting Team 7850
+KeyError
+Iteration 15 348
+Getting Team 7851
+KeyError
+Iteration 15 349
+Getting Team 7852
+KeyError
+Iteration 15 350
+Getting Team 7853
+KeyError
+Iteration 15 351
+Getting Team 7854
+KeyError
+Iteration 15 352
+Getting Team 7855
+KeyError
+Iteration 15 353
+Getting Team 7856
+KeyError
+Iteration 15 354
+Getting Team 7857
+KeyError
+Iteration 15 355
+Getting Team 7858
+KeyError
+Iteration 15 356
+Getting Team 7859
+KeyError
+Iteration 15 357
+Getting Team 7860
+KeyError
+Iteration 15 358
+Getting Team 7861
+KeyError
+Iteration 15 359
+Getting Team 7862
+KeyError
+Iteration 15 360
+Getting Team 7863
+KeyError
+Iteration 15 361
+Getting Team 7864
+KeyError
+Iteration 15 362
+Getting Team 7865
+KeyError
+Iteration 15 363
+Getting Team 7866
+KeyError
+Iteration 15 364
+Getting Team 7867
+KeyError
+Iteration 15 365
+Getting Team 7868
+KeyError
+Iteration 15 366
+Getting Team 7869
+KeyError
+Iteration 15 367
+Getting Team 7870
+KeyError
+Iteration 15 368
+Getting Team 7871
+KeyError
+Iteration 15 369
+Getting Team 7872
+KeyError
+Iteration 15 370
+Getting Team 7873
+KeyError
+Iteration 15 371
+Getting Team 7874
+KeyError
+Iteration 15 372
+Getting Team 7875
+KeyError
+Iteration 15 373
+Getting Team 7876
+KeyError
+Iteration 15 374
+Getting Team 7877
+KeyError
+Iteration 15 375
+Getting Team 7878
+KeyError
+Iteration 15 376
+Getting Team 7879
+KeyError
+Iteration 15 377
+Getting Team 7880
+KeyError
+Iteration 15 378
+Getting Team 7881
+KeyError
+Iteration 15 379
+Getting Team 7882
+KeyError
+Iteration 15 380
+Getting Team 7883
+KeyError
+Iteration 15 381
+Getting Team 7884
+KeyError
+Iteration 15 382
+Getting Team 7885
+KeyError
+Iteration 15 383
+Getting Team 7886
+KeyError
+Iteration 15 384
+Getting Team 7887
+KeyError
+Iteration 15 385
+Getting Team 7889
+KeyError
+Iteration 15 386
+Getting Team 7890
+KeyError
+Iteration 15 387
+Getting Team 7891
+KeyError
+Iteration 15 388
+Getting Team 7892
+KeyError
+Iteration 15 389
+Getting Team 7893
+KeyError
+Iteration 15 390
+Getting Team 7894
+KeyError
+Iteration 15 391
+Getting Team 7895
+KeyError
+Iteration 15 392
+Getting Team 7896
+KeyError
+Iteration 15 393
+Getting Team 7897
+KeyError
+Iteration 15 394
+Getting Team 7898
+KeyError
+Iteration 15 395
+Getting Team 7899
+KeyError
+Iteration 15 396
+Getting Team 7900
+KeyError
+Iteration 15 397
+Getting Team 7901
+KeyError
+Iteration 15 398
+Getting Team 7902
+KeyError
+Iteration 15 399
+Getting Team 7903
+KeyError
+Iteration 15 400
+Getting Team 7904
+KeyError
+Iteration 15 401
+Getting Team 7905
+KeyError
+Iteration 15 402
+Getting Team 7906
+KeyError
+Iteration 15 403
+Getting Team 7907
+KeyError
+Iteration 15 404
+Getting Team 7908
+KeyError
+Iteration 15 405
+Getting Team 7909
+KeyError
+Iteration 15 406
+Getting Team 7910
+KeyError
+Iteration 15 407
+Getting Team 7911
+KeyError
+Iteration 15 408
+Getting Team 7912
+KeyError
+Iteration 15 409
+Getting Team 7913
+KeyError
+Iteration 15 410
+Getting Team 7914
+KeyError
+Iteration 15 411
+Getting Team 7915
+KeyError
+Iteration 15 412
+Team does not exists on 15 412
+Iteration 15 413
+Team does not exists on 15 413
+Iteration 15 414
+Team does not exists on 15 414
+Iteration 15 415
+Team does not exists on 15 415
+Iteration 15 416
+Team does not exists on 15 416
+Iteration 15 417
+Team does not exists on 15 417
+Iteration 15 418
+Team does not exists on 15 418
+Iteration 15 419
+Team does not exists on 15 419
+Iteration 15 420
+Team does not exists on 15 420
+Iteration 15 421
+Team does not exists on 15 421
+Iteration 15 422
+Team does not exists on 15 422
+Iteration 15 423
+Team does not exists on 15 423
+Iteration 15 424
+Team does not exists on 15 424
+Iteration 15 425
+Team does not exists on 15 425
+Iteration 15 426
+Team does not exists on 15 426
+Iteration 15 427
+Team does not exists on 15 427
+Iteration 15 428
+Team does not exists on 15 428
+Iteration 15 429
+Team does not exists on 15 429
+Iteration 15 430
+Team does not exists on 15 430
+Iteration 15 431
+Team does not exists on 15 431
+Iteration 15 432
+Team does not exists on 15 432
+Iteration 15 433
+Team does not exists on 15 433
+Iteration 15 434
+Team does not exists on 15 434
+Iteration 15 435
+Team does not exists on 15 435
+Iteration 15 436
+Team does not exists on 15 436
+Iteration 15 437
+Team does not exists on 15 437
+Iteration 15 438
+Team does not exists on 15 438
+Iteration 15 439
+Team does not exists on 15 439
+Iteration 15 440
+Team does not exists on 15 440
+Iteration 15 441
+Team does not exists on 15 441
+Iteration 15 442
+Team does not exists on 15 442
+Iteration 15 443
+Team does not exists on 15 443
+Iteration 15 444
+Team does not exists on 15 444
+Iteration 15 445
+Team does not exists on 15 445
+Iteration 15 446
+Team does not exists on 15 446
+Iteration 15 447
+Team does not exists on 15 447
+Iteration 15 448
+Team does not exists on 15 448
+Iteration 15 449
+Team does not exists on 15 449
+Iteration 15 450
+Team does not exists on 15 450
+Iteration 15 451
+Team does not exists on 15 451
+Iteration 15 452
+Team does not exists on 15 452
+Iteration 15 453
+Team does not exists on 15 453
+Iteration 15 454
+Team does not exists on 15 454
+Iteration 15 455
+Team does not exists on 15 455
+Iteration 15 456
+Team does not exists on 15 456
+Iteration 15 457
+Team does not exists on 15 457
+Iteration 15 458
+Team does not exists on 15 458
+Iteration 15 459
+Team does not exists on 15 459
+Iteration 15 460
+Team does not exists on 15 460
+Iteration 15 461
+Team does not exists on 15 461
+Iteration 15 462
+Team does not exists on 15 462
+Iteration 15 463
+Team does not exists on 15 463
+Iteration 15 464
+Team does not exists on 15 464
+Iteration 15 465
+Team does not exists on 15 465
+Iteration 15 466
+Team does not exists on 15 466
+Iteration 15 467
+Team does not exists on 15 467
+Iteration 15 468
+Team does not exists on 15 468
+Iteration 15 469
+Team does not exists on 15 469
+Iteration 15 470
+Team does not exists on 15 470
+Iteration 15 471
+Team does not exists on 15 471
+Iteration 15 472
+Team does not exists on 15 472
+Iteration 15 473
+Team does not exists on 15 473
+Iteration 15 474
+Team does not exists on 15 474
+Iteration 15 475
+Team does not exists on 15 475
+Iteration 15 476
+Team does not exists on 15 476
+Iteration 15 477
+Team does not exists on 15 477
+Iteration 15 478
+Team does not exists on 15 478
+Iteration 15 479
+Team does not exists on 15 479
+Iteration 15 480
+Team does not exists on 15 480
+Iteration 15 481
+Team does not exists on 15 481
+Iteration 15 482
+Team does not exists on 15 482
+Iteration 15 483
+Team does not exists on 15 483
+Iteration 15 484
+Team does not exists on 15 484
+Iteration 15 485
+Team does not exists on 15 485
+Iteration 15 486
+Team does not exists on 15 486
+Iteration 15 487
+Team does not exists on 15 487
+Iteration 15 488
+Team does not exists on 15 488
+Iteration 15 489
+Team does not exists on 15 489
+Iteration 15 490
+Team does not exists on 15 490
+Iteration 15 491
+Team does not exists on 15 491
+Iteration 15 492
+Team does not exists on 15 492
+Iteration 15 493
+Team does not exists on 15 493
+Iteration 15 494
+Team does not exists on 15 494
+Iteration 15 495
+Team does not exists on 15 495
+Iteration 15 496
+Team does not exists on 15 496
+Iteration 15 497
+Team does not exists on 15 497
+Iteration 15 498
+Team does not exists on 15 498
+TBA Called for k =16
+Loaded json 16
+Iteration 16 0
+Getting Team 8002
+KeyError
+Iteration 16 1
+Getting Team 8003
+KeyError
+Iteration 16 2
+Getting Team 8004
+KeyError
+Iteration 16 3
+Getting Team 8005
+KeyError
+Iteration 16 4
+Getting Team 8006
+KeyError
+Iteration 16 5
+Getting Team 8007
+KeyError
+Iteration 16 6
+Getting Team 8011
+KeyError
+Iteration 16 7
+Getting Team 8012
+KeyError
+Iteration 16 8
+Getting Team 8013
+KeyError
+Iteration 16 9
+Getting Team 8014
+KeyError
+Iteration 16 10
+Getting Team 8015
+KeyError
+Iteration 16 11
+Getting Team 8016
+KeyError
+Iteration 16 12
+Getting Team 8017
+KeyError
+Iteration 16 13
+Getting Team 8018
+KeyError
+Iteration 16 14
+Getting Team 8019
+KeyError
+Iteration 16 15
+Getting Team 8020
+KeyError
+Iteration 16 16
+Getting Team 8021
+KeyError
+Iteration 16 17
+Getting Team 8022
+KeyError
+Iteration 16 18
+Getting Team 8023
+KeyError
+Iteration 16 19
+Getting Team 8024
+KeyError
+Iteration 16 20
+Getting Team 8025
+KeyError
+Iteration 16 21
+Getting Team 8026
+KeyError
+Iteration 16 22
+Getting Team 8027
+KeyError
+Iteration 16 23
+Getting Team 8028
+KeyError
+Iteration 16 24
+Getting Team 8029
+KeyError
+Iteration 16 25
+Getting Team 8030
+KeyError
+Iteration 16 26
+Getting Team 8031
+KeyError
+Iteration 16 27
+Getting Team 8032
+KeyError
+Iteration 16 28
+Getting Team 8033
+KeyError
+Iteration 16 29
+Getting Team 8034
+KeyError
+Iteration 16 30
+Getting Team 8035
+KeyError
+Iteration 16 31
+Getting Team 8036
+KeyError
+Iteration 16 32
+Getting Team 8037
+KeyError
+Iteration 16 33
+Getting Team 8038
+KeyError
+Iteration 16 34
+Getting Team 8039
+KeyError
+Iteration 16 35
+Getting Team 8040
+KeyError
+Iteration 16 36
+Getting Team 8041
+KeyError
+Iteration 16 37
+Getting Team 8042
+KeyError
+Iteration 16 38
+Getting Team 8043
+KeyError
+Iteration 16 39
+Getting Team 8044
+KeyError
+Iteration 16 40
+Getting Team 8045
+KeyError
+Iteration 16 41
+Getting Team 8046
+KeyError
+Iteration 16 42
+Getting Team 8047
+KeyError
+Iteration 16 43
+Getting Team 8048
+KeyError
+Iteration 16 44
+Getting Team 8049
+KeyError
+Iteration 16 45
+Getting Team 8050
+KeyError
+Iteration 16 46
+Getting Team 8051
+KeyError
+Iteration 16 47
+Getting Team 8052
+KeyError
+Iteration 16 48
+Getting Team 8053
+KeyError
+Iteration 16 49
+Getting Team 8054
+KeyError
+Iteration 16 50
+Getting Team 8055
+KeyError
+Iteration 16 51
+Getting Team 8056
+KeyError
+Iteration 16 52
+Getting Team 8057
+KeyError
+Iteration 16 53
+Getting Team 8058
+KeyError
+Iteration 16 54
+Getting Team 8059
+KeyError
+Iteration 16 55
+Getting Team 8060
+KeyError
+Iteration 16 56
+Getting Team 8061
+KeyError
+Iteration 16 57
+Getting Team 8062
+KeyError
+Iteration 16 58
+Getting Team 8063
+KeyError
+Iteration 16 59
+Getting Team 8064
+KeyError
+Iteration 16 60
+Getting Team 8065
+KeyError
+Iteration 16 61
+Getting Team 8066
+KeyError
+Iteration 16 62
+Getting Team 8067
+KeyError
+Iteration 16 63
+Getting Team 8068
+KeyError
+Iteration 16 64
+Getting Team 8069
+KeyError
+Iteration 16 65
+Getting Team 8070
+KeyError
+Iteration 16 66
+Getting Team 8071
+KeyError
+Iteration 16 67
+Getting Team 8072
+KeyError
+Iteration 16 68
+Getting Team 8073
+KeyError
+Iteration 16 69
+Getting Team 8074
+KeyError
+Iteration 16 70
+Getting Team 8075
+KeyError
+Iteration 16 71
+Getting Team 8076
+KeyError
+Iteration 16 72
+Getting Team 8077
+KeyError
+Iteration 16 73
+Getting Team 8078
+KeyError
+Iteration 16 74
+Getting Team 8079
+KeyError
+Iteration 16 75
+Getting Team 8080
+KeyError
+Iteration 16 76
+Getting Team 8081
+KeyError
+Iteration 16 77
+Getting Team 8082
+KeyError
+Iteration 16 78
+Getting Team 8083
+KeyError
+Iteration 16 79
+Getting Team 8084
+KeyError
+Iteration 16 80
+Getting Team 8085
+KeyError
+Iteration 16 81
+Getting Team 8086
+KeyError
+Iteration 16 82
+Getting Team 8087
+KeyError
+Iteration 16 83
+Getting Team 8088
+KeyError
+Iteration 16 84
+Getting Team 8089
+KeyError
+Iteration 16 85
+Getting Team 8090
+KeyError
+Iteration 16 86
+Getting Team 8091
+KeyError
+Iteration 16 87
+Getting Team 8092
+KeyError
+Iteration 16 88
+Getting Team 8093
+KeyError
+Iteration 16 89
+Getting Team 8094
+KeyError
+Iteration 16 90
+Getting Team 8095
+KeyError
+Iteration 16 91
+Getting Team 8096
+KeyError
+Iteration 16 92
+Getting Team 8097
+KeyError
+Iteration 16 93
+Getting Team 8098
+KeyError
+Iteration 16 94
+Getting Team 8099
+KeyError
+Iteration 16 95
+Getting Team 8100
+KeyError
+Iteration 16 96
+Getting Team 8101
+KeyError
+Iteration 16 97
+Getting Team 8102
+KeyError
+Iteration 16 98
+Getting Team 8103
+KeyError
+Iteration 16 99
+Getting Team 8104
+KeyError
+Iteration 16 100
+Getting Team 8105
+KeyError
+Iteration 16 101
+Getting Team 8106
+KeyError
+Iteration 16 102
+Getting Team 8107
+KeyError
+Iteration 16 103
+Getting Team 8108
+KeyError
+Iteration 16 104
+Getting Team 8109
+KeyError
+Iteration 16 105
+Getting Team 8110
+KeyError
+Iteration 16 106
+Getting Team 8111
+KeyError
+Iteration 16 107
+Getting Team 8112
+KeyError
+Iteration 16 108
+Getting Team 8113
+KeyError
+Iteration 16 109
+Getting Team 8114
+KeyError
+Iteration 16 110
+Getting Team 8115
+KeyError
+Iteration 16 111
+Getting Team 8116
+KeyError
+Iteration 16 112
+Getting Team 8117
+KeyError
+Iteration 16 113
+Getting Team 8118
+KeyError
+Iteration 16 114
+Getting Team 8119
+KeyError
+Iteration 16 115
+Getting Team 8120
+KeyError
+Iteration 16 116
+Getting Team 8121
+KeyError
+Iteration 16 117
+Getting Team 8122
+KeyError
+Iteration 16 118
+Getting Team 8123
+KeyError
+Iteration 16 119
+Getting Team 8124
+KeyError
+Iteration 16 120
+Getting Team 8125
+KeyError
+Iteration 16 121
+Getting Team 8126
+KeyError
+Iteration 16 122
+Getting Team 8127
+KeyError
+Iteration 16 123
+Getting Team 8128
+KeyError
+Iteration 16 124
+Getting Team 8129
+KeyError
+Iteration 16 125
+Getting Team 8130
+KeyError
+Iteration 16 126
+Getting Team 8131
+KeyError
+Iteration 16 127
+Getting Team 8132
+KeyError
+Iteration 16 128
+Getting Team 8133
+KeyError
+Iteration 16 129
+Getting Team 8134
+KeyError
+Iteration 16 130
+Getting Team 8135
+KeyError
+Iteration 16 131
+Getting Team 8136
+KeyError
+Iteration 16 132
+Getting Team 8137
+KeyError
+Iteration 16 133
+Getting Team 8138
+KeyError
+Iteration 16 134
+Getting Team 8139
+KeyError
+Iteration 16 135
+Getting Team 8140
+KeyError
+Iteration 16 136
+Getting Team 8141
+KeyError
+Iteration 16 137
+Getting Team 8142
+KeyError
+Iteration 16 138
+Getting Team 8143
+KeyError
+Iteration 16 139
+Getting Team 8144
+KeyError
+Iteration 16 140
+Getting Team 8145
+KeyError
+Iteration 16 141
+Getting Team 8146
+KeyError
+Iteration 16 142
+Getting Team 8147
+KeyError
+Iteration 16 143
+Getting Team 8148
+KeyError
+Iteration 16 144
+Getting Team 8149
+KeyError
+Iteration 16 145
+Getting Team 8150
+KeyError
+Iteration 16 146
+Getting Team 8151
+KeyError
+Iteration 16 147
+Getting Team 8152
+KeyError
+Iteration 16 148
+Getting Team 8153
+KeyError
+Iteration 16 149
+Getting Team 8154
+KeyError
+Iteration 16 150
+Getting Team 8155
+KeyError
+Iteration 16 151
+Getting Team 8156
+KeyError
+Iteration 16 152
+Getting Team 8157
+KeyError
+Iteration 16 153
+Getting Team 8158
+KeyError
+Iteration 16 154
+Getting Team 8159
+KeyError
+Iteration 16 155
+Getting Team 8160
+KeyError
+Iteration 16 156
+Getting Team 8161
+KeyError
+Iteration 16 157
+Getting Team 8162
+KeyError
+Iteration 16 158
+Getting Team 8163
+KeyError
+Iteration 16 159
+Getting Team 8164
+KeyError
+Iteration 16 160
+Getting Team 8165
+KeyError
+Iteration 16 161
+Getting Team 8166
+KeyError
+Iteration 16 162
+Getting Team 8167
+KeyError
+Iteration 16 163
+Getting Team 8168
+KeyError
+Iteration 16 164
+Getting Team 8169
+KeyError
+Iteration 16 165
+Getting Team 8170
+KeyError
+Iteration 16 166
+Getting Team 8171
+KeyError
+Iteration 16 167
+Getting Team 8172
+KeyError
+Iteration 16 168
+Getting Team 8173
+KeyError
+Iteration 16 169
+Getting Team 8174
+KeyError
+Iteration 16 170
+Getting Team 8175
+KeyError
+Iteration 16 171
+Getting Team 8176
+KeyError
+Iteration 16 172
+Getting Team 8177
+KeyError
+Iteration 16 173
+Getting Team 8178
+KeyError
+Iteration 16 174
+Getting Team 8179
+KeyError
+Iteration 16 175
+Getting Team 8180
+KeyError
+Iteration 16 176
+Getting Team 8181
+KeyError
+Iteration 16 177
+Getting Team 8182
+KeyError
+Iteration 16 178
+Getting Team 8183
+KeyError
+Iteration 16 179
+Getting Team 8184
+KeyError
+Iteration 16 180
+Getting Team 8185
+KeyError
+Iteration 16 181
+Getting Team 8186
+KeyError
+Iteration 16 182
+Getting Team 8187
+KeyError
+Iteration 16 183
+Getting Team 8188
+KeyError
+Iteration 16 184
+Getting Team 8189
+KeyError
+Iteration 16 185
+Getting Team 8190
+KeyError
+Iteration 16 186
+Getting Team 8191
+KeyError
+Iteration 16 187
+Getting Team 8192
+KeyError
+Iteration 16 188
+Getting Team 8193
+KeyError
+Iteration 16 189
+Getting Team 8194
+KeyError
+Iteration 16 190
+Getting Team 8195
+KeyError
+Iteration 16 191
+Getting Team 8197
+KeyError
+Iteration 16 192
+Getting Team 8198
+KeyError
+Iteration 16 193
+Getting Team 8200
+KeyError
+Iteration 16 194
+Getting Team 8202
+KeyError
+Iteration 16 195
+Getting Team 8203
+KeyError
+Iteration 16 196
+Getting Team 8204
+KeyError
+Iteration 16 197
+Getting Team 8205
+KeyError
+Iteration 16 198
+Getting Team 8206
+KeyError
+Iteration 16 199
+Getting Team 8207
+KeyError
+Iteration 16 200
+Getting Team 8208
+KeyError
+Iteration 16 201
+Getting Team 8209
+KeyError
+Iteration 16 202
+Getting Team 8210
+KeyError
+Iteration 16 203
+Getting Team 8211
+KeyError
+Iteration 16 204
+Getting Team 8212
+KeyError
+Iteration 16 205
+Getting Team 8213
+KeyError
+Iteration 16 206
+Getting Team 8214
+KeyError
+Iteration 16 207
+Getting Team 8215
+KeyError
+Iteration 16 208
+Getting Team 8216
+KeyError
+Iteration 16 209
+Getting Team 8217
+KeyError
+Iteration 16 210
+Getting Team 8218
+KeyError
+Iteration 16 211
+Getting Team 8219
+KeyError
+Iteration 16 212
+Getting Team 8220
+KeyError
+Iteration 16 213
+Getting Team 8221
+KeyError
+Iteration 16 214
+Getting Team 8222
+KeyError
+Iteration 16 215
+Getting Team 8223
+KeyError
+Iteration 16 216
+Getting Team 8224
+KeyError
+Iteration 16 217
+Getting Team 8225
+KeyError
+Iteration 16 218
+Getting Team 8226
+KeyError
+Iteration 16 219
+Getting Team 8229
+KeyError
+Iteration 16 220
+Getting Team 8230
+KeyError
+Iteration 16 221
+Getting Team 8231
+KeyError
+Iteration 16 222
+Getting Team 8232
+KeyError
+Iteration 16 223
+Getting Team 8233
+KeyError
+Iteration 16 224
+Getting Team 8234
+KeyError
+Iteration 16 225
+Getting Team 8235
+KeyError
+Iteration 16 226
+Getting Team 8236
+KeyError
+Iteration 16 227
+Getting Team 8237
+KeyError
+Iteration 16 228
+Getting Team 8238
+KeyError
+Iteration 16 229
+Getting Team 8239
+KeyError
+Iteration 16 230
+Getting Team 8240
+KeyError
+Iteration 16 231
+Getting Team 8241
+KeyError
+Iteration 16 232
+Getting Team 8242
+KeyError
+Iteration 16 233
+Getting Team 8243
+KeyError
+Iteration 16 234
+Getting Team 8244
+KeyError
+Iteration 16 235
+Getting Team 8245
+KeyError
+Iteration 16 236
+Getting Team 8246
+KeyError
+Iteration 16 237
+Getting Team 8247
+KeyError
+Iteration 16 238
+Getting Team 8248
+KeyError
+Iteration 16 239
+Getting Team 8249
+KeyError
+Iteration 16 240
+Getting Team 8250
+KeyError
+Iteration 16 241
+Getting Team 8251
+KeyError
+Iteration 16 242
+Getting Team 8252
+KeyError
+Iteration 16 243
+Getting Team 8253
+KeyError
+Iteration 16 244
+Getting Team 8254
+KeyError
+Iteration 16 245
+Getting Team 8255
+KeyError
+Iteration 16 246
+Getting Team 8256
+KeyError
+Iteration 16 247
+Getting Team 8257
+KeyError
+Iteration 16 248
+Getting Team 8258
+KeyError
+Iteration 16 249
+Getting Team 8259
+KeyError
+Iteration 16 250
+Getting Team 8260
+KeyError
+Iteration 16 251
+Getting Team 8261
+KeyError
+Iteration 16 252
+Getting Team 8262
+KeyError
+Iteration 16 253
+Getting Team 8263
+KeyError
+Iteration 16 254
+Getting Team 8264
+KeyError
+Iteration 16 255
+Getting Team 8265
+KeyError
+Iteration 16 256
+Getting Team 8266
+KeyError
+Iteration 16 257
+Getting Team 8267
+KeyError
+Iteration 16 258
+Getting Team 8268
+KeyError
+Iteration 16 259
+Getting Team 8269
+KeyError
+Iteration 16 260
+Getting Team 8270
+KeyError
+Iteration 16 261
+Getting Team 8271
+KeyError
+Iteration 16 262
+Getting Team 8272
+KeyError
+Iteration 16 263
+Getting Team 8273
+KeyError
+Iteration 16 264
+Getting Team 8274
+KeyError
+Iteration 16 265
+Getting Team 8275
+KeyError
+Iteration 16 266
+Getting Team 8276
+KeyError
+Iteration 16 267
+Getting Team 8277
+KeyError
+Iteration 16 268
+Getting Team 8278
+KeyError
+Iteration 16 269
+Getting Team 8279
+KeyError
+Iteration 16 270
+Getting Team 8280
+KeyError
+Iteration 16 271
+Getting Team 8281
+KeyError
+Iteration 16 272
+Getting Team 8282
+KeyError
+Iteration 16 273
+Getting Team 8283
+KeyError
+Iteration 16 274
+Getting Team 8284
+KeyError
+Iteration 16 275
+Getting Team 8285
+KeyError
+Iteration 16 276
+Getting Team 8286
+KeyError
+Iteration 16 277
+Getting Team 8287
+KeyError
+Iteration 16 278
+Getting Team 8288
+KeyError
+Iteration 16 279
+Getting Team 8289
+KeyError
+Iteration 16 280
+Getting Team 8290
+KeyError
+Iteration 16 281
+Getting Team 8291
+KeyError
+Iteration 16 282
+Getting Team 8292
+KeyError
+Iteration 16 283
+Getting Team 8293
+KeyError
+Iteration 16 284
+Getting Team 8294
+KeyError
+Iteration 16 285
+Getting Team 8295
+KeyError
+Iteration 16 286
+Getting Team 8296
+KeyError
+Iteration 16 287
+Getting Team 8297
+KeyError
+Iteration 16 288
+Getting Team 8298
+KeyError
+Iteration 16 289
+Getting Team 8299
+KeyError
+Iteration 16 290
+Getting Team 8300
+KeyError
+Iteration 16 291
+Getting Team 8301
+KeyError
+Iteration 16 292
+Getting Team 8302
+KeyError
+Iteration 16 293
+Getting Team 8303
+KeyError
+Iteration 16 294
+Getting Team 8304
+KeyError
+Iteration 16 295
+Getting Team 8305
+KeyError
+Iteration 16 296
+Getting Team 8306
+KeyError
+Iteration 16 297
+Getting Team 8307
+KeyError
+Iteration 16 298
+Getting Team 8308
+KeyError
+Iteration 16 299
+Getting Team 8309
+KeyError
+Iteration 16 300
+Getting Team 8310
+KeyError
+Iteration 16 301
+Getting Team 8311
+KeyError
+Iteration 16 302
+Getting Team 8312
+KeyError
+Iteration 16 303
+Getting Team 8313
+KeyError
+Iteration 16 304
+Getting Team 8314
+KeyError
+Iteration 16 305
+Getting Team 8315
+KeyError
+Iteration 16 306
+Getting Team 8316
+KeyError
+Iteration 16 307
+Getting Team 8317
+KeyError
+Iteration 16 308
+Getting Team 8318
+KeyError
+Iteration 16 309
+Getting Team 8319
+KeyError
+Iteration 16 310
+Getting Team 8320
+KeyError
+Iteration 16 311
+Getting Team 8321
+KeyError
+Iteration 16 312
+Getting Team 8322
+KeyError
+Iteration 16 313
+Getting Team 8323
+KeyError
+Iteration 16 314
+Getting Team 8324
+KeyError
+Iteration 16 315
+Getting Team 8325
+KeyError
+Iteration 16 316
+Getting Team 8326
+KeyError
+Iteration 16 317
+Getting Team 8327
+KeyError
+Iteration 16 318
+Getting Team 8328
+KeyError
+Iteration 16 319
+Getting Team 8329
+KeyError
+Iteration 16 320
+Getting Team 8330
+KeyError
+Iteration 16 321
+Getting Team 8331
+KeyError
+Iteration 16 322
+Getting Team 8332
+KeyError
+Iteration 16 323
+Getting Team 8333
+KeyError
+Iteration 16 324
+Getting Team 8334
+KeyError
+Iteration 16 325
+Getting Team 8335
+KeyError
+Iteration 16 326
+Getting Team 8336
+KeyError
+Iteration 16 327
+Getting Team 8337
+KeyError
+Iteration 16 328
+Getting Team 8338
+KeyError
+Iteration 16 329
+Getting Team 8339
+KeyError
+Iteration 16 330
+Getting Team 8340
+KeyError
+Iteration 16 331
+Getting Team 8341
+KeyError
+Iteration 16 332
+Getting Team 8342
+KeyError
+Iteration 16 333
+Getting Team 8343
+KeyError
+Iteration 16 334
+Getting Team 8344
+KeyError
+Iteration 16 335
+Getting Team 8345
+KeyError
+Iteration 16 336
+Getting Team 8346
+KeyError
+Iteration 16 337
+Getting Team 8347
+KeyError
+Iteration 16 338
+Getting Team 8348
+KeyError
+Iteration 16 339
+Getting Team 8349
+KeyError
+Iteration 16 340
+Getting Team 8350
+KeyError
+Iteration 16 341
+Getting Team 8351
+KeyError
+Iteration 16 342
+Getting Team 8352
+KeyError
+Iteration 16 343
+Getting Team 8353
+KeyError
+Iteration 16 344
+Getting Team 8354
+KeyError
+Iteration 16 345
+Getting Team 8355
+KeyError
+Iteration 16 346
+Getting Team 8356
+KeyError
+Iteration 16 347
+Getting Team 8357
+KeyError
+Iteration 16 348
+Getting Team 8358
+KeyError
+Iteration 16 349
+Getting Team 8359
+KeyError
+Iteration 16 350
+Getting Team 8360
+KeyError
+Iteration 16 351
+Getting Team 8361
+KeyError
+Iteration 16 352
+Getting Team 8362
+KeyError
+Iteration 16 353
+Getting Team 8363
+KeyError
+Iteration 16 354
+Getting Team 8364
+KeyError
+Iteration 16 355
+Getting Team 8365
+KeyError
+Iteration 16 356
+Getting Team 8366
+KeyError
+Iteration 16 357
+Getting Team 8367
+KeyError
+Iteration 16 358
+Getting Team 8368
+KeyError
+Iteration 16 359
+Getting Team 8369
+KeyError
+Iteration 16 360
+Getting Team 8370
+KeyError
+Iteration 16 361
+Getting Team 8371
+KeyError
+Iteration 16 362
+Getting Team 8372
+KeyError
+Iteration 16 363
+Getting Team 8373
+KeyError
+Iteration 16 364
+Getting Team 8374
+KeyError
+Iteration 16 365
+Getting Team 8375
+KeyError
+Iteration 16 366
+Getting Team 8376
+KeyError
+Iteration 16 367
+Getting Team 8377
+KeyError
+Iteration 16 368
+Getting Team 8378
+KeyError
+Iteration 16 369
+Getting Team 8379
+KeyError
+Iteration 16 370
+Getting Team 8380
+KeyError
+Iteration 16 371
+Getting Team 8381
+KeyError
+Iteration 16 372
+Getting Team 8382
+KeyError
+Iteration 16 373
+Getting Team 8383
+KeyError
+Iteration 16 374
+Getting Team 8384
+KeyError
+Iteration 16 375
+Getting Team 8385
+KeyError
+Iteration 16 376
+Getting Team 8386
+KeyError
+Iteration 16 377
+Getting Team 8387
+KeyError
+Iteration 16 378
+Getting Team 8388
+KeyError
+Iteration 16 379
+Getting Team 8389
+KeyError
+Iteration 16 380
+Getting Team 8390
+KeyError
+Iteration 16 381
+Getting Team 8391
+KeyError
+Iteration 16 382
+Getting Team 8392
+KeyError
+Iteration 16 383
+Getting Team 8393
+KeyError
+Iteration 16 384
+Getting Team 8394
+KeyError
+Iteration 16 385
+Getting Team 8395
+KeyError
+Iteration 16 386
+Getting Team 8396
+KeyError
+Iteration 16 387
+Getting Team 8397
+KeyError
+Iteration 16 388
+Getting Team 8398
+KeyError
+Iteration 16 389
+Getting Team 8399
+KeyError
+Iteration 16 390
+Getting Team 8400
+KeyError
+Iteration 16 391
+Getting Team 8401
+KeyError
+Iteration 16 392
+Getting Team 8402
+KeyError
+Iteration 16 393
+Getting Team 8403
+KeyError
+Iteration 16 394
+Getting Team 8404
+KeyError
+Iteration 16 395
+Getting Team 8405
+KeyError
+Iteration 16 396
+Getting Team 8406
+KeyError
+Iteration 16 397
+Getting Team 8407
+KeyError
+Iteration 16 398
+Getting Team 8408
+KeyError
+Iteration 16 399
+Getting Team 8409
+KeyError
+Iteration 16 400
+Getting Team 8410
+KeyError
+Iteration 16 401
+Getting Team 8411
+KeyError
+Iteration 16 402
+Getting Team 8412
+KeyError
+Iteration 16 403
+Getting Team 8413
+KeyError
+Iteration 16 404
+Getting Team 8414
+KeyError
+Iteration 16 405
+Getting Team 8415
+KeyError
+Iteration 16 406
+Getting Team 8416
+KeyError
+Iteration 16 407
+Getting Team 8417
+KeyError
+Iteration 16 408
+Getting Team 8418
+KeyError
+Iteration 16 409
+Getting Team 8419
+KeyError
+Iteration 16 410
+Getting Team 8420
+KeyError
+Iteration 16 411
+Getting Team 8421
+KeyError
+Iteration 16 412
+Getting Team 8422
+KeyError
+Iteration 16 413
+Getting Team 8423
+KeyError
+Iteration 16 414
+Getting Team 8424
+KeyError
+Iteration 16 415
+Getting Team 8425
+KeyError
+Iteration 16 416
+Getting Team 8426
+KeyError
+Iteration 16 417
+Getting Team 8427
+KeyError
+Iteration 16 418
+Team does not exists on 16 418
+Iteration 16 419
+Team does not exists on 16 419
+Iteration 16 420
+Team does not exists on 16 420
+Iteration 16 421
+Team does not exists on 16 421
+Iteration 16 422
+Team does not exists on 16 422
+Iteration 16 423
+Team does not exists on 16 423
+Iteration 16 424
+Team does not exists on 16 424
+Iteration 16 425
+Team does not exists on 16 425
+Iteration 16 426
+Team does not exists on 16 426
+Iteration 16 427
+Team does not exists on 16 427
+Iteration 16 428
+Team does not exists on 16 428
+Iteration 16 429
+Team does not exists on 16 429
+Iteration 16 430
+Team does not exists on 16 430
+Iteration 16 431
+Team does not exists on 16 431
+Iteration 16 432
+Team does not exists on 16 432
+Iteration 16 433
+Team does not exists on 16 433
+Iteration 16 434
+Team does not exists on 16 434
+Iteration 16 435
+Team does not exists on 16 435
+Iteration 16 436
+Team does not exists on 16 436
+Iteration 16 437
+Team does not exists on 16 437
+Iteration 16 438
+Team does not exists on 16 438
+Iteration 16 439
+Team does not exists on 16 439
+Iteration 16 440
+Team does not exists on 16 440
+Iteration 16 441
+Team does not exists on 16 441
+Iteration 16 442
+Team does not exists on 16 442
+Iteration 16 443
+Team does not exists on 16 443
+Iteration 16 444
+Team does not exists on 16 444
+Iteration 16 445
+Team does not exists on 16 445
+Iteration 16 446
+Team does not exists on 16 446
+Iteration 16 447
+Team does not exists on 16 447
+Iteration 16 448
+Team does not exists on 16 448
+Iteration 16 449
+Team does not exists on 16 449
+Iteration 16 450
+Team does not exists on 16 450
+Iteration 16 451
+Team does not exists on 16 451
+Iteration 16 452
+Team does not exists on 16 452
+Iteration 16 453
+Team does not exists on 16 453
+Iteration 16 454
+Team does not exists on 16 454
+Iteration 16 455
+Team does not exists on 16 455
+Iteration 16 456
+Team does not exists on 16 456
+Iteration 16 457
+Team does not exists on 16 457
+Iteration 16 458
+Team does not exists on 16 458
+Iteration 16 459
+Team does not exists on 16 459
+Iteration 16 460
+Team does not exists on 16 460
+Iteration 16 461
+Team does not exists on 16 461
+Iteration 16 462
+Team does not exists on 16 462
+Iteration 16 463
+Team does not exists on 16 463
+Iteration 16 464
+Team does not exists on 16 464
+Iteration 16 465
+Team does not exists on 16 465
+Iteration 16 466
+Team does not exists on 16 466
+Iteration 16 467
+Team does not exists on 16 467
+Iteration 16 468
+Team does not exists on 16 468
+Iteration 16 469
+Team does not exists on 16 469
+Iteration 16 470
+Team does not exists on 16 470
+Iteration 16 471
+Team does not exists on 16 471
+Iteration 16 472
+Team does not exists on 16 472
+Iteration 16 473
+Team does not exists on 16 473
+Iteration 16 474
+Team does not exists on 16 474
+Iteration 16 475
+Team does not exists on 16 475
+Iteration 16 476
+Team does not exists on 16 476
+Iteration 16 477
+Team does not exists on 16 477
+Iteration 16 478
+Team does not exists on 16 478
+Iteration 16 479
+Team does not exists on 16 479
+Iteration 16 480
+Team does not exists on 16 480
+Iteration 16 481
+Team does not exists on 16 481
+Iteration 16 482
+Team does not exists on 16 482
+Iteration 16 483
+Team does not exists on 16 483
+Iteration 16 484
+Team does not exists on 16 484
+Iteration 16 485
+Team does not exists on 16 485
+Iteration 16 486
+Team does not exists on 16 486
+Iteration 16 487
+Team does not exists on 16 487
+Iteration 16 488
+Team does not exists on 16 488
+Iteration 16 489
+Team does not exists on 16 489
+Iteration 16 490
+Team does not exists on 16 490
+Iteration 16 491
+Team does not exists on 16 491
+Iteration 16 492
+Team does not exists on 16 492
+Iteration 16 493
+Team does not exists on 16 493
+Iteration 16 494
+Team does not exists on 16 494
+Iteration 16 495
+Team does not exists on 16 495
+Iteration 16 496
+Team does not exists on 16 496
+Iteration 16 497
+Team does not exists on 16 497
+Iteration 16 498
+Team does not exists on 16 498
+TBA Called for k =17
+Loaded json 17
+Iteration 17 0
+Team does not exists on 17 0
+Iteration 17 1
+Team does not exists on 17 1
+Iteration 17 2
+Team does not exists on 17 2
+Iteration 17 3
+Team does not exists on 17 3
+Iteration 17 4
+Team does not exists on 17 4
+Iteration 17 5
+Team does not exists on 17 5
+Iteration 17 6
+Team does not exists on 17 6
+Iteration 17 7
+Team does not exists on 17 7
+Iteration 17 8
+Team does not exists on 17 8
+Iteration 17 9
+Team does not exists on 17 9
+Iteration 17 10
+Team does not exists on 17 10
+Iteration 17 11
+Team does not exists on 17 11
+Iteration 17 12
+Team does not exists on 17 12
+Iteration 17 13
+Team does not exists on 17 13
+Iteration 17 14
+Team does not exists on 17 14
+Iteration 17 15
+Team does not exists on 17 15
+Iteration 17 16
+Team does not exists on 17 16
+Iteration 17 17
+Team does not exists on 17 17
+Iteration 17 18
+Team does not exists on 17 18
+Iteration 17 19
+Team does not exists on 17 19
+Iteration 17 20
+Team does not exists on 17 20
+Iteration 17 21
+Team does not exists on 17 21
+Iteration 17 22
+Team does not exists on 17 22
+Iteration 17 23
+Team does not exists on 17 23
+Iteration 17 24
+Team does not exists on 17 24
+Iteration 17 25
+Team does not exists on 17 25
+Iteration 17 26
+Team does not exists on 17 26
+Iteration 17 27
+Team does not exists on 17 27
+Iteration 17 28
+Team does not exists on 17 28
+Iteration 17 29
+Team does not exists on 17 29
+Iteration 17 30
+Team does not exists on 17 30
+Iteration 17 31
+Team does not exists on 17 31
+Iteration 17 32
+Team does not exists on 17 32
+Iteration 17 33
+Team does not exists on 17 33
+Iteration 17 34
+Team does not exists on 17 34
+Iteration 17 35
+Team does not exists on 17 35
+Iteration 17 36
+Team does not exists on 17 36
+Iteration 17 37
+Team does not exists on 17 37
+Iteration 17 38
+Team does not exists on 17 38
+Iteration 17 39
+Team does not exists on 17 39
+Iteration 17 40
+Team does not exists on 17 40
+Iteration 17 41
+Team does not exists on 17 41
+Iteration 17 42
+Team does not exists on 17 42
+Iteration 17 43
+Team does not exists on 17 43
+Iteration 17 44
+Team does not exists on 17 44
+Iteration 17 45
+Team does not exists on 17 45
+Iteration 17 46
+Team does not exists on 17 46
+Iteration 17 47
+Team does not exists on 17 47
+Iteration 17 48
+Team does not exists on 17 48
+Iteration 17 49
+Team does not exists on 17 49
+Iteration 17 50
+Team does not exists on 17 50
+Iteration 17 51
+Team does not exists on 17 51
+Iteration 17 52
+Team does not exists on 17 52
+Iteration 17 53
+Team does not exists on 17 53
+Iteration 17 54
+Team does not exists on 17 54
+Iteration 17 55
+Team does not exists on 17 55
+Iteration 17 56
+Team does not exists on 17 56
+Iteration 17 57
+Team does not exists on 17 57
+Iteration 17 58
+Team does not exists on 17 58
+Iteration 17 59
+Team does not exists on 17 59
+Iteration 17 60
+Team does not exists on 17 60
+Iteration 17 61
+Team does not exists on 17 61
+Iteration 17 62
+Team does not exists on 17 62
+Iteration 17 63
+Team does not exists on 17 63
+Iteration 17 64
+Team does not exists on 17 64
+Iteration 17 65
+Team does not exists on 17 65
+Iteration 17 66
+Team does not exists on 17 66
+Iteration 17 67
+Team does not exists on 17 67
+Iteration 17 68
+Team does not exists on 17 68
+Iteration 17 69
+Team does not exists on 17 69
+Iteration 17 70
+Team does not exists on 17 70
+Iteration 17 71
+Team does not exists on 17 71
+Iteration 17 72
+Team does not exists on 17 72
+Iteration 17 73
+Team does not exists on 17 73
+Iteration 17 74
+Team does not exists on 17 74
+Iteration 17 75
+Team does not exists on 17 75
+Iteration 17 76
+Team does not exists on 17 76
+Iteration 17 77
+Team does not exists on 17 77
+Iteration 17 78
+Team does not exists on 17 78
+Iteration 17 79
+Team does not exists on 17 79
+Iteration 17 80
+Team does not exists on 17 80
+Iteration 17 81
+Team does not exists on 17 81
+Iteration 17 82
+Team does not exists on 17 82
+Iteration 17 83
+Team does not exists on 17 83
+Iteration 17 84
+Team does not exists on 17 84
+Iteration 17 85
+Team does not exists on 17 85
+Iteration 17 86
+Team does not exists on 17 86
+Iteration 17 87
+Team does not exists on 17 87
+Iteration 17 88
+Team does not exists on 17 88
+Iteration 17 89
+Team does not exists on 17 89
+Iteration 17 90
+Team does not exists on 17 90
+Iteration 17 91
+Team does not exists on 17 91
+Iteration 17 92
+Team does not exists on 17 92
+Iteration 17 93
+Team does not exists on 17 93
+Iteration 17 94
+Team does not exists on 17 94
+Iteration 17 95
+Team does not exists on 17 95
+Iteration 17 96
+Team does not exists on 17 96
+Iteration 17 97
+Team does not exists on 17 97
+Iteration 17 98
+Team does not exists on 17 98
+Iteration 17 99
+Team does not exists on 17 99
+Iteration 17 100
+Team does not exists on 17 100
+Iteration 17 101
+Team does not exists on 17 101
+Iteration 17 102
+Team does not exists on 17 102
+Iteration 17 103
+Team does not exists on 17 103
+Iteration 17 104
+Team does not exists on 17 104
+Iteration 17 105
+Team does not exists on 17 105
+Iteration 17 106
+Team does not exists on 17 106
+Iteration 17 107
+Team does not exists on 17 107
+Iteration 17 108
+Team does not exists on 17 108
+Iteration 17 109
+Team does not exists on 17 109
+Iteration 17 110
+Team does not exists on 17 110
+Iteration 17 111
+Team does not exists on 17 111
+Iteration 17 112
+Team does not exists on 17 112
+Iteration 17 113
+Team does not exists on 17 113
+Iteration 17 114
+Team does not exists on 17 114
+Iteration 17 115
+Team does not exists on 17 115
+Iteration 17 116
+Team does not exists on 17 116
+Iteration 17 117
+Team does not exists on 17 117
+Iteration 17 118
+Team does not exists on 17 118
+Iteration 17 119
+Team does not exists on 17 119
+Iteration 17 120
+Team does not exists on 17 120
+Iteration 17 121
+Team does not exists on 17 121
+Iteration 17 122
+Team does not exists on 17 122
+Iteration 17 123
+Team does not exists on 17 123
+Iteration 17 124
+Team does not exists on 17 124
+Iteration 17 125
+Team does not exists on 17 125
+Iteration 17 126
+Team does not exists on 17 126
+Iteration 17 127
+Team does not exists on 17 127
+Iteration 17 128
+Team does not exists on 17 128
+Iteration 17 129
+Team does not exists on 17 129
+Iteration 17 130
+Team does not exists on 17 130
+Iteration 17 131
+Team does not exists on 17 131
+Iteration 17 132
+Team does not exists on 17 132
+Iteration 17 133
+Team does not exists on 17 133
+Iteration 17 134
+Team does not exists on 17 134
+Iteration 17 135
+Team does not exists on 17 135
+Iteration 17 136
+Team does not exists on 17 136
+Iteration 17 137
+Team does not exists on 17 137
+Iteration 17 138
+Team does not exists on 17 138
+Iteration 17 139
+Team does not exists on 17 139
+Iteration 17 140
+Team does not exists on 17 140
+Iteration 17 141
+Team does not exists on 17 141
+Iteration 17 142
+Team does not exists on 17 142
+Iteration 17 143
+Team does not exists on 17 143
+Iteration 17 144
+Team does not exists on 17 144
+Iteration 17 145
+Team does not exists on 17 145
+Iteration 17 146
+Team does not exists on 17 146
+Iteration 17 147
+Team does not exists on 17 147
+Iteration 17 148
+Team does not exists on 17 148
+Iteration 17 149
+Team does not exists on 17 149
+Iteration 17 150
+Team does not exists on 17 150
+Iteration 17 151
+Team does not exists on 17 151
+Iteration 17 152
+Team does not exists on 17 152
+Iteration 17 153
+Team does not exists on 17 153
+Iteration 17 154
+Team does not exists on 17 154
+Iteration 17 155
+Team does not exists on 17 155
+Iteration 17 156
+Team does not exists on 17 156
+Iteration 17 157
+Team does not exists on 17 157
+Iteration 17 158
+Team does not exists on 17 158
+Iteration 17 159
+Team does not exists on 17 159
+Iteration 17 160
+Team does not exists on 17 160
+Iteration 17 161
+Team does not exists on 17 161
+Iteration 17 162
+Team does not exists on 17 162
+Iteration 17 163
+Team does not exists on 17 163
+Iteration 17 164
+Team does not exists on 17 164
+Iteration 17 165
+Team does not exists on 17 165
+Iteration 17 166
+Team does not exists on 17 166
+Iteration 17 167
+Team does not exists on 17 167
+Iteration 17 168
+Team does not exists on 17 168
+Iteration 17 169
+Team does not exists on 17 169
+Iteration 17 170
+Team does not exists on 17 170
+Iteration 17 171
+Team does not exists on 17 171
+Iteration 17 172
+Team does not exists on 17 172
+Iteration 17 173
+Team does not exists on 17 173
+Iteration 17 174
+Team does not exists on 17 174
+Iteration 17 175
+Team does not exists on 17 175
+Iteration 17 176
+Team does not exists on 17 176
+Iteration 17 177
+Team does not exists on 17 177
+Iteration 17 178
+Team does not exists on 17 178
+Iteration 17 179
+Team does not exists on 17 179
+Iteration 17 180
+Team does not exists on 17 180
+Iteration 17 181
+Team does not exists on 17 181
+Iteration 17 182
+Team does not exists on 17 182
+Iteration 17 183
+Team does not exists on 17 183
+Iteration 17 184
+Team does not exists on 17 184
+Iteration 17 185
+Team does not exists on 17 185
+Iteration 17 186
+Team does not exists on 17 186
+Iteration 17 187
+Team does not exists on 17 187
+Iteration 17 188
+Team does not exists on 17 188
+Iteration 17 189
+Team does not exists on 17 189
+Iteration 17 190
+Team does not exists on 17 190
+Iteration 17 191
+Team does not exists on 17 191
+Iteration 17 192
+Team does not exists on 17 192
+Iteration 17 193
+Team does not exists on 17 193
+Iteration 17 194
+Team does not exists on 17 194
+Iteration 17 195
+Team does not exists on 17 195
+Iteration 17 196
+Team does not exists on 17 196
+Iteration 17 197
+Team does not exists on 17 197
+Iteration 17 198
+Team does not exists on 17 198
+Iteration 17 199
+Team does not exists on 17 199
+Iteration 17 200
+Team does not exists on 17 200
+Iteration 17 201
+Team does not exists on 17 201
+Iteration 17 202
+Team does not exists on 17 202
+Iteration 17 203
+Team does not exists on 17 203
+Iteration 17 204
+Team does not exists on 17 204
+Iteration 17 205
+Team does not exists on 17 205
+Iteration 17 206
+Team does not exists on 17 206
+Iteration 17 207
+Team does not exists on 17 207
+Iteration 17 208
+Team does not exists on 17 208
+Iteration 17 209
+Team does not exists on 17 209
+Iteration 17 210
+Team does not exists on 17 210
+Iteration 17 211
+Team does not exists on 17 211
+Iteration 17 212
+Team does not exists on 17 212
+Iteration 17 213
+Team does not exists on 17 213
+Iteration 17 214
+Team does not exists on 17 214
+Iteration 17 215
+Team does not exists on 17 215
+Iteration 17 216
+Team does not exists on 17 216
+Iteration 17 217
+Team does not exists on 17 217
+Iteration 17 218
+Team does not exists on 17 218
+Iteration 17 219
+Team does not exists on 17 219
+Iteration 17 220
+Team does not exists on 17 220
+Iteration 17 221
+Team does not exists on 17 221
+Iteration 17 222
+Team does not exists on 17 222
+Iteration 17 223
+Team does not exists on 17 223
+Iteration 17 224
+Team does not exists on 17 224
+Iteration 17 225
+Team does not exists on 17 225
+Iteration 17 226
+Team does not exists on 17 226
+Iteration 17 227
+Team does not exists on 17 227
+Iteration 17 228
+Team does not exists on 17 228
+Iteration 17 229
+Team does not exists on 17 229
+Iteration 17 230
+Team does not exists on 17 230
+Iteration 17 231
+Team does not exists on 17 231
+Iteration 17 232
+Team does not exists on 17 232
+Iteration 17 233
+Team does not exists on 17 233
+Iteration 17 234
+Team does not exists on 17 234
+Iteration 17 235
+Team does not exists on 17 235
+Iteration 17 236
+Team does not exists on 17 236
+Iteration 17 237
+Team does not exists on 17 237
+Iteration 17 238
+Team does not exists on 17 238
+Iteration 17 239
+Team does not exists on 17 239
+Iteration 17 240
+Team does not exists on 17 240
+Iteration 17 241
+Team does not exists on 17 241
+Iteration 17 242
+Team does not exists on 17 242
+Iteration 17 243
+Team does not exists on 17 243
+Iteration 17 244
+Team does not exists on 17 244
+Iteration 17 245
+Team does not exists on 17 245
+Iteration 17 246
+Team does not exists on 17 246
+Iteration 17 247
+Team does not exists on 17 247
+Iteration 17 248
+Team does not exists on 17 248
+Iteration 17 249
+Team does not exists on 17 249
+Iteration 17 250
+Team does not exists on 17 250
+Iteration 17 251
+Team does not exists on 17 251
+Iteration 17 252
+Team does not exists on 17 252
+Iteration 17 253
+Team does not exists on 17 253
+Iteration 17 254
+Team does not exists on 17 254
+Iteration 17 255
+Team does not exists on 17 255
+Iteration 17 256
+Team does not exists on 17 256
+Iteration 17 257
+Team does not exists on 17 257
+Iteration 17 258
+Team does not exists on 17 258
+Iteration 17 259
+Team does not exists on 17 259
+Iteration 17 260
+Team does not exists on 17 260
+Iteration 17 261
+Team does not exists on 17 261
+Iteration 17 262
+Team does not exists on 17 262
+Iteration 17 263
+Team does not exists on 17 263
+Iteration 17 264
+Team does not exists on 17 264
+Iteration 17 265
+Team does not exists on 17 265
+Iteration 17 266
+Team does not exists on 17 266
+Iteration 17 267
+Team does not exists on 17 267
+Iteration 17 268
+Team does not exists on 17 268
+Iteration 17 269
+Team does not exists on 17 269
+Iteration 17 270
+Team does not exists on 17 270
+Iteration 17 271
+Team does not exists on 17 271
+Iteration 17 272
+Team does not exists on 17 272
+Iteration 17 273
+Team does not exists on 17 273
+Iteration 17 274
+Team does not exists on 17 274
+Iteration 17 275
+Team does not exists on 17 275
+Iteration 17 276
+Team does not exists on 17 276
+Iteration 17 277
+Team does not exists on 17 277
+Iteration 17 278
+Team does not exists on 17 278
+Iteration 17 279
+Team does not exists on 17 279
+Iteration 17 280
+Team does not exists on 17 280
+Iteration 17 281
+Team does not exists on 17 281
+Iteration 17 282
+Team does not exists on 17 282
+Iteration 17 283
+Team does not exists on 17 283
+Iteration 17 284
+Team does not exists on 17 284
+Iteration 17 285
+Team does not exists on 17 285
+Iteration 17 286
+Team does not exists on 17 286
+Iteration 17 287
+Team does not exists on 17 287
+Iteration 17 288
+Team does not exists on 17 288
+Iteration 17 289
+Team does not exists on 17 289
+Iteration 17 290
+Team does not exists on 17 290
+Iteration 17 291
+Team does not exists on 17 291
+Iteration 17 292
+Team does not exists on 17 292
+Iteration 17 293
+Team does not exists on 17 293
+Iteration 17 294
+Team does not exists on 17 294
+Iteration 17 295
+Team does not exists on 17 295
+Iteration 17 296
+Team does not exists on 17 296
+Iteration 17 297
+Team does not exists on 17 297
+Iteration 17 298
+Team does not exists on 17 298
+Iteration 17 299
+Team does not exists on 17 299
+Iteration 17 300
+Team does not exists on 17 300
+Iteration 17 301
+Team does not exists on 17 301
+Iteration 17 302
+Team does not exists on 17 302
+Iteration 17 303
+Team does not exists on 17 303
+Iteration 17 304
+Team does not exists on 17 304
+Iteration 17 305
+Team does not exists on 17 305
+Iteration 17 306
+Team does not exists on 17 306
+Iteration 17 307
+Team does not exists on 17 307
+Iteration 17 308
+Team does not exists on 17 308
+Iteration 17 309
+Team does not exists on 17 309
+Iteration 17 310
+Team does not exists on 17 310
+Iteration 17 311
+Team does not exists on 17 311
+Iteration 17 312
+Team does not exists on 17 312
+Iteration 17 313
+Team does not exists on 17 313
+Iteration 17 314
+Team does not exists on 17 314
+Iteration 17 315
+Team does not exists on 17 315
+Iteration 17 316
+Team does not exists on 17 316
+Iteration 17 317
+Team does not exists on 17 317
+Iteration 17 318
+Team does not exists on 17 318
+Iteration 17 319
+Team does not exists on 17 319
+Iteration 17 320
+Team does not exists on 17 320
+Iteration 17 321
+Team does not exists on 17 321
+Iteration 17 322
+Team does not exists on 17 322
+Iteration 17 323
+Team does not exists on 17 323
+Iteration 17 324
+Team does not exists on 17 324
+Iteration 17 325
+Team does not exists on 17 325
+Iteration 17 326
+Team does not exists on 17 326
+Iteration 17 327
+Team does not exists on 17 327
+Iteration 17 328
+Team does not exists on 17 328
+Iteration 17 329
+Team does not exists on 17 329
+Iteration 17 330
+Team does not exists on 17 330
+Iteration 17 331
+Team does not exists on 17 331
+Iteration 17 332
+Team does not exists on 17 332
+Iteration 17 333
+Team does not exists on 17 333
+Iteration 17 334
+Team does not exists on 17 334
+Iteration 17 335
+Team does not exists on 17 335
+Iteration 17 336
+Team does not exists on 17 336
+Iteration 17 337
+Team does not exists on 17 337
+Iteration 17 338
+Team does not exists on 17 338
+Iteration 17 339
+Team does not exists on 17 339
+Iteration 17 340
+Team does not exists on 17 340
+Iteration 17 341
+Team does not exists on 17 341
+Iteration 17 342
+Team does not exists on 17 342
+Iteration 17 343
+Team does not exists on 17 343
+Iteration 17 344
+Team does not exists on 17 344
+Iteration 17 345
+Team does not exists on 17 345
+Iteration 17 346
+Team does not exists on 17 346
+Iteration 17 347
+Team does not exists on 17 347
+Iteration 17 348
+Team does not exists on 17 348
+Iteration 17 349
+Team does not exists on 17 349
+Iteration 17 350
+Team does not exists on 17 350
+Iteration 17 351
+Team does not exists on 17 351
+Iteration 17 352
+Team does not exists on 17 352
+Iteration 17 353
+Team does not exists on 17 353
+Iteration 17 354
+Team does not exists on 17 354
+Iteration 17 355
+Team does not exists on 17 355
+Iteration 17 356
+Team does not exists on 17 356
+Iteration 17 357
+Team does not exists on 17 357
+Iteration 17 358
+Team does not exists on 17 358
+Iteration 17 359
+Team does not exists on 17 359
+Iteration 17 360
+Team does not exists on 17 360
+Iteration 17 361
+Team does not exists on 17 361
+Iteration 17 362
+Team does not exists on 17 362
+Iteration 17 363
+Team does not exists on 17 363
+Iteration 17 364
+Team does not exists on 17 364
+Iteration 17 365
+Team does not exists on 17 365
+Iteration 17 366
+Team does not exists on 17 366
+Iteration 17 367
+Team does not exists on 17 367
+Iteration 17 368
+Team does not exists on 17 368
+Iteration 17 369
+Team does not exists on 17 369
+Iteration 17 370
+Team does not exists on 17 370
+Iteration 17 371
+Team does not exists on 17 371
+Iteration 17 372
+Team does not exists on 17 372
+Iteration 17 373
+Team does not exists on 17 373
+Iteration 17 374
+Team does not exists on 17 374
+Iteration 17 375
+Team does not exists on 17 375
+Iteration 17 376
+Team does not exists on 17 376
+Iteration 17 377
+Team does not exists on 17 377
+Iteration 17 378
+Team does not exists on 17 378
+Iteration 17 379
+Team does not exists on 17 379
+Iteration 17 380
+Team does not exists on 17 380
+Iteration 17 381
+Team does not exists on 17 381
+Iteration 17 382
+Team does not exists on 17 382
+Iteration 17 383
+Team does not exists on 17 383
+Iteration 17 384
+Team does not exists on 17 384
+Iteration 17 385
+Team does not exists on 17 385
+Iteration 17 386
+Team does not exists on 17 386
+Iteration 17 387
+Team does not exists on 17 387
+Iteration 17 388
+Team does not exists on 17 388
+Iteration 17 389
+Team does not exists on 17 389
+Iteration 17 390
+Team does not exists on 17 390
+Iteration 17 391
+Team does not exists on 17 391
+Iteration 17 392
+Team does not exists on 17 392
+Iteration 17 393
+Team does not exists on 17 393
+Iteration 17 394
+Team does not exists on 17 394
+Iteration 17 395
+Team does not exists on 17 395
+Iteration 17 396
+Team does not exists on 17 396
+Iteration 17 397
+Team does not exists on 17 397
+Iteration 17 398
+Team does not exists on 17 398
+Iteration 17 399
+Team does not exists on 17 399
+Iteration 17 400
+Team does not exists on 17 400
+Iteration 17 401
+Team does not exists on 17 401
+Iteration 17 402
+Team does not exists on 17 402
+Iteration 17 403
+Team does not exists on 17 403
+Iteration 17 404
+Team does not exists on 17 404
+Iteration 17 405
+Team does not exists on 17 405
+Iteration 17 406
+Team does not exists on 17 406
+Iteration 17 407
+Team does not exists on 17 407
+Iteration 17 408
+Team does not exists on 17 408
+Iteration 17 409
+Team does not exists on 17 409
+Iteration 17 410
+Team does not exists on 17 410
+Iteration 17 411
+Team does not exists on 17 411
+Iteration 17 412
+Team does not exists on 17 412
+Iteration 17 413
+Team does not exists on 17 413
+Iteration 17 414
+Team does not exists on 17 414
+Iteration 17 415
+Team does not exists on 17 415
+Iteration 17 416
+Team does not exists on 17 416
+Iteration 17 417
+Team does not exists on 17 417
+Iteration 17 418
+Team does not exists on 17 418
+Iteration 17 419
+Team does not exists on 17 419
+Iteration 17 420
+Team does not exists on 17 420
+Iteration 17 421
+Team does not exists on 17 421
+Iteration 17 422
+Team does not exists on 17 422
+Iteration 17 423
+Team does not exists on 17 423
+Iteration 17 424
+Team does not exists on 17 424
+Iteration 17 425
+Team does not exists on 17 425
+Iteration 17 426
+Team does not exists on 17 426
+Iteration 17 427
+Team does not exists on 17 427
+Iteration 17 428
+Team does not exists on 17 428
+Iteration 17 429
+Team does not exists on 17 429
+Iteration 17 430
+Team does not exists on 17 430
+Iteration 17 431
+Team does not exists on 17 431
+Iteration 17 432
+Team does not exists on 17 432
+Iteration 17 433
+Team does not exists on 17 433
+Iteration 17 434
+Team does not exists on 17 434
+Iteration 17 435
+Team does not exists on 17 435
+Iteration 17 436
+Team does not exists on 17 436
+Iteration 17 437
+Team does not exists on 17 437
+Iteration 17 438
+Team does not exists on 17 438
+Iteration 17 439
+Team does not exists on 17 439
+Iteration 17 440
+Team does not exists on 17 440
+Iteration 17 441
+Team does not exists on 17 441
+Iteration 17 442
+Team does not exists on 17 442
+Iteration 17 443
+Team does not exists on 17 443
+Iteration 17 444
+Team does not exists on 17 444
+Iteration 17 445
+Team does not exists on 17 445
+Iteration 17 446
+Team does not exists on 17 446
+Iteration 17 447
+Team does not exists on 17 447
+Iteration 17 448
+Team does not exists on 17 448
+Iteration 17 449
+Team does not exists on 17 449
+Iteration 17 450
+Team does not exists on 17 450
+Iteration 17 451
+Team does not exists on 17 451
+Iteration 17 452
+Team does not exists on 17 452
+Iteration 17 453
+Team does not exists on 17 453
+Iteration 17 454
+Team does not exists on 17 454
+Iteration 17 455
+Team does not exists on 17 455
+Iteration 17 456
+Team does not exists on 17 456
+Iteration 17 457
+Team does not exists on 17 457
+Iteration 17 458
+Team does not exists on 17 458
+Iteration 17 459
+Team does not exists on 17 459
+Iteration 17 460
+Team does not exists on 17 460
+Iteration 17 461
+Team does not exists on 17 461
+Iteration 17 462
+Team does not exists on 17 462
+Iteration 17 463
+Team does not exists on 17 463
+Iteration 17 464
+Team does not exists on 17 464
+Iteration 17 465
+Team does not exists on 17 465
+Iteration 17 466
+Team does not exists on 17 466
+Iteration 17 467
+Team does not exists on 17 467
+Iteration 17 468
+Team does not exists on 17 468
+Iteration 17 469
+Team does not exists on 17 469
+Iteration 17 470
+Team does not exists on 17 470
+Iteration 17 471
+Team does not exists on 17 471
+Iteration 17 472
+Team does not exists on 17 472
+Iteration 17 473
+Team does not exists on 17 473
+Iteration 17 474
+Team does not exists on 17 474
+Iteration 17 475
+Team does not exists on 17 475
+Iteration 17 476
+Team does not exists on 17 476
+Iteration 17 477
+Team does not exists on 17 477
+Iteration 17 478
+Team does not exists on 17 478
+Iteration 17 479
+Team does not exists on 17 479
+Iteration 17 480
+Team does not exists on 17 480
+Iteration 17 481
+Team does not exists on 17 481
+Iteration 17 482
+Team does not exists on 17 482
+Iteration 17 483
+Team does not exists on 17 483
+Iteration 17 484
+Team does not exists on 17 484
+Iteration 17 485
+Team does not exists on 17 485
+Iteration 17 486
+Team does not exists on 17 486
+Iteration 17 487
+Team does not exists on 17 487
+Iteration 17 488
+Team does not exists on 17 488
+Iteration 17 489
+Team does not exists on 17 489
+Iteration 17 490
+Team does not exists on 17 490
+Iteration 17 491
+Team does not exists on 17 491
+Iteration 17 492
+Team does not exists on 17 492
+Iteration 17 493
+Team does not exists on 17 493
+Iteration 17 494
+Team does not exists on 17 494
+Iteration 17 495
+Team does not exists on 17 495
+Iteration 17 496
+Team does not exists on 17 496
+Iteration 17 497
+Team does not exists on 17 497
+Iteration 17 498
+Team does not exists on 17 498
+Script Complete

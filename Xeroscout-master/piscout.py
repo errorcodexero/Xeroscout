@@ -126,14 +126,15 @@ class PiScout:
         sq = []
         sqsize = []
         for cont in contours:
-                poly = cv2.approxPolyDP(np.array(cont), 64, True)
-                if len(poly) == 4 and cv2.contourArea(cont) > 4000:
-                    xpos = 0; ypos = 0
-                    for a in poly:
-                        xpos += a[0][0]
-                        ypos += a[0][1]
-                    sq.append((int(xpos/4), int(ypos/4)))
-                    sqsize.append(cv2.contourArea(cont))
+            poly = cv2.approxPolyDP(np.array(cont), 64, True)
+            # Changed this 
+            if len(poly) == 4 and cv2.contourArea(cont) > 4000:
+                xpos = 0; ypos = 0
+                for a in poly:
+                    xpos += a[0][0]
+                    ypos += a[0][1]
+                sq.append((int(xpos/4), int(ypos/4)))
+                sqsize.append(cv2.contourArea(cont))
 
         # Here, we determine which four elements of sq[] are the marks
         # To do this, we iterate through each corner of the sheet
@@ -314,7 +315,7 @@ class PiScout:
                 self.display = cv2.cvtColor(self.sheet, cv2.COLOR_GRAY2BGR)
                 return
 
-            query = "SELECT * FROM pitScout WHERE Team = %s" % (str(self.pitData["Team"]),)
+            query = "SELECT * FROM pitScout WHERE Team = '%s'" % (str(self.pitData["Team"]),)
             cursor.execute(query)
             history = cursor.fetchall()
 
@@ -358,11 +359,12 @@ class PiScout:
         cancel.on_clicked(self.cancel)
         mng = plt.get_current_fig_manager()
 
+        '''
         try:
             mng.window.state('zoomed')
         except AttributeError:
             print("Window resizing exploded, oh well.")
-
+        '''    
         plt.show()
         self.matchData = dict(game.SCOUT_FIELDS)
         self.pitData = dict(game.PIT_SCOUT_FIELDS)

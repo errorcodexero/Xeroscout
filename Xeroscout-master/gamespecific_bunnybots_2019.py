@@ -5,18 +5,13 @@ import proprietary as prop
 
 # Defines the fields stored in the "Scout" table of the database. This database
 # stores the record for each match scan
-SCOUT_FIELDS = {"Team": 0, "Match": 0, "Replay": 0,
-                "Autoline": 0, "StartPositionFarLeft": 0,
-                "StartPositionLeft": 0, "StartPositionCenter": 0,
-                "StartPositionRight": 0,
-                "AutoBallsLow": 0, "AutoBallsHigh": 0,
-                "TeleBallsLow": 0, "TeleBallsHigh": 0,
-                "BallTrenchRange": 0, "ControlPanelRotation": 0,
-                "ControlPanelPosition": 0,
-                "EndgameParks": 0, "EndgameAssisted": 0, 
-                "EndgameClimbCenter": 0, "EndgameClimbSide": 0,
-                "EndgameAssists": 0,
-                "Breakdown": 0, "Brownout": 0,
+SCOUT_FIELDS = {"Team": '', "Match": 0, "Replay": 0,
+                "AutoBunniesCollected": 0, "AutoTubsTouched": 0,
+                "AutoTubLifted": 0, "AutoDefensive": 0,
+                "TeleBunniesPlaced": 0, "TeleBunniesEjected": 0, 
+                "TeleGroundCubeCollection": 0, "TeleBreakdown": 0,
+                "TeleBrownout": 0, "TotalCubesCollected": 0,
+                "TeleTotalKnockedCubes": 0, "FinalTotalCubesCollected": 0,
                 "FlexField": 0,
                 }
 
@@ -27,23 +22,11 @@ AVERAGE_FIELDS = {"team": 0, "apr": 0, "AutoCrates": 0, }
 HIDDEN_AVERAGE_FIELDS = {"CubeScore": 0, "FirstP": 0, "SecondP": 0, }
 
 # Define the fields collected from Pit Scouting to display on the team page
-PIT_SCOUT_FIELDS = {"Team": 0, "Weight": 0, "Language": '', "Drivebase": '',
-                    "Wheels": 0, "Cims": 0, "Neos": 0, "Falcons": 0,
-                    "PosStartPositionFarLeft": 0, "PosStartPositionLeft": 0,
-                    "PosStartPositionCenter": 0,
-                    "PosStartPositionRight": 0,
-                    "PrefStartPositionLeft": 0, "PrefStartPositionFarLeft": 0,
-                    "PrefStartPositionCenter": 0,
-                    "PrefStartPositionRight": 0,
-                    "MaxAutoBallsLow": 0, "MaxAutoBallsHigh": 0,
-                    "TraversesControlPanel": 0,
-                    "ControlPanelRotation": 0, "ControlPanelPosition": 0, 
-                    "GroundCollection": 0, "BallTrenchRange": 0,
-                    "TeleBallsLow": 0, "TeleBallsHigh": 0,
-                    "EndgameClimbCenter": 0, "EndgameClimbSide": 0,
-                    "EndgameClimbTiltLow": 0, "EndgameClimbTiltMiddle": 0,
-                    "EndgameClimbTiltHigh": 0,
-                    "EndgameLevelMechanism": 0, "EndgameAssists": 0, 
+PIT_SCOUT_FIELDS = {"Team": '', "Weight": 0, "Language": '', "Drivebase": '',
+                    "Wheels": 0, "Sims": 0, "Neos": 0,
+                    "TubReflectiveTape": 0, "GroundCubeCollection": 0,
+                    "TubCollection": 0, "BunnyCollection": 0,
+                    "BunnyEjected": 0, 
                     }
 
 # Defines the fields displayed on the charts on the team and compare pages
@@ -73,8 +56,7 @@ def processSheet(scout):
             num2 = scout.rangefield('D-15', 0, 9)
             num3 = scout.rangefield('D-16', 0, 9)
             num4 = scout.rangefield('D-17', 0, 9)
-           
-            '''
+            
             if scout.boolfield('K-13') == 1:
                 teamletter = 'A'
             elif scout.boolfield('L-13') == 1:
@@ -83,13 +65,10 @@ def processSheet(scout):
                 teamletter = 'C'
             else:
                 teamletter = ''
-            '''
-            
-            scout.setMatchData("Team", str(1000*num1 + 100*num2 + 10*num3 + num4))
 
+            scout.setMatchData("Team", str(1000*num1 + 100*num2 + 10*num3 + num4) + teamletter)
 
             # Match Number
-            
             match1 = scout.rangefield('D-9', 0, 1)
             match2 = scout.rangefield('D-10', 0, 9)
             match3 = scout.rangefield('D-11', 0, 9)
@@ -98,47 +77,48 @@ def processSheet(scout):
             scout.setMatchData("Replay", scout.boolfield('M-9'))
 
             # Auto
-            scout.setMatchData("Autoline", scout.boolfield("S-6"))
-            scout.setMatchData("AutoBallsLow", scout.rangefield("Q-8", 1, 10))
-            scout.setMatchData("AutoBallsHigh", scout.rangefield("Q-9", 1, 10))
-            scout.setMatchData("StartPositionFarLeft", scout.boolfield("V-6"))
-            scout.setMatchData("StartPositionLeft", scout.boolfield("W-6"))
-            scout.setMatchData("StartPositionCenter", scout.boolfield("X-6"))
-            scout.setMatchData("StartPositionRight", scout.boolfield("Y-6"))
+            scout.setMatchData("AutoBunniesCollected", scout.rangefield("V-6", 1, 3))
+            scout.setMatchData("AutoTubsTouched", scout.rangefield("V-7", 1, 3))
+            scout.setMatchData("AutoTubLifted", scout.boolfield("V-8"))
+            scout.setMatchData("AutoDefensive", scout.boolfield("V-9"))
+
 
             # Teleop
-            scout.setMatchData("Breakdown", scout.boolfield('AK-16'))
-            scout.setMatchData("Brownout", scout.boolfield('AK-17'))
+            scout.setMatchData("TeleBreakdown", scout.boolfield('AJ-9'))
+            scout.setMatchData("TeleBrownout", scout.boolfield('AJ-10'))
 
-            lowball1 = scout.rangefield('P-13', 0, 9)
-            lowball2 = scout.rangefield('P-14', 0, 9)
-          
-            scout.setMatchData("TeleBallsHigh", str(10*lowball1 + lowball2))
-            
-            highball1 = scout.rangefield('P-16', 0, 9)
-            highball2 = scout.rangefield('P-17', 0, 9)
-          
-            scout.setMatchData("TeleBallsHigh", str(10*highball1 + highball2))
-            
-            scout.setMatchData("BallTrenchRange", scout.boolfield('AK-14'))
-            
-            scout.setMatchData("ControlPanelRotation", scout.boolfield('AF-16'))
-            scout.setMatchData("ControlPanelPosition", scout.boolfield('AF-17'))
-            
-            #Endgame
-            
-            scout.setMatchData("EndgameParks", scout.boolfield('AF-6'))
-            scout.setMatchData("EndgameAssisted", scout.boolfield('AJ-6'))
-            scout.setMatchData("EndgameClimbCenter", scout.boolfield('A1-7'))
-            scout.setMatchData("EndgameClimbSide", scout.boolfield('A1-8'))
-            
-            scout.setMatchData("EndgameAssists", scout.rangefield("A1-9", 1, 2))
-            
-            
             #Defense
             
-            scout.submit()
 
+            scout.setMatchData("TeleBunniesPlaced", scout.countfield('AH-5', 'AJ-5', 1))
+            scout.setMatchData("TeleBunniesEjected", scout.countfield('AH-6', 'AJ-6', 1))
+            scout.setMatchData("TeleGroundCubeCollection", scout.boolfield('AJ-8'))
+            
+            Total_Cubes = scout.rangefield('O-13', 1, 14)
+            if Total_Cubes < 6:
+                scout.setMatchData("TotalCubesCollected", Total_Cubes)
+            elif Total_Cubes < 11:
+                scout.setMatchData("TotalCubesCollected", (Total_Cubes - 4) * 5)
+            elif Total_Cubes < 15:
+                scout.setMatchData("TotalCubesCollected", (Total_Cubes - 7) * 10)
+            
+            Total_Knocked_Cubes = scout.rangefield('O-15', 1, 14)
+            if Total_Knocked_Cubes < 6:
+                scout.setMatchData("TeleTotalKnockedCubes", Total_Knocked_Cubes)
+            elif Total_Knocked_Cubes < 11:
+                scout.setMatchData("TeleTotalKnockedCubes", (Total_Knocked_Cubes - 4) * 5)
+            elif Total_Knocked_Cubes < 15:
+                scout.setMatchData("TeleTotalKnockedCubes", (Total_Knocked_Cubes - 7) * 10)
+                
+            Final_Total_Cubes = scout.rangefield('O-17', 1, 14)
+            if Final_Total_Cubes < 6:
+                scout.setMatchData("FinalTotalCubesCollected", Final_Total_Cubes)
+            elif Final_Total_Cubes < 11:
+                scout.setMatchData("FinalTotalCubesCollected", (Final_Total_Cubes - 4) * 5)
+            elif Final_Total_Cubes < 15:
+                scout.setMatchData("FinalTotalCubesCollected", (Final_Total_Cubes - 7) * 10)
+
+            scout.submit()
         elif type == SheetType.PIT:
             # Pit scouting sheet
             # Team Number
@@ -147,7 +127,6 @@ def processSheet(scout):
             num3 = scout.rangefield('E-10', 0, 9)
             num4 = scout.rangefield('E-11', 0, 9)
             
-            '''
             if scout.boolfield('L-7') == 1:
                 teamletter = 'A'
             elif scout.boolfield('M-7') == 1:
@@ -156,9 +135,8 @@ def processSheet(scout):
                 teamletter = 'C'
             else:
                 teamletter = ''
-            '''
             
-            scout.setPitData("Team", str(1000*num1 + 100*num2 + 10*num3 + num4))
+            scout.setPitData("Team", str(1000*num1 + 100*num2 + 10*num3 + num4) + teamletter)
 
             # Weight
             weight1 = scout.rangefield('E-15', 0, 1)
@@ -195,39 +173,16 @@ def processSheet(scout):
             scout.setPitData("Language", prog_lang)
 
             scout.setPitData("Wheels", scout.rangefield('T-9', 3, 6))
-            scout.setPitData("Cims", scout.rangefield('T-10', 2, 6))
+            scout.setPitData("Sims", scout.rangefield('T-10', 2, 6))
             scout.setPitData("Neos", scout.rangefield('T-11', 1, 4))
-            scout.setPitData("Falcons", scout.rangefield('T-12', 1, 4))
-            
-            scout.setPitData("PosStartPositionFarLeft", scout.boolfield('AE-6'))
-            scout.setPitData("PosStartPositionLeft", scout.boolfield('AF-6'))
-            scout.setPitData("PosStartPositionCenter", scout.boolfield('AG-6'))
-            scout.setPitData("PosStartPositionRight", scout.boolfield('AH-6'))
-            scout.setPitData("PrefStartPositionFarLeft", scout.boolfield('AE-7'))
-            scout.setPitData("PrefStartPositionLeft", scout.boolfield('AF-7'))
-            scout.setPitData("PrefStartPositionCenter", scout.boolfield('AG-7'))
-            scout.setPitData("PrefStartPositionRight", scout.boolfield('AH-7'))
-            
-            scout.setPitData("MaxAutoBallsLow", scout.rangefield('AC-10', 1, 9))
-            scout.setPitData("MaxAutoBallsHigh", scout.rangefield('AC-11', 1, 9))
-            
-            scout.setPitData("TraversesControlPanel", scout.boolfield('V-15'))
-            scout.setPitData("ControlPanelRotation", scout.boolfield('V-16'))
-            scout.setPitData("ControlPanelPosition", scout.boolfield('V-17'))
-            scout.setPitData("GroundCollection", scout.boolfield('AD-14'))
-            scout.setPitData("TeleBallsLow", scout.boolfield('AD-15'))
-            scout.setPitData("TeleBallsHigh", scout.boolfield('AD-16'))
-            scout.setPitData("BallTrenchRange", scout.boolfield('AD-17'))
-            
-            scout.setPitData("EndgameClimbCenter", scout.boolfield('AK-13'))
-            scout.setPitData("EndgameClimbSide", scout.boolfield('AK-14'))
-            scout.setPitData("EndgameClimbTiltLow", scout.boolfield('AK-15'))
-            scout.setPitData("EndgameClimbTiltMiddle", scout.boolfield('AJ-15'))
-            scout.setPitData("EndgameClimbTiltHigh", scout.boolfield('AI-15'))
-            scout.setPitData("EndgameLevelMechanism", scout.boolfield('AK-16'))
-            scout.setPitData("EndgameAssists", scout.rangefield('AJ-17', 1, 2))
-            
-            
+
+            # Manipulator
+            scout.setPitData("TubReflectiveTape", scout.boolfield('X-14'))
+            scout.setPitData("GroundCubeCollection", scout.boolfield('X-15'))
+            scout.setPitData("TubCollection", scout.boolfield('X-16'))
+            scout.setPitData("BunnyCollection", scout.boolfield('AJ-15'))
+            scout.setPitData("BunnyEjected", scout.boolfield('AJ-16'))
+
             scout.submit()
 
 

@@ -1,1 +1,1 @@
-CURRENT_EVENT = '2019bunnybots'
+CURRENT_EVENT = '2020infinite_recharge_test'
