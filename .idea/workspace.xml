@@ -6,54 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3b2bca2d-6086-4446-aa08-93f465057255" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/sproc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Database/sproc.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xeroscout-master/piscout.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeroscout-master/piscout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Tools/load_tba_event_team_2020.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Tools/load_tba_event_team_2020.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Xeroscout-master/piscout.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="221" column="36" selection-start-line="221" selection-start-column="36" selection-end-line="221" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Xeroscout-master/gamespecific.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Xeroscout-master/server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="811" column="33" selection-start-line="811" selection-start-column="33" selection-end-line="811" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,70 +33,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Python Tools/load_tba_event_team_2019.py" />
-        <option value="$PROJECT_DIR$/Python Tools/tba_get_opr_2019.py" />
-        <option value="$PROJECT_DIR$/Python Tools/update_tba_event_match_2019.py" />
-        <option value="$PROJECT_DIR$/Xeroscout-master/gamespecific.py" />
-        <option value="$PROJECT_DIR$/Xeroscout-master/event.py" />
-        <option value="$PROJECT_DIR$/Xeroscout-master/piscout.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1653" />
-    <option name="height" value="936" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Xeroscout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xeroscout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Xeroscout" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Xeroscout" type="462c0819:PsiDirectoryNode" />
-              <item name="Xeroscout-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1YLih9BJlJfS6hX6jRcoQZtcDoQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cvbriggler\PycharmProjects\Xeroscout\Xeroscout-master" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.update_tba_event_match_2019">
+  <component name="RunManager" selected="Python.load_tba_event_team_2020">
     <configuration name="load_tba_event_team_2019" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Xeroscout" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,6 +62,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Tools/load_tba_event_team_2019.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="load_tba_event_team_2020" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Xeroscout" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Tools/load_tba_event_team_2020.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.load_tba_event_team_2020" />
         <item itemvalue="Python.update_tba_event_match_2019" />
         <item itemvalue="Python.tba_get_opr_2019" />
         <item itemvalue="Python.load_tba_event_team_2019" />
@@ -231,138 +163,30 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16136725" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.320038" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32867134" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.54650134" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19483806" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.320038" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32867134" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.54650134" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated TBA match data importer for Wilsonville" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated TBA match data importer for Wilsonville" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python Tools/load_tba_event_team_2019.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3060">
-          <caret line="180" column="4" lean-forward="true" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Tools/tba_get_opr_2019.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xeroscout-master/gamespecific_2019_v1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Tools/update_tba_event_match_2019.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python Tools/event_match_upsert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="14" column="24" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xeroscout-master/event.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PiScout-master OLD/piscout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="170" column="8" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xeroscout-master/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="811" column="33" selection-start-line="811" selection-start-column="33" selection-end-line="811" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xeroscout-master/gamespecific.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xeroscout-master/piscout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="221" column="36" selection-start-line="221" selection-start-column="36" selection-end-line="221" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="314" key="GridCell.Tab.0.bottom" timestamp="1582734852890">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1899" height="314" key="GridCell.Tab.0.bottom/-992.1200.1280.700/0.0.1920.1170/-1920.-10.1920.1170@0.0.1920.1170" timestamp="1582734852890" />
+    <state width="1899" height="314" key="GridCell.Tab.0.center" timestamp="1582734852890">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1899" height="314" key="GridCell.Tab.0.center/-992.1200.1280.700/0.0.1920.1170/-1920.-10.1920.1170@0.0.1920.1170" timestamp="1582734852890" />
+    <state width="1899" height="314" key="GridCell.Tab.0.left" timestamp="1582734852890">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1899" height="314" key="GridCell.Tab.0.left/-992.1200.1280.700/0.0.1920.1170/-1920.-10.1920.1170@0.0.1920.1170" timestamp="1582734852890" />
+    <state width="1899" height="314" key="GridCell.Tab.0.right" timestamp="1582734852890">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1899" height="314" key="GridCell.Tab.0.right/-992.1200.1280.700/0.0.1920.1170/-1920.-10.1920.1170@0.0.1920.1170" timestamp="1582734852890" />
+    <state x="656" y="409" key="com.intellij.ide.util.TipDialog" timestamp="1582728407302">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="656" y="409" key="com.intellij.ide.util.TipDialog/-992.1200.1280.700/0.0.1920.1170/-1920.-10.1920.1170@0.0.1920.1170" timestamp="1582728407302" />
   </component>
 </project>
