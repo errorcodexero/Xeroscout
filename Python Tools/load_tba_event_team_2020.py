@@ -10,7 +10,7 @@ def is_ascii(s):
 
 def get_events(cursor):
     f.write("Call API for events\n")
-    url = "https://thebluealliance.com/api/v3/events/2020"
+    url = "https://thebluealliance.com/api/v3/events/%s" % event_year
     url_parm = {"X-TBA-Auth-Key": tba_auth_key}
     response = requests.get(url, params=url_parm)
     j = json.loads(response.text)
@@ -55,50 +55,52 @@ def get_events(cursor):
         if event_district is None:
             if week is not None:
                 sql_insert = '''
-                INSERT INTO `scouting`.`event` 
+                INSERT INTO `%s`.`event` 
                 (tba_event_key, name, short_name, event_type, year ,week, location, tba_event_code) 
                 VALUES (%s, %s, %s, %s, %d, %d, %s, %s)
                 ''' \
-                % ('\"' + tba_event_key + '\"', '\"' + name + '\"', '\"' + short_name + '\"',
+                % (db_name, '\"' + tba_event_key + '\"', '\"' + name + '\"', '\"' + short_name + '\"',
                    '\"' + event_type + '\"', int(year), int(week), '\"' + location + '\"', '\"' + event_code + '\"')
             else:
                 if short_name is not None:
                     sql_insert = '''
-                    INSERT INTO `scouting`.`event`
+                    INSERT INTO '%s'.`event`
                     (tba_event_key, name, short_name, event_type, year, location, tba_event_code) 
                     VALUES (%s, %s, %s, %s, %d, %s, %s)
                     '''\
-                    % ('\"' + tba_event_key + '\"', '\"' + name + '\"', '\"' + short_name + '\"',
+                    % (db_name, '\"' + tba_event_key + '\"', '\"' + name + '\"', '\"' + short_name + '\"',
                        '\"'+ event_type + '\"', int(year), '\"' + location + '\"', '\"' + event_code + '\"')
                 else:
                     sql_insert = '''
-                    INSERT INTO `scouting`.`event` 
+                    INSERT INTO `%s`.`event` 
                     (tba_event_key, name, event_type, year, location, tba_event_code) 
                     VALUES (%s, %s, %s, %d, %s, %s)
                     '''\
-                    % ('\"' + tba_event_key + '\"', '\"' + name + '\"', '\"' + event_type + '\"',
+                    % (db_name, '\"' + tba_event_key + '\"', '\"' + name + '\"', '\"' + event_type + '\"',
                        int(year), '\"' + location + '\"', '\"' + event_code + '\"')
         else:
             sql_insert = '''
-            INSERT INTO `scouting`.`event` 
+            INSERT INTO `%s`.`event` 
             (tba_event_key, name, short_name, event_type, event_district, year, week, location, tba_event_code)
             VALUES (%s, %s, %s, %s, %s, %d, %d, %s, %s)
             '''\
-            % ('\"' + tba_event_key + '\"', '\"' + name + '\"', '\"' + short_name + '\"',
+            % (db_name, '\"' + tba_event_key + '\"', '\"' + name + '\"', '\"' + short_name + '\"',
                '\"' + event_type + '\"', '\"' + event_district + '\"', int(year), int(week),
                '\"' + location + '\"', '\"' + event_code + '\"')
-        # sql_insert = "INSERT INTO `scouting_steamworks`.`event` (tba_event_code, year)
-        # VALUES (%s, %d)"%(event_code, int(year))
-        print(sql_insert)
+
         cursor.execute(sql_insert)
 
 
 def get_teams(cursor):
-    for k in range(15, 17):
+    for k in range(14,50):
         url = 'https://thebluealliance.com/api/v3/teams/%d' % k
         url_parm = {"X-TBA-Auth-Key": tba_auth_key}
         response = requests.get(url, params=url_parm)
         txt = response.text
+        if len(txt) < 10:
+            f.write("End of TBA team data")
+            print("End of TBA team data")
+            break
 
         f.write("TBA Called for k ="+str(k)+"\n")
         print('Requested https://thebluealliance.com/api/v3/teams/%d' % k)
@@ -116,19 +118,22 @@ def get_teams(cursor):
                 print("i is "+str(i))
                 print(j[i])
                 team_number = j[i]["team_number"] or 0
-                # print("Team "+str(team_number)+"\n")
+                print("Team "+str(team_number)+"\n")
                 f.write("Getting Team "+str(team_number)+"\n")  
                 team_name = j[i]["name"] or "None"
                 team_name = team_name.replace('"', '')
+                team_name = team_name if is_ascii(team_name) else "Non-ascii Names Not Supported"
                 # print(team_name + "\n")
                 team_key = j[i]["key"] or "None"
                 # print (team_key + "\n")
                 team_nickname = j[i]["nickname"] or "None"
                 team_nickname = team_nickname.replace('"', '')
                 # print (team_nickname  + "\n")
-                team_region = "None"
+                # State
+                team_region = j[i]["state_prov"] or "None"
                 # print (team_region + "\n")
-                team_locality = "None"
+                # City
+                team_locality = j[i]["city"] or "None"
                 # print (team_locality + "\n")
                 team_country = j[i]["country"] or "None"
                 # print (team_country + "\n")
@@ -140,16 +145,16 @@ def get_teams(cursor):
 
                 print(team_name)
                 
-                if team_name is None:
+                if team_name == "None":
                     f.write("Team name is empty.")
                     print ("Team name is empty.\n")
                     sql_insert = '''
-                    INSERT INTO `scouting`.`team` 
+                    INSERT INTO %s.`team` 
                     (team_number, `name`, long_name, city, state_code, country, motto, rookie_year, tba_team_key) 
                     VALUES (%s, %s, %s, %s, %s, %s, %s, %d, %s)
                     '''\
-                    % ("\"" + str(team_number) + "\"", "\"" + team_nickname[0:255] + "\"",
-                        ("\"" + team_name[0:255] + "\"" if is_ascii(team_name) else '"Foreign Names Not Supported"'),
+                    % (db_name, "\"" + str(team_number) + "\"", "\"" + team_nickname[0:255] + "\"",
+                        "\"" + team_name[0:255] + "\"",
                         "\"" + team_locality[0:255] + "\"", "\"" + team_region[0:40] + "\"", "\"" + team_country[0:255] + "\"", "\"" + team_motto[0:2000] + "\"", team_rookie_year,
                         "\"" + team_key + "\"")
                     # print(sql_insert)
@@ -159,12 +164,12 @@ def get_teams(cursor):
                     f.write("Construct insert for "+ team_name + "\n")
                     team_name = team_name[:255] #truncate team name to fit in database field
                     sql_insert = '''
-                    INSERT INTO `scouting`.`team` 
+                    INSERT INTO %s.`team` 
                     (team_number, `name`, long_name, city, state_code, country, motto, rookie_year, tba_team_key) 
                     VALUES (%s, %s, %s, %s, %s, %s, %s, %d, %s)
                     '''\
-                    % ("\"" + str(team_number) + "\"", "\"" + team_nickname[0:255] + "\"",
-                        ("\"" + team_name[0:255] + "\"" if is_ascii(team_name) else '"Foreign Names Not Supported"'),
+                    % (db_name, "\"" + str(team_number) + "\"", "\"" + team_nickname[0:255] + "\"",
+                        "\"" + team_name[0:255] + "\"" ,
                         "\"" + team_locality[0:255] + "\"", "\"" + team_region[0:40] + "\"",
                        "\"" + team_country[0:255] + "\"", "\"" + team_motto[0:2000] + "\"", team_rookie_year,
                         "\"" + team_key + "\"")
@@ -173,8 +178,8 @@ def get_teams(cursor):
                 f.write("Before  insert for team "+str(team_number)+"\n")
                 print(("Before  insert for team "+str(team_number)+"\n"))
                 # f.write(sql_insert+"\n")
-                sql_insert = sql_insert.encode('utf-8','ignore')
-                cur = cursor.execute(sql_insert)
+                sql_insert = sql_insert.encode('utf-8', 'ignore')
+                cursor.execute(sql_insert)
                 # print(cur)
                 f.write("After insert for team "+str(team_number)+"\n")
                 # print("After insert for team "+str(team_number)+"\n")
@@ -194,6 +199,7 @@ def get_teams(cursor):
                 print("Unhandled exception")
                 print(str(e))
                 raise e
+
 
 def main():
     f.write("\nBegin Script " + str(datetime.datetime.now()) + "\n")
@@ -228,9 +234,10 @@ def main():
 
 if __name__ == "__main__":
     f = open("C:\logs\pylog.txt", 'a')
+    event_year = 2020
     db_host = 'localhost'
     db_user = 'root'
     db_pw = 'root'
-    db_name = 'scouting_test'
+    db_name = 'scouting'
     tba_auth_key = 'gOgFrY5ALa07kdXrXYKc1GIOTwkbom8OZYsPhFcpMg3fc5Te27RyG6Dq1sJEoFXT'
     main()
